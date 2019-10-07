@@ -2,6 +2,9 @@
 import numpy as np
 import pandas as pd
 import textdistance
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.model_selection import GridSearchCV
+from sklearn.metrics import accuracy_score
 
 # %%
 # Read in preprocessed data (skips first block of code in R file)
@@ -69,6 +72,7 @@ df
 
 
 #textdistance.cosine textdistance.jaccard
+#textdistance.cosine textdistance.jaccard
 cos_list = []
 jaccard_list = []
 for i in range(train.shape[0]):
@@ -77,6 +81,22 @@ for i in range(train.shape[0]):
     cos_list.append(textdistance.cosine(first,second))
     jaccard_list.append(textdistance.jaccard(first, second))
     
-df = pd.DataFrame({'cosine': cos_list, 'jaccard': jaccard_list})
-df
+df = pd.DataFrame({'cosine': cos_list, 'jaccard': jaccard_list, 'match': train['match']})
+
+
+#the actual model
+parameters = {'max_depth': [2,3,4]}
+
+GSCV = GridSearchCV(cv = 5,
+                   estimator = RandomForestClassifier(),
+                   param_grid = parameters)
+
+model = GSCV.fit(df, df['match'])
+
+
+#predictions, we were getting a 100% accuracy on the training data lol
+preds = model.predict(df)
+labels = df['match']
+
+accuracy_score(preds, labels)
     
