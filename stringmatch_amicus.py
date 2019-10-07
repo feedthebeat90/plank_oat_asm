@@ -46,6 +46,10 @@ train = pd.concat([handcoded, tmp_full])
 train['amicus'] = train['amicus'].str.lower()
 train['bonica'] = train['bonica'].str.lower()
 
+
+# Adrian wrote the below part but theres a bug, so Aja wrote 
+#the much less eloquent part below
+"""
 # %%
 # Add more distance metrics?
 methods = [textdistance.cosine, textdistance.jaccard]
@@ -58,3 +62,21 @@ def stringdist_wrap(row):
 df = train.apply(stringdist_wrap, axis=1)
 df = pd.DataFrame(df, columns=['cosine', 'jaccard'])
 df
+
+# %%
+# Add more distance metrics?
+"""
+
+
+#textdistance.cosine textdistance.jaccard
+cos_list = []
+jaccard_list = []
+for i in range(train.shape[0]):
+    first = train['amicus'].iloc[i]
+    second = train['bonica'].iloc[i]
+    cos_list.append(textdistance.cosine(first,second))
+    jaccard_list.append(textdistance.jaccard(first, second))
+    
+df = pd.DataFrame({'cosine': cos_list, 'jaccard': jaccard_list})
+df
+    
