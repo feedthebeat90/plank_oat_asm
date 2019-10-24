@@ -1,15 +1,29 @@
 adj_matrix_4_3_18.RData - The adjacency matrix, 13,939 x 13,939, of amicus curiae co-signing organizations. Each entry in the matrix indicates how many amicus briefs organizations i and j cosigned.
+
 amicus_org_names.[csv|RData] - A vector of all the names (in lower case) of the amicus curiae signing organizations. 
+
 bonica_org_names.[csv|RData] - A vector of all the names of the organizations who have donated to the election campaign of a candidate for Federal office, taken from Adam Bonica's DIME database.
-bonica_orgs_reduced.csv - A csv of Adam Bonica's DIME database, limited to organizations rather than individuals. bonica_org_names.csv is derived from this file.
+
+bonica_orgs_reduced.csv - A csv of Adam Bonica's DIME database, limited to organizations rather than individuals. 
+bonica_org_names.csv is derived from this file.
+
 comments_names.csv - A csv of comments, filed by organizations to executive branch bureaucratic agencies, matched to the OpenSecrets database of lobbying organizations. This is a potential additional application aside from the amicus curiae application.
-handcoded.csv - A csv of amicus curiae signing organizations matched to Adam Bonica's DIME database, obtained through manual coding either of research assistants or Mechanical Turkers, derived from influence0204.RData and mturk_results4.csv
-influence0204.RData - The component of the hand-coded matches between Bonica and the amicus curiae data obtained through research assistants
+
+XXX     handcoded.csv - A csv of amicus curiae signing organizations matched to Adam Bonica's DIME database, obtained through manual coding either of research assistants or Mechanical Turkers, derived from influence0204.RData and mturk_results4.csv
+
+XXX     influence0204.RData - The component of the hand-coded matches between Bonica and the amicus curiae data obtained through research assistants
+
 matches.csv - No idea
+
 notes.txt - Notes from Brian Libgober to Aaron Kaufman about potential applications, documenting some of the data in this folder
 open_secrets_orgs.csv - A misformatted csv from Brian Libgober of OpenSecrets organizations. Fixing the formatting should be easy. The last column of the CSV should be an identifier, which is of the format D[:digits:]{10}
+
 opensecrets_commenters_matched - A csv from Brian Libgober of OpenSecrets organizations matched to individuals who commented on behalf of an organization to an exective bureaucratic agency. This might serve as the training set for the OpenSecrets application, should we choose to pursue that one.
+
 SEC_MEETING.xlsx - An excel file from Brian Libgober containing a potential application related to matching individual names rather than organization names. The main sheet indicates meetings held at the SEC and all the listed individuals at that meeting as well as the organizations they were affiliated with. The second sheet cleans up these organization names and links them to stock ticker symbols where applicable (also a potential application). The Name Correction v2 sheet, never completed, was meant to reformat individual names from the Main Sheet into a format searchable in a data base of all SEC employees taken from the Office of Personnel Management. 
+
 stringmatch_amicus.R - An R script implementing the fuzzy string matching algorithm for the amicus curiae data set and application
+
 stringmatch_opensecrets.R - An incomplete R script implementing the fuzzy string matching algorithm for the OpenSecrets application
+
 trainingset_stringmatch.RData - An RData file identical to handcoded.csv 
