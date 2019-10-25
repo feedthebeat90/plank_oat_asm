@@ -1,10 +1,10 @@
 adj_matrix_4_3_18.RData - The adjacency matrix, 13,939 x 13,939, of amicus curiae co-signing organizations. Each entry in the matrix indicates how many amicus briefs organizations i and j cosigned.
 
-amicus_org_names.[csv|RData] - A vector of all the names (in lower case) of the amicus curiae signing organizations. 
+XXX     amicus_org_names.[csv|RData] - A vector of all the names (in lower case) of the amicus curiae signing organizations. 
 
-bonica_org_names.[csv|RData] - A vector of all the names of the organizations who have donated to the election campaign of a candidate for Federal office, taken from Adam Bonica's DIME database.
+XXX     bonica_org_names.[csv|RData] - A vector of all the names of the organizations who have donated to the election campaign of a candidate for Federal office, taken from Adam Bonica's DIME database.
 
-bonica_orgs_reduced.csv - A csv of Adam Bonica's DIME database, limited to organizations rather than individuals. 
+XXX     bonica_orgs_reduced.csv - A csv of Adam Bonica's DIME database, limited to organizations rather than individuals. 
 bonica_org_names.csv is derived from this file.
 
 comments_names.csv - A csv of comments, filed by organizations to executive branch bureaucratic agencies, matched to the OpenSecrets database of lobbying organizations. This is a potential additional application aside from the amicus curiae application.
