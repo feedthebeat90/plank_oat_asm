@@ -67,11 +67,14 @@ for i in combined['amicus']:
         print('Error: string originally from amicus found in bonica column')
     
 # Write CSV of new viable validation and test data
-combined.to_csv('random_amicus_bonica_combos_handcoded_removed.csv')
+combined.to_csv('data_viable_test.csv')
+
+# Rename/rewrite handcoded match data to CSV
+handcoded.to_csv('data_viable_train.csv')
 
 # Append handcoded and new cleaned data to create CSV of full dataset
 full_dataset = combined.append(handcoded)
-full_dataset.to_csv('all_data.csv')
+full_dataset.to_csv('data_all.csv')
 print('Number of rows in viable validation/test data: {}'.format(len(combined)))
 print('Number of rows in hand-matched training data: {}'.format(len(handcoded)))
 print('Number of rows in the full dataset: {}'.format(len(full_dataset)))
