@@ -2,6 +2,8 @@ import pandas as pd
 import numpy as np
 from fuzzywuzzy import fuzz 
 from fuzzywuzzy import process
+from sklearn.base import BaseEstimator
+from itertools import product
 
 class FuzzyWuzzy(BaseEstimator):  
     """An example of classifier"""
