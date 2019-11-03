@@ -3,18 +3,29 @@ import numpy as np
 from fuzzywuzzy import fuzz 
 from fuzzywuzzy import process
 
-def fuzzywuzzy(word1, word2):
-    return fuzz.ratio(word1, word2) 
+class FuzzyWuzzy(BaseEstimator):  
+    """An example of classifier"""
+
+    def __init__(self):
+        
+        return None
+
+    def fit(self, X, y=None):
+
+        return self
+    
+    #assumes x is a tuple
+    def fuzwuz(x):
+        return fuzz.ratio(x[0],x[1])
+        
+
+    def predict_proba(self, X):
+        return np.array([fuzz.ratio(x[0], x[1]) for x in X])
 
 def get_predictions(list1, list2, model, num_matches):
-    pairs = []
-    scores = []
-    word_count = 0
-    for word1 in list1:
-        word_count += 1
-        for word2 in list2:
-            pairs.append((word1,word2))
-            scores.append(model(word1, word2))
+    pairs = np.array(list(product(list1,list2)))
+    scores = model.predict_proba(pairs)
+    pairs = [(x[0],x[1]) for x in pairs]
     pairs_df = pd.DataFrame({'Pairs': pairs, 'Scores': scores})
     pairs_df = pairs_df.sort_values(by=['Scores'], ascending=False)
     truncated_df = pairs_df.head(num_matches)
