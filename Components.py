@@ -11,7 +11,8 @@ from sklearn.preprocessing import FunctionTransformer
 from sklearn.pipeline import Pipeline
 
 class stringdist(FunctionTransformer):
-    def __init__(self, methods=[textdistance.cosine, textdistance.jaccard]):
+    # def __init__(self, methods=[textdistance.cosine, textdistance.jaccard]):
+    def __init__(self, methods=[textdistance.cosine, textdistance.jaccard, textdistance.sorensen, textdistance.tversky, textdistance.tanimoto]):
         self.methods = methods
 
     def stringdist_wrap(self, row):
@@ -27,14 +28,13 @@ class stringdist(FunctionTransformer):
 
 # %%
 def build_initial(x, y):
-    matches = pd.concat([x, y], axis=1)
+    matches = pd.DataFrame({0: x, 1: y})
     matches['match'] = 1
-    match_vec = x + '_' + y
+    match_vec = pd.Series(x + '_' + y)
 
     # Create a set of incorrect matches
     # First, copy the correct matches
     tmp = matches.copy()
-    print(tmp.head())
     # Shuffle the first column - makes most of them mismatched
     tmp[0] = np.random.permutation(tmp[0].values)
     # For any that might still be correct matches, filter them out
@@ -94,14 +94,3 @@ def ask_about_matches(match_pairs):
         elif match == 'n':
             results.append(0)
     return results
-
-# %%
-amicus = pd.read_csv('amicus_org_names.csv')['x']
-bonica = pd.read_csv('bonica_orgs_reduced.csv')['x']
-
-# %%
-train = pd.read_csv('data_viable_train.csv')
-train.head()
-
-# %%
-model = train_initial(train['amicus'].values, train['bonica'].values)
