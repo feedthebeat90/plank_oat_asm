@@ -1,232 +1,454 @@
-"","amicus","bonica","match"
-"1","JPMORGAN CHASE BANK NA","jp morgan chase - pac",1
-"2","JPMORGAN CHASE BANK NA","jp morgan & co, inc pac",1
-"3","JPMORGAN CHASE BANK NA","jp morgan pac",1
-"4","JPMORGAN CHASE BANK NA","jp morgan chase & co, pac",1
-"5","JPMORGAN CHASE BANK NA","jp morgan chase & co state & fed pac",1
-"6","JPMORGAN CHASE BANK NA","pac, jp morgan chase & co",1
-"7","JPMORGAN CHASE BANK NA","jp morgan morgan guarantee trust",1
-"8","JPMORGAN CHASE BANK NA","jp morgan chase & co",1
-"9","JPMORGAN CHASE BANK NA","jp morgan chase",1
-"10","JPMORGAN CHASE BANK NA","jp morgan services inc",1
-"11","JPMORGAN CHASE BANK NA","jp morgan chase & company",1
-"12","JPMORGAN CHASE BANK NA","J P MORGAN CHASE & CO. FUND FOR GOOD GOVERNMENT TEXAS",1
-"13","JPMORGAN CHASE BANK NA","jp morgan fleming asset mangement usa inc",1
-"14","JPMORGAN CHASE BANK NA","jp morgan chase inc",1
-"15","JPMORGAN CHASE BANK NA","jp morgan chase, pac",1
-"16","JPMORGAN CHASE BANK NA","jp morgan chase & co state & federal pac",1
-"17","JPMORGAN CHASE BANK NA","chase bank",1
-"18","JPMORGAN CHASE BANK NA","BANC ONE POLITICAL ACTION COMMITTEE",1
-"19","JPMORGAN CHASE BANK NA","jp morgan chase & co state & federal political act",1
-"20","JPMORGAN CHASE BANK NA","jp morgan fleming asset management usa inc",1
-"21","JPMORGAN CHASE BANK NA","jpmorgan chase & co, pac",1
-"22","JPMORGAN CHASE BANK NA","jp morgan futures inc",1
-"23","JPMORGAN CHASE BANK NA","jp morgan partners llc",1
-"24","JPMORGAN CHASE BANK NA","chase",1
-"25","JPMORGAN CHASE BANK NA","jp morgan & chase pac",1
-"26","JPMORGAN CHASE BANK NA","MORGAN COMPANIES POLITICAL ACTION COMITTEE",1
-"27","JPMORGAN CHASE BANK NA","jp morgan fleming asset management holdings inc",1
-"28","JPMORGAN CHASE BANK NA","jp morgan chase & comp",1
-"29","JPMORGAN CHASE BANK NA","jp morgan chase & co state & fedl pac",1
-"30","JPMORGAN CHASE BANK NA","jp morgan chase & co political action committee",1
-"31","JPMORGAN CHASE BANK NA","jp morgan chase & copac",1
-"32","JPMORGAN CHASE BANK NA","jp morgan partners, llc",1
-"33","JPMORGAN CHASE BANK NA","jp morgan & company pac",1
-"34","JPMORGAN CHASE BANK NA","jp morgan chase bank pac",1
-"35","JPMORGAN CHASE BANK NA","jp morgan chase & co - pac",1
-"36","JPMORGAN CHASE BANK NA","jp morgan chase & co, state & federal pac",1
-"37","JPMORGAN CHASE BANK NA","jp morgan chase & co pac",1
-"38","JPMORGAN CHASE BANK NA","jp morgan chace & co pac",1
-"39","JPMORGAN CHASE BANK NA","jp morgan chase & costate & federal pac",1
-"40","JPMORGAN CHASE BANK NA","jp morgan - chase co pac",1
-"41","JPMORGAN CHASE BANK NA","jp morgan trust company of delaware",1
-"42","JPMORGAN CHASE BANK NA","jp morgan chase & company pac",1
-"43","JPMORGAN CHASE BANK NA","jp morgan chase national corp services inc",1
-"44","JPMORGAN CHASE BANK NA","jp morgan chase co state & federal pac",1
-"45","JPMORGAN CHASE BANK NA","jpmorgan chase & co state amd federal",1
-"46","JPMORGAN CHASE BANK NA","jp morgan & co pac",1
-"47","JPMORGAN CHASE BANK NA","j p morgan chase & co",1
-"48","JPMORGAN CHASE BANK NA","jp morgan morgan gaurantee trust",1
-"49","JPMORGAN CHASE BANK NA","jp morgan chase pac c00003830",1
-"50","JPMORGAN CHASE BANK NA","jpmorgan chase &co pac",1
-"51","JPMORGAN CHASE BANK NA","jp morgan partners",1
-"52","JPMORGAN CHASE BANK NA","jp morgan chase & co, statefederal pac",1
-"53","JPMORGAN CHASE BANK NA","jp morgan business credit corp",1
-"54","JPMORGAN CHASE BANK NA","jp morgan chase & co pac colo",1
-"55","JPMORGAN CHASE BANK NA","jp morgan state & federal pac",1
-"56","JPMORGAN CHASE BANK NA","jp morgan chase state & federal pac",1
-"57","JPMORGAN CHASE BANK NA","jp morgan chase & co federal pa",1
-"58","JPMORGAN CHASE BANK NA","jpmorgan chase co state & federal pac",1
-"59","JPMORGAN CHASE BANK NA","jp morgan & co",1
-"60","JPMORGAN CHASE BANK NA","j p morgan chase & co statefederal pac",1
-"61","JPMORGAN CHASE BANK NA","jp morgan h & q",1
-"62","JPMORGAN CHASE BANK NA","jp morgana chase & co pac",1
-"63","JPMORGAN CHASE BANK NA","jpmorgan chase bank",1
-"64","JPMORGAN CHASE BANK NA","jpmorgan chase & copac",1
-"65","JPMORGAN CHASE BANK NA","jp morgan cahse & co pac",1
-"66","JPMORGAN CHASE BANK NA","jp morgan chase statefed pac",1
-"67","JPMORGAN CHASE BANK NA","jp morgan investor services co",1
-"68","JPMORGAN CHASE BANK NA","jp morgan, chase & co, pac",1
-"69","JPMORGAN CHASE BANK NA","jp morgan chase & co st & fed pac",1
-"70","JPMORGAN CHASE BANK NA","jp morgan chase corp",1
-"71","JPMORGAN CHASE BANK NA","jp morgan morgan gaurantee trust c",1
-"72","JPMORGAN CHASE BANK NA","jp morgan treasury technologies corp",1
-"73","JPMORGAN CHASE BANK NA","jp morgan fleming asset management",1
-"74","JPMORGAN CHASE BANK NA","jpmorgan chase pac",1
-"75","JPMORGAN CHASE BANK NA","jp morgan chase & co federal political action committee pac-",1
-"76","JPMORGAN CHASE BANK NA","jp morgan chase co pac",1
-"77","JPMORGAN CHASE BANK NA","jp morgan investment management inc",1
-"78","JPMORGAN CHASE BANK NA","jp morgan chase & comp pac",1
-"79","JPMORGAN CHASE BANK NA","jp morgan chase state & fed pac",1
-"80","JPMORGAN CHASE BANK NA","jp morgan chase pac",1
-"81","JPMORGAN CHASE BANK NA","jp morgan chase &co pac",1
-"82","JPMORGAN CHASE BANK NA","jpmorgan chase & co pac",1
-"83","JPMORGAN CHASE BANK NA","j p morgan chase & co pac",1
-"84","JPMORGAN CHASE BANK NA","jp morgan chase& co, state & fed pac",1
-"85","JPMORGAN CHASE BANK NA","jp morgan securities",1
-"86","JPMORGAN CHASE BANK NA","jp morgan chase & co- pac",1
-"87","JPMORGAN CHASE BANK NA","jp morgan",1
-"88","JPMORGAN CHASE BANK NA","jp morgan securities inc",1
-"89","JPMORGAN CHASE BANK NA","jp morgan chase securities inc conference",1
-"90","JPMORGAN CHASE BANK NA","jp morgan property exchange inc",1
-"91","JPMORGAN CHASE BANK NA","jp morgan chase national corporate services inc",1
-"92","JPMORGAN CHASE BANK NA","jp morgan chase co - pac",1
-"93","JPMORGAN CHASE BANK NA","jp morgan trust co of delaware",1
-"94","JPMORGAN CHASE BANK NA","jp morgan chase & co pal",1
-"95","JPMORGAN CHASE BANK NA","jp morgan chase bank",1
-"96","JPMORGAN CHASE BANK NA","jp morgan chase 7 co",1
-"97","JPMORGAN CHASE BANK NA","jp morgan securities, inc",1
-"98","INVESTMENT COMPANY INSTITUTE","investment company institute pac",1
-"99","INVESTMENT COMPANY INSTITUTE","INVESTMENT MANAGEMENT POLITICAL ACTION CMTE OF THE INVESTMENT COMPANY INSTITUTE IMPAC",1
-"100","INVESTMENT COMPANY INSTITUTE","investment company institute",1
-"101","INVESTMENT COMPANY INSTITUTE","investment company institute polit",1
-"102","MOTION PICTURE ASSOCIATION OF AMERICA","motion picture association of america",1
-"103","MOTION PICTURE ASSOCIATION OF AMERICA","motion picture assn",1
-"104","MOTION PICTURE ASSOCIATION OF AMERICA","motion picture association of amer",1
-"105","MOTION PICTURE ASSOCIATION OF AMERICA","motion picture association of america, inc",1
-"106","MOTION PICTURE ASSOCIATION OF AMERICA","motion picture association pac",1
-"107","MOTION PICTURE ASSOCIATION OF AMERICA","MOTION PICTURE ASSOCIATION POLITICAL ACTION COMMITTEE",1
-"108","MOTION PICTURE ASSOCIATION OF AMERICA","motion picture association",1
-"109","CONSUMER FEDERATION OF AMERICA","CONSUMER FEDERATION OF AMERICA:POLITICAL ACTION COMMITTEE",1
-"110","UNITED ELECTRICAL","UNITED ELECTRICAL RADIO AND MACHINE WORKERS OF AMERICA U E LOCAL 1111 PAC",1
-"111","INTERNATIONAL COUNCIL OF SHOPPING CENTERS","international council of shopping centers",1
-"112","INTERNATIONAL COUNCIL OF SHOPPING CENTERS","INTERNATIONAL COUNCIL OF SHOPPING CENTERS INC POLITICAL ACTION COMMITTEE ICSC PAC",1
-"113","INTERNATIONAL COUNCIL OF SHOPPING CENTERS","intl council of shopping centers p",1
-"123","NATIONAL ELECTRICAL MANUFACTURERS ASSOCIATION","nema",1
-"124","NATIONAL ELECTRICAL MANUFACTURERS ASSOCIATION","NATIONAL ELECTRICAL MANUFACTURERS ASSOCIATION POLITICAL ACTION COMMITTEE NEMA PAC",1
-"125","AMERICAN PSYCHIATRIC ASSOCIATION","american psychiatric association",1
-"126","AMERICAN PSYCHIATRIC ASSOCIATION","AMERICAN PSYCHIATRIC ASSOCIATION POLITICAL ACTION COMMITTEE",1
-"127","NATIONAL ORGANIZATION FOR THE REFORM OF MARIJUANA LAWS","NATIONAL ORGANIZATION FOR THE REFORM OF MARIJUANA LAWS POLITICAL ACTION COMMITTEE",1
-"129","CALIFORNIA MEDICAL ASSOCIATION","california medical association pac calpac",1
-"130","CALIFORNIA MEDICAL ASSOCIATION","california medical association",1
-"131","NATIONAL ASSOCIATION OF SOCIAL WORKERS","national association of social workers new york city",1
-"132","NATIONAL ASSOCIATION OF SOCIAL WORKERS","national association of social workers pac",1
-"133","NATIONAL ASSOCIATION OF SOCIAL WORKERS","nasw, nyc pace",1
-"134","NATIONAL ASSOCIATION OF SOCIAL WORKERS","nasw nyc chapter pace",1
-"135","NATIONAL ASSOCIATION OF SOCIAL WORKERS","nyc pac",1
-"136","NATIONAL ASSOCIATION OF SOCIAL WORKERS","national association of social worker pac",1
-"137","NATIONAL ASSOCIATION OF SOCIAL WORKERS","national association of social workers",1
-"138","NATIONAL ASSOCIATION OF SOCIAL WORKERS","new york city chapter of national association of social workers",1
-"139","NATIONAL ASSOCIATION OF SOCIAL WORKERS","nyc pace",1
-"140","ASSOCIATION OF AMERICAN PUBLISHERS","calpac association of american publishers",1
-"141","ASSOCIATION OF AMERICAN PUBLISHERS","association of american publishers, inc",1
-"142","ASSOCIATION OF AMERICAN PUBLISHERS","association of american publishers",1
-"143","NATIONAL ASSOCIATION OF HOMEBUILDERS","national association of home builders",1
-"144","DEFENDERS OF WILDLIFE","defenders of wildlife",1
-"145","AMERICAN BANKERS ASSOCIATION","american bankers assn",1
-"146","NATIONAL ASSOCIATION OF COUNTIES","national association of counties",1
-"147","UNITED AUTO WORKERS","united brotherhood of carpenters",1
-"148","NATIONAL EDUCATION ASSOCIATION","national education association nea",1
-"149","NATIONAL EDUCATION ASSOCIATION","national education association",1
-"150","NATIONAL EDUCATION ASSOCIATION","national education association pac",1
-"151","NATIONAL EDUCATION ASSOCIATION","NATIONAL EDUCATION ASSOCIATION",1
-"152","NATIONAL EDUCATION ASSOCIATION","national education assn",1
-"153","MONSANTO CO","monsanto company",1
-"154","JOHNSON AND JOHNSON","johnson & johnson corporate",1
-"155","AMERICAN MEDICAL ASSOCIATION","american medical assn",1
-"156","SCREEN ACTORS GUILD","screen actors guild",1
-"157","AMERICAN ASSOCIATION OF RETIRED PERSONS","american association of retired persons",1
-"158","COMMON CAUSE","common cause",1
-"159","SALT RIVER PROJECT AGRICULTURAL IMPROVEMENT AND POWER DISTRICT","salt river project pac",1
-"160","NATIONAL ASSOCIATION OF BROADCASTERS INC","national association of broadcaste",1
-"161","NATIONAL ASSOCIATION OF BROADCASTERS INC","national association of broadcasters televison & radio political action committee",1
-"162","NATIONAL ASSOCIATION OF BROADCASTERS INC","national association of broadcasters pac",1
-"163","NATIONAL ASSOCIATION OF BROADCASTERS INC","national association of broadcasters",1
-"164","NATIONAL ASSOCIATION OF BROADCASTERS INC","national association of broadcasters television & radio political action committee",1
-"165","NATIONAL ASSOCIATION OF BROADCASTERS INC","television & radio pac",1
-"166","RECORDING INDUSTRY ASSOCIATION OF AMERICA","recording industry assoc of america, inc",1
-"167","RECORDING INDUSTRY ASSOCIATION OF AMERICA","recording industry assoc of america",1
-"168","RECORDING INDUSTRY ASSOCIATION OF AMERICA","recording industry assoc of americ",1
-"169","RECORDING INDUSTRY ASSOCIATION OF AMERICA","recording industry assoc of america inc",1
-"170","AMERICAN INSTITUTE OF CERTIFIED PUBLIC ACCOUNTANTS","american institute of certified public accountants",1
-"171","GENERAL ELECTRIC CO","general electric",1
-"172","AMERICAN PUBLIC POWER ASSOCIATION","american public power association public ownership",1
-"173","AMERICAN CIVIL LIBERTIES UNION OF ILLINOIS","american civil liberties union",1
-"174","AMERICAN CIVIL LIBERTIES UNION OF NORTHERN CALIFORNIA","american civil liberties union",1
-"175","AMERICAN CIVIL LIBERTIES UNION FOUNDATION OF SOUTHERN CALIFORNIA","american civil liberties union",1
-"176","AMERICAN CIVIL LIBERTIES UNION OF COLORADO","american civil liberties union",1
-"177","AMERICAN CIVIL LIBERTIES UNION","american civil liberties union",1
-"178","AMERICAN CIVIL LIBERTIES UNION OF SOUTHERN CALIFORNIA","american civil liberties union",1
-"179","AMERICAN CIVIL LIBERTIES UNION OF PENNSYLVANIA","american civil liberties union",1
-"183","AMERICAN HOTEL AND LODGING ASSOCIATION","american hotel & lodging associa",1
-"184","SECURITIES INDUSTRIES ASSOCIATION","securities industries assoc",1
-"185","TROUT UNLIMITED INC","trout unlimited bellevue-issaquah chapte",1
-"186","NATIONAL COUNCIL OF JEWISH WOMEN","national council jewish women austin section",1
-"187","NATIONAL ASSOCIATION OF MANUFACTURERS","national assoc of mfgs suite 1500",1
-"188","NATIONAL ASSOCIATION OF THEATER OWNERS","national association of theatre owners of canevada",1
-"189","NATIONAL ASSOCIATION FOR THE ADVANCEMENT OF COLORED PEOPLE","naacp co op city branch",1
-"190","FRIENDS OF THE EARTH","friends of the earth action pac",1
-"191","EI DUPONT DE NEMOURS AND CO","ei du pont de nemours & co",1
-"192","EDISON ELECTRIC INSTITUTE","edison electric institute-eei",1
-"193","COUNCIL OF STATE GOVERNMENTS","council of state govt",1
-"194","COUNCIL OF STATE GOVERNMENTS","council of state government",1
-"195","ASSOCIATED GENERAL CONTRACTORS OF AMERICA","assoc gen contractors of america",1
-"196","AMERICAN TELEPHONE AND TELEGRAPH","american telephone & telegraph",1
-"197","AMERICANS UNITED FOR SEPARATION OF CHURCH AND STATE","americans united for separation of church & state",1
-"198","AMERICAN JEWISH COMMITTEE","american jewish cmte",1
-"199","AMERICAN JEWISH CONGRESS","american jewis congress st louis region",1
-"200","AMERICAN FEDERATION OF TELEVISION AND RADIO ARTISTS AMERICAN FEDERATION OF LABOR AND CONGRESS OF INDUSTRIAL ORGANIZATIONS","american federation of tv & radio artists",1
-"201","AMERICAN FEDERATION OF LABOR AND CONGRESS OF INDUSTRIAL ORGANIZATIONS","american federation of labor & c",1
-"202","AMERICAN FEDERATION OF GOVERNMENT EMPLOYEES AMERICAN FEDERATION OF LABOR AND CONGRESS OF INDUSTRIAL ORGANIZATIONS","american federation of gov emp",1
-"204","AMERICAN ETHICAL UNION","american ethicare, inc",1
-"205","AMERICAN ETHICAL UNION","american ethicare",1
-"206","AMERICAN ASSOCIATION OF UNIVERSITY PROFESSORS","american association of university professors",1
-"209","american jewish committee","american jewish cmte",1
-"210","american medical womens association","american medical womens assn",1
-"211","anti-defamation league","anti defamation league",1
-"212","anti-defamation league b'nai b'rith","anti defamation league",1
-"213","coalition of 100 black women","national coalition of 100 black women",1
-"214","family planning association of maine","family planning associates of maine",1
-"215","family planning association of maine","family planning association of me",1
-"216","family planning association of maine","family planning association of maine inc",1
-"217","feminist majority","feminist majority foundation",1
-"218","girls incorporated","copy girls inc",1
-"219","lutherans concerned north america","lutherans concerned",1
-"220","national association for the advancement of colored people legal defense and educational fund inc","national association for the advancement of colored people",1
-"221","national bar association","nba",1
-"222","national gay and lesbian task force","national gay & lesbian task force",1
-"223","national gay and lesbian task force","national gay and lesbian task force inc",1
-"224","national gay and lesbian task force","national gay & lesbian task force foundation",1
-"225","national gay and lesbian task force","national gay & lesbian task force action fund",1
-"226","national gay and lesbian task force","national gay & lesbian task force policy institute",1
-"227","national institute for women of color","national institute for",1
-"228","national organization for women foundation inc","natl organization for women",1
-"229","national organization for women foundation inc","national organization for women",1
-"230","national organization for women foundation inc","national organization for wome",1
-"231","national organization for women foundation inc","national org for women",1
-"232","national organization for women foundation inc","national orgfor women",1
-"233","national organization for women foundation inc","national organization for womennow",1
-"234","people for the american way fo undation","people for the america way foundation",1
-"235","people for the american way fo undation","people for the american way foundation",1
-"236","people for the american way fo undation","people for the american way",1
-"237","planned parenthood federation of america inc","planned parenthood",1
-"238","planned parenthood federation of america inc","planned parenthood,",1
-"239","planned parenthood federation of america inc","planned parenthood federation of america",1
-"240","planned parenthood federation of america inc","planned parent hood",1
-"241","planned parenthood federation of america inc","planned parenthood federation of america ppfa",1
-"242","southern christian leadership conference","southern christian leadership",1
-"243","young womens christian association","ywca of the usa",1
-"244","young womens christian association","young womens christian assoc",1
-"245","young womens christian association of the united states of america","young womens christian assoc",1
-"246","young womens christian association of the united states of america","ywca of the usa",1
-"247","young womens christian association of the united states of america","ywc corporation",1
+amicus,bonica,match
+JPMORGAN CHASE BANK NA,jp morgan chase - pac,1
+JPMORGAN CHASE BANK NA,"jp morgan & co, inc pac",1
+JPMORGAN CHASE BANK NA,jp morgan pac,1
+JPMORGAN CHASE BANK NA,"jp morgan chase & co, pac",1
+JPMORGAN CHASE BANK NA,jp morgan chase & co state & fed pac,1
+JPMORGAN CHASE BANK NA,"pac, jp morgan chase & co",1
+JPMORGAN CHASE BANK NA,jp morgan morgan guarantee trust,1
+JPMORGAN CHASE BANK NA,jp morgan chase & co,1
+JPMORGAN CHASE BANK NA,jp morgan chase,1
+JPMORGAN CHASE BANK NA,jp morgan services inc,1
+JPMORGAN CHASE BANK NA,jp morgan chase & company,1
+JPMORGAN CHASE BANK NA,J P MORGAN CHASE & CO. FUND FOR GOOD GOVERNMENT TEXAS,1
+JPMORGAN CHASE BANK NA,jp morgan fleming asset mangement usa inc,1
+JPMORGAN CHASE BANK NA,jp morgan chase inc,1
+JPMORGAN CHASE BANK NA,"jp morgan chase, pac",1
+JPMORGAN CHASE BANK NA,jp morgan chase & co state & federal pac,1
+JPMORGAN CHASE BANK NA,chase bank,1
+JPMORGAN CHASE BANK NA,BANC ONE POLITICAL ACTION COMMITTEE,1
+JPMORGAN CHASE BANK NA,jp morgan chase & co state & federal political act,1
+JPMORGAN CHASE BANK NA,jp morgan fleming asset management usa inc,1
+JPMORGAN CHASE BANK NA,"jpmorgan chase & co, pac",1
+JPMORGAN CHASE BANK NA,jp morgan futures inc,1
+JPMORGAN CHASE BANK NA,jp morgan partners llc,1
+JPMORGAN CHASE BANK NA,chase,1
+JPMORGAN CHASE BANK NA,jp morgan & chase pac,1
+JPMORGAN CHASE BANK NA,MORGAN COMPANIES POLITICAL ACTION COMITTEE,1
+JPMORGAN CHASE BANK NA,jp morgan fleming asset management holdings inc,1
+JPMORGAN CHASE BANK NA,jp morgan chase & comp,1
+JPMORGAN CHASE BANK NA,jp morgan chase & co state & fedl pac,1
+JPMORGAN CHASE BANK NA,jp morgan chase & co political action committee,1
+JPMORGAN CHASE BANK NA,jp morgan chase & copac,1
+JPMORGAN CHASE BANK NA,"jp morgan partners, llc",1
+JPMORGAN CHASE BANK NA,jp morgan & company pac,1
+JPMORGAN CHASE BANK NA,jp morgan chase bank pac,1
+JPMORGAN CHASE BANK NA,jp morgan chase & co - pac,1
+JPMORGAN CHASE BANK NA,"jp morgan chase & co, state & federal pac",1
+JPMORGAN CHASE BANK NA,jp morgan chase & co pac,1
+JPMORGAN CHASE BANK NA,jp morgan chace & co pac,1
+JPMORGAN CHASE BANK NA,jp morgan chase & costate & federal pac,1
+JPMORGAN CHASE BANK NA,jp morgan - chase co pac,1
+JPMORGAN CHASE BANK NA,jp morgan trust company of delaware,1
+JPMORGAN CHASE BANK NA,jp morgan chase & company pac,1
+JPMORGAN CHASE BANK NA,jp morgan chase national corp services inc,1
+JPMORGAN CHASE BANK NA,jp morgan chase co state & federal pac,1
+JPMORGAN CHASE BANK NA,jpmorgan chase & co state amd federal,1
+JPMORGAN CHASE BANK NA,jp morgan & co pac,1
+JPMORGAN CHASE BANK NA,j p morgan chase & co,1
+JPMORGAN CHASE BANK NA,jp morgan morgan gaurantee trust,1
+JPMORGAN CHASE BANK NA,jp morgan chase pac c00003830,1
+JPMORGAN CHASE BANK NA,jpmorgan chase &co pac,1
+JPMORGAN CHASE BANK NA,jp morgan partners,1
+JPMORGAN CHASE BANK NA,"jp morgan chase & co, statefederal pac",1
+JPMORGAN CHASE BANK NA,jp morgan business credit corp,1
+JPMORGAN CHASE BANK NA,jp morgan chase & co pac colo,1
+JPMORGAN CHASE BANK NA,jp morgan state & federal pac,1
+JPMORGAN CHASE BANK NA,jp morgan chase state & federal pac,1
+JPMORGAN CHASE BANK NA,jp morgan chase & co federal pa,1
+JPMORGAN CHASE BANK NA,jpmorgan chase co state & federal pac,1
+JPMORGAN CHASE BANK NA,jp morgan & co,1
+JPMORGAN CHASE BANK NA,j p morgan chase & co statefederal pac,1
+JPMORGAN CHASE BANK NA,jp morgan h & q,1
+JPMORGAN CHASE BANK NA,jp morgana chase & co pac,1
+JPMORGAN CHASE BANK NA,jpmorgan chase bank,1
+JPMORGAN CHASE BANK NA,jpmorgan chase & copac,1
+JPMORGAN CHASE BANK NA,jp morgan cahse & co pac,1
+JPMORGAN CHASE BANK NA,jp morgan chase statefed pac,1
+JPMORGAN CHASE BANK NA,jp morgan investor services co,1
+JPMORGAN CHASE BANK NA,"jp morgan, chase & co, pac",1
+JPMORGAN CHASE BANK NA,jp morgan chase & co st & fed pac,1
+JPMORGAN CHASE BANK NA,jp morgan chase corp,1
+JPMORGAN CHASE BANK NA,jp morgan morgan gaurantee trust c,1
+JPMORGAN CHASE BANK NA,jp morgan treasury technologies corp,1
+JPMORGAN CHASE BANK NA,jp morgan fleming asset management,1
+JPMORGAN CHASE BANK NA,jpmorgan chase pac,1
+JPMORGAN CHASE BANK NA,jp morgan chase & co federal political action committee pac-,1
+JPMORGAN CHASE BANK NA,jp morgan chase co pac,1
+JPMORGAN CHASE BANK NA,jp morgan investment management inc,1
+JPMORGAN CHASE BANK NA,jp morgan chase & comp pac,1
+JPMORGAN CHASE BANK NA,jp morgan chase state & fed pac,1
+JPMORGAN CHASE BANK NA,jp morgan chase pac,1
+JPMORGAN CHASE BANK NA,jp morgan chase &co pac,1
+JPMORGAN CHASE BANK NA,jpmorgan chase & co pac,1
+JPMORGAN CHASE BANK NA,j p morgan chase & co pac,1
+JPMORGAN CHASE BANK NA,"jp morgan chase& co, state & fed pac",1
+JPMORGAN CHASE BANK NA,jp morgan securities,1
+JPMORGAN CHASE BANK NA,jp morgan chase & co- pac,1
+JPMORGAN CHASE BANK NA,jp morgan,1
+JPMORGAN CHASE BANK NA,jp morgan securities inc,1
+JPMORGAN CHASE BANK NA,jp morgan chase securities inc conference,1
+JPMORGAN CHASE BANK NA,jp morgan property exchange inc,1
+JPMORGAN CHASE BANK NA,jp morgan chase national corporate services inc,1
+JPMORGAN CHASE BANK NA,jp morgan chase co - pac,1
+JPMORGAN CHASE BANK NA,jp morgan trust co of delaware,1
+JPMORGAN CHASE BANK NA,jp morgan chase & co pal,1
+JPMORGAN CHASE BANK NA,jp morgan chase bank,1
+JPMORGAN CHASE BANK NA,jp morgan chase 7 co,1
+JPMORGAN CHASE BANK NA,"jp morgan securities, inc",1
+INVESTMENT COMPANY INSTITUTE,investment company institute pac,1
+INVESTMENT COMPANY INSTITUTE,INVESTMENT MANAGEMENT POLITICAL ACTION CMTE OF THE INVESTMENT COMPANY INSTITUTE IMPAC,1
+INVESTMENT COMPANY INSTITUTE,investment company institute,1
+INVESTMENT COMPANY INSTITUTE,investment company institute polit,1
+MOTION PICTURE ASSOCIATION OF AMERICA,motion picture association of america,1
+MOTION PICTURE ASSOCIATION OF AMERICA,motion picture assn,1
+MOTION PICTURE ASSOCIATION OF AMERICA,motion picture association of amer,1
+MOTION PICTURE ASSOCIATION OF AMERICA,"motion picture association of america, inc",1
+MOTION PICTURE ASSOCIATION OF AMERICA,motion picture association pac,1
+MOTION PICTURE ASSOCIATION OF AMERICA,MOTION PICTURE ASSOCIATION POLITICAL ACTION COMMITTEE,1
+MOTION PICTURE ASSOCIATION OF AMERICA,motion picture association,1
+CONSUMER FEDERATION OF AMERICA,CONSUMER FEDERATION OF AMERICA:POLITICAL ACTION COMMITTEE,1
+UNITED ELECTRICAL,UNITED ELECTRICAL RADIO AND MACHINE WORKERS OF AMERICA U E LOCAL 1111 PAC,1
+INTERNATIONAL COUNCIL OF SHOPPING CENTERS,international council of shopping centers,1
+INTERNATIONAL COUNCIL OF SHOPPING CENTERS,INTERNATIONAL COUNCIL OF SHOPPING CENTERS INC POLITICAL ACTION COMMITTEE ICSC PAC,1
+INTERNATIONAL COUNCIL OF SHOPPING CENTERS,intl council of shopping centers p,1
+NATIONAL ELECTRICAL MANUFACTURERS ASSOCIATION,nema,1
+NATIONAL ELECTRICAL MANUFACTURERS ASSOCIATION,NATIONAL ELECTRICAL MANUFACTURERS ASSOCIATION POLITICAL ACTION COMMITTEE NEMA PAC,1
+AMERICAN PSYCHIATRIC ASSOCIATION,american psychiatric association,1
+AMERICAN PSYCHIATRIC ASSOCIATION,AMERICAN PSYCHIATRIC ASSOCIATION POLITICAL ACTION COMMITTEE,1
+NATIONAL ORGANIZATION FOR THE REFORM OF MARIJUANA LAWS,NATIONAL ORGANIZATION FOR THE REFORM OF MARIJUANA LAWS POLITICAL ACTION COMMITTEE,1
+CALIFORNIA MEDICAL ASSOCIATION,california medical association pac calpac,1
+CALIFORNIA MEDICAL ASSOCIATION,california medical association,1
+NATIONAL ASSOCIATION OF SOCIAL WORKERS,national association of social workers new york city,1
+NATIONAL ASSOCIATION OF SOCIAL WORKERS,national association of social workers pac,1
+NATIONAL ASSOCIATION OF SOCIAL WORKERS,"nasw, nyc pace",1
+NATIONAL ASSOCIATION OF SOCIAL WORKERS,nasw nyc chapter pace,1
+NATIONAL ASSOCIATION OF SOCIAL WORKERS,nyc pac,1
+NATIONAL ASSOCIATION OF SOCIAL WORKERS,national association of social worker pac,1
+NATIONAL ASSOCIATION OF SOCIAL WORKERS,national association of social workers,1
+NATIONAL ASSOCIATION OF SOCIAL WORKERS,new york city chapter of national association of social workers,1
+NATIONAL ASSOCIATION OF SOCIAL WORKERS,nyc pace,1
+ASSOCIATION OF AMERICAN PUBLISHERS,calpac association of american publishers,1
+ASSOCIATION OF AMERICAN PUBLISHERS,"association of american publishers, inc",1
+ASSOCIATION OF AMERICAN PUBLISHERS,association of american publishers,1
+NATIONAL ASSOCIATION OF HOMEBUILDERS,national association of home builders,1
+DEFENDERS OF WILDLIFE,defenders of wildlife,1
+AMERICAN BANKERS ASSOCIATION,american bankers assn,1
+NATIONAL ASSOCIATION OF COUNTIES,national association of counties,1
+UNITED AUTO WORKERS,united brotherhood of carpenters,1
+NATIONAL EDUCATION ASSOCIATION,national education association nea,1
+NATIONAL EDUCATION ASSOCIATION,national education association,1
+NATIONAL EDUCATION ASSOCIATION,national education association pac,1
+NATIONAL EDUCATION ASSOCIATION,NATIONAL EDUCATION ASSOCIATION,1
+NATIONAL EDUCATION ASSOCIATION,national education assn,1
+MONSANTO CO,monsanto company,1
+JOHNSON AND JOHNSON,johnson & johnson corporate,1
+AMERICAN MEDICAL ASSOCIATION,american medical assn,1
+SCREEN ACTORS GUILD,screen actors guild,1
+AMERICAN ASSOCIATION OF RETIRED PERSONS,american association of retired persons,1
+COMMON CAUSE,common cause,1
+SALT RIVER PROJECT AGRICULTURAL IMPROVEMENT AND POWER DISTRICT,salt river project pac,1
+NATIONAL ASSOCIATION OF BROADCASTERS INC,national association of broadcaste,1
+NATIONAL ASSOCIATION OF BROADCASTERS INC,national association of broadcasters televison & radio political action committee,1
+NATIONAL ASSOCIATION OF BROADCASTERS INC,national association of broadcasters pac,1
+NATIONAL ASSOCIATION OF BROADCASTERS INC,national association of broadcasters,1
+NATIONAL ASSOCIATION OF BROADCASTERS INC,national association of broadcasters television & radio political action committee,1
+NATIONAL ASSOCIATION OF BROADCASTERS INC,television & radio pac,1
+RECORDING INDUSTRY ASSOCIATION OF AMERICA,"recording industry assoc of america, inc",1
+RECORDING INDUSTRY ASSOCIATION OF AMERICA,recording industry assoc of america,1
+RECORDING INDUSTRY ASSOCIATION OF AMERICA,recording industry assoc of americ,1
+RECORDING INDUSTRY ASSOCIATION OF AMERICA,recording industry assoc of america inc,1
+AMERICAN INSTITUTE OF CERTIFIED PUBLIC ACCOUNTANTS,american institute of certified public accountants,1
+GENERAL ELECTRIC CO,general electric,1
+AMERICAN PUBLIC POWER ASSOCIATION,american public power association public ownership,1
+AMERICAN CIVIL LIBERTIES UNION OF ILLINOIS,american civil liberties union,1
+AMERICAN CIVIL LIBERTIES UNION OF NORTHERN CALIFORNIA,american civil liberties union,1
+AMERICAN CIVIL LIBERTIES UNION FOUNDATION OF SOUTHERN CALIFORNIA,american civil liberties union,1
+AMERICAN CIVIL LIBERTIES UNION OF COLORADO,american civil liberties union,1
+AMERICAN CIVIL LIBERTIES UNION,american civil liberties union,1
+AMERICAN CIVIL LIBERTIES UNION OF SOUTHERN CALIFORNIA,american civil liberties union,1
+AMERICAN CIVIL LIBERTIES UNION OF PENNSYLVANIA,american civil liberties union,1
+AMERICAN HOTEL AND LODGING ASSOCIATION,american hotel & lodging associa,1
+SECURITIES INDUSTRIES ASSOCIATION,securities industries assoc,1
+TROUT UNLIMITED INC,trout unlimited bellevue-issaquah chapte,1
+NATIONAL COUNCIL OF JEWISH WOMEN,national council jewish women austin section,1
+NATIONAL ASSOCIATION OF MANUFACTURERS,national assoc of mfgs suite 1500,1
+NATIONAL ASSOCIATION OF THEATER OWNERS,national association of theatre owners of canevada,1
+NATIONAL ASSOCIATION FOR THE ADVANCEMENT OF COLORED PEOPLE,naacp co op city branch,1
+FRIENDS OF THE EARTH,friends of the earth action pac,1
+EI DUPONT DE NEMOURS AND CO,ei du pont de nemours & co,1
+EDISON ELECTRIC INSTITUTE,edison electric institute-eei,1
+COUNCIL OF STATE GOVERNMENTS,council of state govt,1
+COUNCIL OF STATE GOVERNMENTS,council of state government,1
+ASSOCIATED GENERAL CONTRACTORS OF AMERICA,assoc gen contractors of america,1
+AMERICAN TELEPHONE AND TELEGRAPH,american telephone & telegraph,1
+AMERICANS UNITED FOR SEPARATION OF CHURCH AND STATE,americans united for separation of church & state,1
+AMERICAN JEWISH COMMITTEE,american jewish cmte,1
+AMERICAN JEWISH CONGRESS,american jewis congress st louis region,1
+AMERICAN FEDERATION OF TELEVISION AND RADIO ARTISTS AMERICAN FEDERATION OF LABOR AND CONGRESS OF INDUSTRIAL ORGANIZATIONS,american federation of tv & radio artists,1
+AMERICAN FEDERATION OF LABOR AND CONGRESS OF INDUSTRIAL ORGANIZATIONS,american federation of labor & c,1
+AMERICAN FEDERATION OF GOVERNMENT EMPLOYEES AMERICAN FEDERATION OF LABOR AND CONGRESS OF INDUSTRIAL ORGANIZATIONS,american federation of gov emp,1
+AMERICAN ETHICAL UNION,"american ethicare, inc",1
+AMERICAN ETHICAL UNION,american ethicare,1
+AMERICAN ASSOCIATION OF UNIVERSITY PROFESSORS,american association of university professors,1
+american jewish committee,american jewish cmte,1
+american medical womens association,american medical womens assn,1
+anti-defamation league,anti defamation league,1
+anti-defamation league b'nai b'rith,anti defamation league,1
+coalition of 100 black women,national coalition of 100 black women,1
+family planning association of maine,family planning associates of maine,1
+family planning association of maine,family planning association of me,1
+family planning association of maine,family planning association of maine inc,1
+feminist majority,feminist majority foundation,1
+girls incorporated,copy girls inc,1
+lutherans concerned north america,lutherans concerned,1
+national association for the advancement of colored people legal defense and educational fund inc,national association for the advancement of colored people,1
+national bar association,nba,1
+national gay and lesbian task force,national gay & lesbian task force,1
+national gay and lesbian task force,national gay and lesbian task force inc,1
+national gay and lesbian task force,national gay & lesbian task force foundation,1
+national gay and lesbian task force,national gay & lesbian task force action fund,1
+national gay and lesbian task force,national gay & lesbian task force policy institute,1
+national institute for women of color,national institute for,1
+national organization for women foundation inc,natl organization for women,1
+national organization for women foundation inc,national organization for women,1
+national organization for women foundation inc,national organization for wome,1
+national organization for women foundation inc,national org for women,1
+national organization for women foundation inc,national orgfor women,1
+national organization for women foundation inc,national organization for womennow,1
+people for the american way fo undation,people for the america way foundation,1
+people for the american way fo undation,people for the american way foundation,1
+people for the american way fo undation,people for the american way,1
+planned parenthood federation of america inc,planned parenthood,1
+planned parenthood federation of america inc,"planned parenthood,",1
+planned parenthood federation of america inc,planned parenthood federation of america,1
+planned parenthood federation of america inc,planned parent hood,1
+planned parenthood federation of america inc,planned parenthood federation of america ppfa,1
+southern christian leadership conference,southern christian leadership,1
+young womens christian association,ywca of the usa,1
+young womens christian association,young womens christian assoc,1
+young womens christian association of the united states of america,young womens christian assoc,1
+young womens christian association of the united states of america,ywca of the usa,1
+young womens christian association of the united states of america,ywc corporation,1
+northwest grocery association,nw grocery association,1
+international union of operating engineers,international unit of operating engineers,1
+lumbermens association of texas,lumbermans association of texas,1
+bf goodrich company,b f goodrich company,1
+telecommunications industry association,telecommunications industry assoc,1
+boat people sos,boat people sos inc,1
+california association of hospitals and health systems,california association of hospitals & health systems,1
+eastern associated coal corp,eastern associated coal,1
+national association of insurance brokers,national assoc of insurance broker,1
+knights of columbus,knights of columbus 12055,1
+aetna life insurance co,aetna insurance co,1
+operating engineers union local no 3,operating engineers local no 3,1
+pfizer inc,pfzer inc,1
+texas association of builders,"texas association of builders,",1
+abbott laboratories inc,abbott laboratories,1
+augusta chronicle,the augusta chronicle,1
+american civil liberties union foundation of san diego and imperial counties,american civil liberties union aclu san diego & imperial counties,1
+american civil liberties union of san diego and imperial counties,american civil liberties union aclu san diego & imperial counties,1
+pepsi bottling group inc,"the pepsi bottling group, inc",1
+qualcomm inc,qual comm inc,1
+united artists theater circuit inc,"united artists theatre circuit, inc",1
+american occupational therapy association,american occupational therapy association aota,1
+vietnam veterans of america,vietnam veterns of america,1
+tunica-biloxi tribe of louisiana,tunica biloxi indian tribe of louisiana,1
+liberty mutual group,liberty mutual group inc,1
+columbia river fishermen's protective union,columbia river fishermens protective union,1
+granite construction co,granite constuction,1
+sacramento county deputy sheriffs association,sacramento county deputy sheriff s assoc,1
+manufacturers hanover trust co,manufacturers hanover corp,1
+prairie island indian community,prarie island indian community,1
+coca-cola enterprises inc,"coca cola enterprises inc,",1
+california rifle and pistol association,california rifle & pistol association,1
+salt river valley water users association,salt river valley water users assn pic,1
+agua caliente band of cahuilla indians,agua caliente band of cahilla indians,1
+american federation of state county and municipal employees,"am federation of state, county & municipal employees",1
+national stone sand and gravel association,national stone sand & gravel association,1
+howard jarvis taxpayers association,howard jarvis taxpayer assoication,1
+pfizer inc,pifizer inc,1
+american federation of state county and municipal employees,"american federation of state county & municipal employees pac,",1
+naral pro choice oregon,naral pro-choice oreogn,1
+amalgamated transit union,amalga transit union,1
+virginia manufacturers association,virginia manufactures assoc,1
+duquesne light company,duquesne light co,1
+black women organized for political action,black women organized for pol action,1
+public affairs council,public affairs cons,1
+campaign for tobacco-free kids,campaign for tobacco free kids,1
+cosmetic toiletry and fragrance association,cosmetic toiletry & fragrance assn,1
+national association of independent insurers,national association of independent insurance,1
+roadway express inc,roadway express,1
+appalachian power co,appalachian power comm,1
+agua caliente band of cahuilla indians,agua claiente band of cahuilla indians,1
+california cable television association,california cable telecommunications association,1
+att services inc,at&t services inc,1
+standard insurance company,standard insurance co,1
+hoffmann-la roche inc,hoffman-la roche inc,1
+national conference of firemen and oilers,national conference of fireman & oilers,1
+national council of senior citizens,national council of senior cit inc,1
+association of oregon counties,association of oregon faculties,1
+american federation of state county and municipal employees,american federation of state county & municipal employees aflci,1
+spirit of freedom republican womens club,spirit of freedom republican women,1
+dell computer corp,dell computers corp,1
+winstar communications inc,winstar communications llc,1
+national restaurant association,national resturant association,1
+american consulting engineers council,american consulting engineers coun,1
+new york med college,new york medical college,1
+william morris agency,william morris agency inc,1
+national marine manufacturers association,national marine manufacturers assoc,1
+national association of letter carriers,p a l national association of letter carriers,1
+american college of emergency physicians,amer college of emerg physicians,1
+board of trade of the city of chicago,board of trade of city of chicago,1
+massachusetts gay and lesbian political caucus,massachusetts gay & lesbian political cmte,1
+service employees international union,service employees intnl union,1
+american federation of state county and municipal employees,"american federation of state county and municipal employees,",1
+american federation of state county and municipal employees,american federation of state county & muni empl,1
+california psychiatric association,ca psychiatric association,1
+sheet metal workers international association,sheet metal workers international assoc pal,1
+national association of mutual insurance companies,national assn of mutual insurance companies,1
+amalgamated transit union,amalgamated transit union loca,1
+san francisco aids foundation,the san francisco aids foundation,1
+cadwalader wickersham  taft,cadwalader wickershan & taft llp,1
+national association of chain drug stores,national association of chairug stores,1
+reed elsevier inc,reed elsevire inc,1
+petroleum marketers association of america inc,petroleum marketers association of america,1
+home builders association of south carolina,home builders assoc of south carolina,1
+american family association inc,american family association,1
+american federation of state county and municipal employees,"american federation of state, county, & municipal employees scc",1
+grocery manufacturers association,grocery manufacturers assn,1
+united states automotive association,united states automobile association usaa,1
+shapiro haber and urmy llp,shapiro haber & urmy llp,1
+aphilip randolph institute,a philip randolph inistitute,1
+gibson dunn  crutcher,gibson dunn and crutcher llp,1
+alaska native health board,alaska native health board inc,1
+american college of radiology,american college of radiology radpac,1
+united teachers los angeles,united teachers of los angeles,1
+united parcel service inc,united parcel services-pac,1
+cvs pharmacy inc,cvs pharmacy,1
+anheuser-busch co inc,anneuser busch cos inc,1
+mcgrawhill companies inc,mcgraw hill companies,1
+americas health insurance plans,"america s health insurance plans pac,",1
+international brotherhood of electrical workers,international brotherhood of electical workers,1
+bristol-myers squibb company,bristol myers squibb comapny,1
+wolf popper ross wolf and jones,wolf popper ross wolf & jones,1
+king  spalding,"king & spalding,",1
+service employees international union,service employees internationa,1
+national association of chain drug stores,national association chainug sto,1
+california bankers association,california bankers assoc,1
+aleman and associates,a aleman & associates,1
+califoria teachers association,california teachers assoc,1
+institute of scrap recycling industries,institute scrap recycling industries inc,1
+consumer healthcare products association,consumer healthcare products assocation,1
+pride international inc,pride international llc,1
+csx transportation inc,"csx transporation, inc",1
+national association of chain drug stores,national assoc of chain drugstores inc,1
+cadwalader wickersham  taft,cadwalader wickersham & taft llp,1
+national automatic merchandising association,natl automatic merchandising assoc,1
+texas instruments inc,texas instrument,1
+brady center to prevent gun violence,brady camapign to prevent gun violence,1
+northwest grocery association,nw grocery association,1
+international union of operating engineers,international unit of operating engineers,1
+lumbermens association of texas,lumbermans association of texas,1
+bf goodrich company,b f goodrich company,1
+telecommunications industry association,telecommunications industry assoc,1
+boat people sos,boat people sos inc,1
+california association of hospitals and health systems,california association of hospitals & health systems,1
+eastern associated coal corp,eastern associated coal,1
+national association of insurance brokers,national assoc of insurance broker,1
+knights of columbus,knights of columbus 12055,1
+aetna life insurance co,aetna insurance co,1
+operating engineers union local no 3,operating engineers local no 3,1
+pfizer inc,pfzer inc,1
+texas association of builders,"texas association of builders,",1
+abbott laboratories inc,abbott laboratories,1
+augusta chronicle,the augusta chronicle,1
+american civil liberties union foundation of san diego and imperial counties,american civil liberties union aclu san diego & imperial counties,1
+american civil liberties union of san diego and imperial counties,american civil liberties union aclu san diego & imperial counties,1
+pepsi bottling group inc,"the pepsi bottling group, inc",1
+qualcomm inc,qual comm inc,1
+united artists theater circuit inc,"united artists theatre circuit, inc",1
+american occupational therapy association,american occupational therapy association aota,1
+vietnam veterans of america,vietnam veterns of america,1
+tunica-biloxi tribe of louisiana,tunica biloxi indian tribe of louisiana,1
+liberty mutual group,liberty mutual group inc,1
+columbia river fishermen's protective union,columbia river fishermens protective union,1
+granite construction co,granite constuction,1
+sacramento county deputy sheriffs association,sacramento county deputy sheriff s assoc,1
+manufacturers hanover trust co,manufacturers hanover corp,1
+prairie island indian community,prarie island indian community,1
+coca-cola enterprises inc,"coca cola enterprises inc,",1
+california rifle and pistol association,california rifle & pistol association,1
+salt river valley water users association,salt river valley water users assn pic,1
+agua caliente band of cahuilla indians,agua caliente band of cahilla indians,1
+american federation of state county and municipal employees,"am federation of state, county & municipal employees",1
+national stone sand and gravel association,national stone sand & gravel association,1
+howard jarvis taxpayers association,howard jarvis taxpayer assoication,1
+pfizer inc,pifizer inc,1
+american federation of state county and municipal employees,"american federation of state county & municipal employees pac,",1
+naral pro choice oregon,naral pro-choice oreogn,1
+amalgamated transit union,amalga transit union,1
+virginia manufacturers association,virginia manufactures assoc,1
+duquesne light company,duquesne light co,1
+black women organized for political action,black women organized for pol action,1
+public affairs council,public affairs cons,1
+campaign for tobacco-free kids,campaign for tobacco free kids,1
+cosmetic toiletry and fragrance association,cosmetic toiletry & fragrance assn,1
+national association of independent insurers,national association of independent insurance,1
+roadway express inc,roadway express,1
+appalachian power co,appalachian power comm,1
+agua caliente band of cahuilla indians,agua claiente band of cahuilla indians,1
+california cable television association,california cable telecommunications association,1
+att services inc,at&t services inc,1
+standard insurance company,standard insurance co,1
+hoffmann-la roche inc,hoffman-la roche inc,1
+national conference of firemen and oilers,national conference of fireman & oilers,1
+national council of senior citizens,national council of senior cit inc,1
+association of oregon counties,association of oregon faculties,1
+american federation of state county and municipal employees,american federation of state county & municipal employees aflci,1
+spirit of freedom republican womens club,spirit of freedom republican women,1
+dell computer corp,dell computers corp,1
+winstar communications inc,winstar communications llc,1
+national restaurant association,national resturant association,1
+american consulting engineers council,american consulting engineers coun,1
+new york med college,new york medical college,1
+william morris agency,william morris agency inc,1
+national marine manufacturers association,national marine manufacturers assoc,1
+national association of letter carriers,p a l national association of letter carriers,1
+american college of emergency physicians,amer college of emerg physicians,1
+board of trade of the city of chicago,board of trade of city of chicago,1
+massachusetts gay and lesbian political caucus,massachusetts gay & lesbian political cmte,1
+service employees international union,service employees intnl union,1
+american federation of state county and municipal employees,"american federation of state county and municipal employees,",1
+american federation of state county and municipal employees,american federation of state county & muni empl,1
+california psychiatric association,ca psychiatric association,1
+sheet metal workers international association,sheet metal workers international assoc pal,1
+national association of mutual insurance companies,national assn of mutual insurance companies,1
+amalgamated transit union,amalgamated transit union loca,1
+san francisco aids foundation,the san francisco aids foundation,1
+cadwalader wickersham  taft,cadwalader wickershan & taft llp,1
+national association of chain drug stores,national association of chairug stores,1
+reed elsevier inc,reed elsevire inc,1
+texas instruments inc,texas instrument,1
+brady center to prevent gun violence,brady camapign to prevent gun violence,1
+national association of realtors,nevada association of realtors,1
+american federation of state county and municipal employees,american federation of state county & municipal employees afl ci,1
+georgia real estate investors association inc,ohio real estate investors association,1
+maine education association,omaha education association,1
+ohio education association,omaha education association,1
+illinois beef association,illinois beef assocation pec,1
+american land title association,wa land title association,1
+illinois society for clinical social work,california society for clinical social work,1
+texas association of builders,lv association of builders,1
+georgia-pacific co,georgia pacific corp,1
+manufactured housing communities of arizona ,manufactured housing communities of arizona,1
+american federation of teachers,american federation teachers 2121,1
+service employees international union,service employees international union workers,1
+american society of anesthesiologists,va society of anesthesioogists,1
+policemen's benevolent association local 167,policemens benevolent association local 197,1
+horsemen benevolent and protective association,horsemens benevolent protective association,1
+american association of nurse anesthetists,colorado association of nurse anesthetists,1
+american federation of teachers,american federation of teachers - cope,1
+save our wild salmon,save our salmon,1
+american association of school administrators,texas association of school administrators,1
+communications workers of america,communications workers of americacwa cope,1
