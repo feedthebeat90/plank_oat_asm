@@ -22,8 +22,8 @@ opensecrets_commenters_matched - A csv from Brian Libgober of OpenSecrets organi
 
 SEC_MEETING.xlsx - An excel file from Brian Libgober containing a potential application related to matching individual names rather than organization names. The main sheet indicates meetings held at the SEC and all the listed individuals at that meeting as well as the organizations they were affiliated with. The second sheet cleans up these organization names and links them to stock ticker symbols where applicable (also a potential application). The Name Correction v2 sheet, never completed, was meant to reformat individual names from the Main Sheet into a format searchable in a data base of all SEC employees taken from the Office of Personnel Management. 
 
-stringmatch_amicus.R - An R script implementing the fuzzy string matching algorithm for the amicus curiae data set and application
+XXX     stringmatch_amicus.R - An R script implementing the fuzzy string matching algorithm for the amicus curiae data set and application
 
 stringmatch_opensecrets.R - An incomplete R script implementing the fuzzy string matching algorithm for the OpenSecrets application
 
-trainingset_stringmatch.RData - An RData file identical to handcoded.csv 
+XXX     trainingset_stringmatch.RData - An RData file identical to handcoded.csv 
