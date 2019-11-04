@@ -26,7 +26,7 @@ class stringdist(FunctionTransformer):
         return X.apply(self.stringdist_wrap, axis=1)
 
 # %%
-def train_initial(x, y):
+def build_initial(x, y):
     matches = pd.concat([x, y], axis=1)
     matches['match'] = 1
     match_vec = x + '_' + y
@@ -57,7 +57,9 @@ def train_initial(x, y):
     train = pd.concat([matches, tmp_full])
     train[0] = train[0].str.lower()
     train[1] = train[1].str.lower()
+    return train
 
+def train(dataset):
     pipeline = Pipeline([('stringdist', stringdist()), ('forest', RandomForestClassifier())])
 
     #the actual model
@@ -67,7 +69,7 @@ def train_initial(x, y):
                        estimator = pipeline,
                        param_grid = parameters)
 
-    model = GSCV.fit(train[[0, 1]], train['match'])
+    model = GSCV.fit(dataset[[0, 1]], dataset['match'])
     return model
 
 def get_predictions(x, y, model, num_matches):
@@ -91,7 +93,6 @@ def ask_about_matches(match_pairs):
             results.append(1)
         elif match == 'n':
             results.append(0)
-
     return results
 
 # %%
