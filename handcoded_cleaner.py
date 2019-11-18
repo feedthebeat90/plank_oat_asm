@@ -24,7 +24,8 @@ total_set = set(amicus['amicus']).union(set(bonica['bonica']))
 
 # Read in handcoded subset (matches between amicus, bonica) and print initial stats
 handcoded = pd.read_csv('handcoded.csv')
-handcoded = handcoded.drop(['Unnamed: 0'], axis=1)
+# print(len(handcoded))
+# handcoded = handcoded.drop(['Unnamed: 0'], axis=1)
 handcoded['amicus'] = handcoded['amicus'].apply(lambda x: x.lower())
 handcoded['bonica'] = handcoded['bonica'].apply(lambda x: x.lower())
 handcoded_subset = set(handcoded['amicus']).union(set(handcoded['bonica']))
@@ -65,22 +66,31 @@ to_verify = []
 
 num = 1
 
-for i in bonica_strings[:30000]:
+for i in bonica_strings[:10000]:
     print(str(num)+'\t'+str(i))
     min_score = 85
-    max_score = -1
-    max_name = ''
+    # max_score = -1
+    # max_name = ''
     for j in amicus_strings:
         fuzzscore = fuzz.ratio(i,j)
-        if (fuzzscore > max_score) and (fuzzscore > min_score) and fuzzscore != 100:
-            max_score = fuzzscore
-            max_name = j
-            to_verify.append([str(i), str(max_name), str(max_score)])
+        if (fuzzscore >= min_score) and (fuzzscore != 100):
+            val = 1
+        else:
+            val = 0
+        to_verify.append([i, j, val, fuzzscore])
+
+        # if (fuzzscore > max_score) and (fuzzscore > min_score) and fuzzscore:
+        #     max_score = fuzzscore
+        #     max_name = j
+        #     to_verify.append([str(i), str(max_name), str(max_score)])
     num += 1
 
-to_verify_df = pd.DataFrame(to_verify, columns=['bonica', 'amicus', 'fuzzscore'])
-to_verify_df['match'] = np.nan
-to_verify_df.to_csv('to_verify.csv')
+# for row in to_verify:
+#     print(row)
+
+to_verify_df = pd.DataFrame(to_verify, columns=['bonica', 'amicus', 'match', 'fuzzscore'])
+# to_verify_df['match'] = np.nan
+to_verify_df.to_csv('samp.csv')
 
 # Check for stray handcoded strings, and confirm that strings come from correct sources
 # strays = []
