@@ -39,6 +39,7 @@ class MatchProgram():
         return self.unprocessed
 
     def preprocess(self):
+        ### YOUR CODE GOES HERE
         print("\nLen processed corpus: ")
         print("Stored as: processed.csv")
         # return self.processed
@@ -90,6 +91,7 @@ class MatchProgram():
         print(flat_test_df["Match"].value_counts())
 
     def train_match_interface(self):
+        ### YOUR CODE GOES HERE
         pass
 
     # .
@@ -97,6 +99,7 @@ class MatchProgram():
     # .
 
     def train(self):
+        ### YOUR CODE GOES HERE
         pass
 
     def run(self):
