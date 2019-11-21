@@ -72,7 +72,7 @@ def train(dataset):
     model = GSCV.fit(dataset[[0, 1]], dataset['match'])
     return model
 
-def get_predictions(model, num_matches):
+def get_predictions(model, num_matches, iter):
     # load unmatched strings and sample up to 20000
     # (to make 10000 pairs)
     strings = np.loadtxt('csvs/trainpool.csv', delimiter=',', skiprows=1)
