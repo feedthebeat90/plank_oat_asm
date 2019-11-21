@@ -72,8 +72,9 @@ def train(dataset):
     model = GSCV.fit(dataset[[0, 1]], dataset['match'])
     return model
 
-def get_predictions(x, y, model, num_matches):
-    pairs = np.array(np.meshgrid(x, y)).T.reshape(-1,2)
+def get_predictions(strings, model, num_matches):
+    n_samples = max(len(strings) - len(strings)%2, 20000)
+    pairs = np.random.choice(strings, n_samples, replace=False).reshape(-1,2)
     scores = model.predict_proba(pairs)
     ind = np.argpartition(scores, -num_matches)[-num_matches:]
     return (pairs[ind], scores[ind])
