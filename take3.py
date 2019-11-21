@@ -5,6 +5,10 @@ import random
 import os
 import io
 
+import sys
+sys.path.append("./")
+from tfidfmethod import StringMatch
+
 class MatchProgram():
 
     def __init__(self):
@@ -123,8 +127,16 @@ class MatchProgram():
         """
         Samples pairs from prelim tf-idf score bins and feeds to user via command line.
         """
-        ### YOUR CODE GOES HERE
-        pass
+        self.trainpool = pd.read_csv(self.datadir + "outputs/trainpool.csv")["UnprocessedStrings"].tolist()
+        print("\nPrelim tf-idf scoring...", end=" ")
+        prelim_tfidf = StringMatch(self.trainpool[:100], self.trainpool[:100], 1, 3, "word", 2)
+        prelim_tfidf.tokenize()
+        prelim_df = prelim_tfidf.match()
+        prelim_df = prelim_df[prelim_df["Score"] < 0.999]
+        prelim_df = prelim_df[["String1", "String2", "Score"]]
+        print("process complete.")
+        prelim_df.to_csv(self.datadir + 'outputs/scored_trainpool.csv')
+        print("Stored as: scored_trainpool.csv")
 
     # .
     # .

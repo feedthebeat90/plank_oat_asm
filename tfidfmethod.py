@@ -13,13 +13,14 @@ import sparse_dot_topn.sparse_dot_topn as ct
 # A class for matching one list of strings to another
 class StringMatch():
     
-    def __init__(self, source_names, target_names, ngram_lower, ngram_upper, analyzer):
+    def __init__(self, source_names, target_names, ngram_lower, ngram_upper, analyzer, ntop):
         self.source_names = source_names
         self.target_names = target_names
         self.ct_vect      = None
         self.ngram_lower = ngram_lower
         self.ngram_upper = ngram_upper
         self.analyzer = analyzer
+        self.ntop = ntop
         self.tfidf_vect   = None
         self.vocab        = None
         self.sprse_mtx    = None
@@ -39,7 +40,7 @@ class StringMatch():
         self.tfidf_vect  = TfidfVectorizer(vocabulary=self.vocab, analyzer=analyzer, ngram_range=(self.ngram_lower, self.ngram_upper))
         
         
-    def match(self, ntop=1, lower_bound=0, output_fmt='df'):
+    def match(self, lower_bound=0, output_fmt='df'):
         '''
         Main match function. Default settings return only the top candidate for every source string.
         
@@ -48,7 +49,7 @@ class StringMatch():
                                    Default set to 0, so consider all canidates
         :param str output_fmt: The output format. Either dataframe ('df') or dict ('dict')
         '''
-        self._awesome_cossim_top(ntop, lower_bound)
+        self._awesome_cossim_top(self.ntop, lower_bound)
         
         if output_fmt == 'df':
             match_output = self._make_matchdf()
@@ -99,7 +100,7 @@ class StringMatch():
             match_list.append((row, self.source_names[row], col, self.target_names[col], val))
 
         # List of tuples to dataframe
-        colnames = ['Row Idx', 'Title', 'Candidate Idx', 'Candidate Title', 'Score']
+        colnames = ['Row Idx', 'String1', 'Candidate Idx', 'String2', 'Score']
         match_df = pd.DataFrame(match_list, columns=colnames)
 
         return match_df
@@ -121,9 +122,9 @@ class StringMatch():
         return match_dict
 
 
-source_titles = pd.read_csv('csvs/bonica_orgs_reduced.csv')['x'].tolist()[:100]
-sourcedf = pd.DataFrame(source_titles, columns=['str1'])
-sourcedf.to_csv('csvs/mini_bonica.csv', index=False)
+# source_titles = pd.read_csv('csvs/bonica_orgs_reduced.csv')['x'].tolist()[:100]
+# sourcedf = pd.DataFrame(source_titles, columns=['str1'])
+# sourcedf.to_csv('csvs/mini_bonica.csv', index=False)
 # target_titles = pd.read_csv('csvs/amicus_org_names.csv')['x'].tolist()
 
 # titlematch = StringMatch(source_titles, target_titles, 1, 3, "word")
