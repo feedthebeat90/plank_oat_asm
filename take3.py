@@ -8,6 +8,9 @@ import io
 class MatchProgram():
 
     def __init__(self):
+        """
+        Grabs data directory and creates subdirectory for csv outputs.
+        """
         print("\n***** MatchProgram *****\n")
         self.datadir = input("Directory >> ")
         if not self.datadir.endswith("/"):
@@ -19,12 +22,19 @@ class MatchProgram():
             os.makedirs(self.datadir + "outputs/")
     
     def strip_file(self, fn):
+        """
+        Strips csv with single col of strs into set of strs.
+        (Called on each input file in load_files.)
+        """
         df = pd.read_csv(fn).select_dtypes(include="object")
         if len(df.columns) != 1:
             print("Make sure each file contains 1 column.")
         return [list(set(df[col].tolist())) for col in df][0]
 
     def load_files(self):
+        """
+        Creates set of all strs from all specified input files.
+        """
         allstrs = []
         fns = [self.datadir + fn for fn in input("Filenames >> ").split()]
         for fn in fns:
@@ -44,6 +54,9 @@ class MatchProgram():
         return self.unprocessed
 
     def preprocess(self):
+        """
+        Takes in unprocessed str set and outputs processed str set.
+        """
         ### YOUR CODE GOES HERE
         print("\nLen processed corpus: ")
         print("Stored as: processed.csv")
@@ -51,12 +64,20 @@ class MatchProgram():
         pass
 
     def grab_alph_chunk(self, l, n):
+        """
+        Alphabetizes lst, grabs random idx and creates contiguous chunk of size n.
+        (Called in provide_test_matrix.)
+        """
         start_idx = random.randint(0, len(l)-n-1)
         return sorted(l)[start_idx:start_idx+n]
 
     # once preprocess is written, 
     # replace refs to self.unprocessed with self.processed
     def provide_test_matrix(self):
+        """
+        Extracts set of test strs from processed str set (removes from full set),
+        Outputs empty csv matrix of size (num test strs x num test strs).
+        """
         # for now: hardcode self.testsize=36,
         #          figure out reasonable way to calculate
         #          as func of len(self.processed)
@@ -80,6 +101,9 @@ class MatchProgram():
         print("When you have labeled the full test set, rename file testmatrix_labeled.csv")
 
     def read_test_matrix(self):
+        """
+        Takes in labeled test str matrix and flattens into pairwise csv.
+        """
         test = pd.read_csv(self.datadir + "outputs/testmatrix_labeled.csv", index_col=0)
         if not list(np.unique(test)) == [0, 1]:
             print("Labels must be 0 or 1")
@@ -96,6 +120,9 @@ class MatchProgram():
         print(flat_test_df["Match"].value_counts())
 
     def train_match_interface(self):
+        """
+        Samples pairs from prelim tf-idf score bins and feeds to user via command line.
+        """
         ### YOUR CODE GOES HERE
         pass
 
@@ -104,10 +131,16 @@ class MatchProgram():
     # .
 
     def train(self):
+        """
+        Takes in labeled train pairs and create model.
+        """
         ### YOUR CODE GOES HERE
         pass
 
     def run(self):
+        """
+        Runs process from various steps depending on presence of output csvs.
+        """
         if not os.path.isfile(self.datadir + "outputs/testmatrix_labeled.csv"):
             self.load_files()
             self.preprocess()
