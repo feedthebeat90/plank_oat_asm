@@ -72,26 +72,24 @@ def train(dataset):
     model = GSCV.fit(dataset[[0, 1]], dataset['match'])
     return model
 
-def get_predictions(strings, model, num_matches):
-    n_samples = max(len(strings) - len(strings)%2, 20000)
-    pairs = np.random.choice(strings, n_samples, replace=False).reshape(-1,2)
+def get_predictions(model, num_matches):
+    # load unmatched strings and sample up to 20000
+    # (to make 10000 pairs)
+    strings = np.loadtxt('csvs/trainpool.csv', delimiter=',', skiprows=1)
+    n_samples = max(strings.shape[0] - strings.shape[0]%2, 20000)
+    samples = np.random.choice(strings, n_samples, replace=True)
+
+    # remove the samples from the unmatched string pool
+    # and resave trainpool.csv
+    strings = np.setdiff1d(strings, np.unique(samples))
+    # RESAVE strings TO csvs/trainpool.csv
+
+    # score the pairs and save to a csv for user to validate them
+    pairs = samples.reshape(-1,2)
     scores = model.predict_proba(pairs)
     ind = np.argpartition(scores, -num_matches)[-num_matches:]
-    return (pairs[ind], scores[ind])
-
-#the interface with the user who asks them whether the predicted matches
-#are actually a match. Returns a dictionary with keys that are the pairs
-#and values that are 1 or 0 if there is or is not a match
-def ask_about_matches(match_pairs):
-    results = []
-    for pair in match_pairs:
-        match = ''
-        while match != 'y' and match != 'n':
-            print(pair)
-            match = input("Do these match (y or n): ")
-
-        if match == 'y':
-            results.append(1)
-        elif match == 'n':
-            results.append(0)
-    return results
+    df = pd.DataFrame(data=np.hstack(pairs[ind], scores[ind].T), columns=['0', '1', 'score'])
+    df['match'] = ''
+    filename = 'csvs/labeled_' + str(iter) + '.csv'
+    df.to_csv(filename)
+    print('File ', filename, ' has been created. Validate results using the "match" column and continue with the next iteration.')
