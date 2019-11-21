@@ -24,7 +24,7 @@ class MatchProgram():
             self.__init__()
         if not os.path.exists(self.datadir + "outputs/"):
             os.makedirs(self.datadir + "outputs/")
-    
+
     def strip_file(self, fn):
         """
         Strips csv with single col of strs into set of strs.
@@ -75,7 +75,7 @@ class MatchProgram():
         start_idx = random.randint(0, len(l)-n-1)
         return sorted(l)[start_idx:start_idx+n]
 
-    # once preprocess is written, 
+    # once preprocess is written,
     # replace refs to self.unprocessed with self.processed
     def provide_test_matrix(self):
         """
@@ -94,7 +94,7 @@ class MatchProgram():
         self.teststrs = self.grab_alph_chunk(self.unprocessed, self.testsize)
         tmp_processed = pd.read_csv(self.datadir + "outputs/unprocessed.csv")
         tmp_processed = tmp_processed[~tmp_processed["UnprocessedStrings"].isin(self.teststrs)]
-        tmp_processed.to_csv(self.datadir + "outputs/trainpool.csv", index=False)
+        tmp_processed.to_csv(self.datadir + "outputs/trainpool.csv", index=False, header=False)
         testmatrix = np.empty((self.testsize, self.testsize))
         testmatrix[:] = np.nan
         testdf = pd.DataFrame(testmatrix, index=self.teststrs, columns=self.teststrs)

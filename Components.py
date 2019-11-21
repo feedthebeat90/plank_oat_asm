@@ -75,13 +75,14 @@ def train(dataset):
 def get_predictions(model, num_matches, iter):
     # load unmatched strings and sample up to 20000
     # (to make 10000 pairs)
-    strings = np.loadtxt('csvs/trainpool.csv', delimiter=',', skiprows=1)
+    strings = np.loadtxt('csvs/trainpool.csv')
     n_samples = max(strings.shape[0] - strings.shape[0]%2, 20000)
     samples = np.random.choice(strings, n_samples, replace=True)
 
     # remove the samples from the unmatched string pool
     # and resave trainpool.csv
     strings = np.setdiff1d(strings, np.unique(samples))
+    np.savetxt('csvs/trainpool.csv', strings)
     # RESAVE strings TO csvs/trainpool.csv
 
     # score the pairs and save to a csv for user to validate them
