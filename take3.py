@@ -7,9 +7,14 @@ import io
 
 class MatchProgram():
 
-    def __init__(self, datadir):
+    def __init__(self):
         print("\n***** MatchProgram *****\n")
-        self.datadir = datadir
+        self.datadir = input("Directory >> ")
+        if not self.datadir.endswith("/"):
+            self.datadir += "/"
+        if not os.path.exists(self.datadir):
+            print("Could not locate directory.")
+            self.__init__()
         if not os.path.exists(self.datadir + "outputs/"):
             os.makedirs(self.datadir + "outputs/")
     
@@ -115,5 +120,5 @@ class MatchProgram():
         print("\n************************\n")
 
 # --- Instantiate here --- #
-TestProgram = MatchProgram(datadir="csvs/")
+TestProgram = MatchProgram()
 TestProgram.run()
