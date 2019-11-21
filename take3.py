@@ -92,16 +92,23 @@ class MatchProgram():
     def train_match_interface(self):
         pass
 
+    # .
+    # .
+    # .
+
+    def train(self):
+        pass
+
     def run(self):
         if not os.path.isfile(self.datadir + "outputs/testmatrix_labeled.csv"):
             self.load_files()
             self.preprocess()
             self.provide_test_matrix()
-            self.run()
         else:
             print("Labeled test set identified")
             self.read_test_matrix()
             self.train_match_interface()
+            self.train()
         print("\n************************\n")
 
 # --- Instantiate here --- #
