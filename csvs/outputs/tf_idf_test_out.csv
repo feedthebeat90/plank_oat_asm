@@ -1,0 +1,201 @@
+,Row Idx,Title,Candidate Idx,Candidate Title,Score
+0,0,liquid transport inc,0,liquid transport inc,1.0000000000000004
+1,0,liquid transport inc,83,wright transp inc,0.44843443363191415
+2,1,berley industries inc,1,berley industries inc,0.9999999999999998
+3,1,berley industries inc,88,bel air distributors inc,0.37390635284486573
+4,2,allegheny cmte for affordable housing,2,allegheny cmte for affordable housing,0.9999999999999993
+5,2,allegheny cmte for affordable housing,59,foundation for ca community colleges,0.37498211115659114
+6,3,mccandlish kaine&grant,3,mccandlish kaine&grant,0.9999999999999999
+7,3,mccandlish kaine&grant,90,mcgrath smith & co inc,0.2677682392939253
+8,4,emas tampa inc,4,emas tampa inc,0.9999999999999998
+9,4,emas tampa inc,70,s & a telephone company,0.2774846376704133
+10,5,barter exchange television,5,barter exchange television,0.9999999999999999
+11,5,barter exchange television,33,barnhart & associates,0.29071219718524544
+12,6,allied quick print,6,allied quick print,1.0
+13,6,allied quick print,0,liquid transport inc,0.27872509081412083
+14,7,wpa partnership,7,wpa partnership,1.0000000000000002
+15,7,wpa partnership,34,taub partners llc,0.46383455410014196
+16,8,police benevolent association local 134,8,police benevolent association local 134,0.9999999999999998
+17,8,police benevolent association local 134,42,deberg & association,0.4201707649269128
+18,9,"frantz 070, peter a",9,"frantz 070, peter a",0.9999999999999999
+19,9,"frantz 070, peter a",82,"cosper 368, fred",0.21631032225511182
+20,10,"van liew, bradford",10,"van liew, bradford",1.0000000000000004
+21,10,"van liew, bradford",32,"van arnem, bridget",0.32819463359623974
+22,11,"benton lll, jess e",11,"benton lll, jess e",1.0000000000000002
+23,11,"benton lll, jess e",98,"simon m aval, esq a professional law corp",0.3138165925677441
+24,12,rainbow star nursery,12,rainbow star nursery,1.0
+25,12,rainbow star nursery,66,central park surgery center lp,0.2571976505205835
+26,13,thrifty check advance of mississippi inc,13,thrifty check advance of mississippi inc,0.9999999999999999
+27,13,thrifty check advance of mississippi inc,75,commitee to elect christopher fallon,0.27851560421116256
+28,14,hatchett dewalt & hatchett,14,hatchett dewalt & hatchett,1.0000000000000007
+29,14,hatchett dewalt & hatchett,40,lockhart & pettus inc,0.2875936158217066
+30,15,e c otillio llc,15,e c otillio llc,1.0000000000000002
+31,15,e c otillio llc,94,pamela e carlson od faao llc,0.3951788888143034
+32,16,brendamour group inc,16,brendamour group inc,1.0000000000000004
+33,16,brendamour group inc,39,duprees inc,0.25630638765720404
+34,17,rental stores,17,rental stores,1.0
+35,17,rental stores,73,brent king custom homes,0.3192443339171122
+36,18,camino real business development ltd,18,camino real business development ltd,0.9999999999999998
+37,18,camino real business development ltd,93,boardwalk development inc,0.49442240040002844
+38,19,john blake for senate,19,john blake for senate,1.0000000000000002
+39,19,john blake for senate,95,john r sutton & associates pa,0.4347153114245258
+40,20,watts wheel &iveline service,20,watts wheel &iveline service,1.0000000000000002
+41,20,watts wheel &iveline service,35,watkins ward & stafford,0.2753889018177774
+42,21,craig food enterprises inc,21,craig food enterprises inc,1.0
+43,21,craig food enterprises inc,92,wallingford eye care center,0.28852927009538964
+44,22,iv care of middle georgia,22,iv care of middle georgia,1.0000000000000002
+45,22,iv care of middle georgia,29,george teeny revocable trust,0.3722838025488327
+46,23,cates wholesale retail sales,23,cates wholesale retail sales,1.0
+47,23,cates wholesale retail sales,85,perry manufacturing sales,0.3447637298751133
+48,24,ar blue cross & blue shield,24,ar blue cross & blue shield,1.0
+49,24,ar blue cross & blue shield,52,louise & james arnold,0.26743822308437776
+50,25,gogo rocket llc,25,gogo rocket llc,1.0000000000000004
+51,25,gogo rocket llc,15,e c otillio llc,0.32163949218118487
+52,26,mallinak denice,26,mallinak denice,1.0
+53,26,mallinak denice,58,union of american physicians & dentists medical dentists medical action committee,0.28409573805136906
+54,27,kristi lins academy learning express,27,kristi lins academy learning express,0.9999999999999994
+55,27,kristi lins academy learning express,58,union of american physicians & dentists medical dentists medical action committee,0.2944019584349379
+56,28,cnc software inc,28,cnc software inc,1.0
+57,28,cnc software inc,89,libca inc,0.2789879335117064
+58,29,george teeny revocable trust,29,george teeny revocable trust,1.0000000000000007
+59,29,george teeny revocable trust,22,iv care of middle georgia,0.3722838025488327
+60,30,"nc nabb, rex p",30,"nc nabb, rex p",1.0000000000000002
+61,30,"nc nabb, rex p",74,mid plaza sixplex town & count,0.23396842474957927
+62,31,friends of marc brown,31,friends of marc brown,1.0000000000000002
+63,31,friends of marc brown,91,friends of robert mijac,0.5668175835259165
+64,32,"van arnem, bridget",32,"van arnem, bridget",0.9999999999999998
+65,32,"van arnem, bridget",10,"van liew, bradford",0.32819463359623974
+66,33,barnhart & associates,33,barnhart & associates,1.0000000000000004
+67,33,barnhart & associates,49,nzp associates,0.5180286130471491
+68,34,taub partners llc,34,taub partners llc,0.9999999999999997
+69,34,taub partners llc,7,wpa partnership,0.46383455410014196
+70,35,watkins ward & stafford,35,watkins ward & stafford,1.0000000000000002
+71,35,watkins ward & stafford,92,wallingford eye care center,0.3663894347322054
+72,36,rhode island education association,36,rhode island education association,0.9999999999999993
+73,36,rhode island education association,42,deberg & association,0.5214103651013848
+74,37,behemoth corp.,37,behemoth corp.,1.0
+75,37,behemoth corp.,90,mcgrath smith & co inc,0.28865418569622636
+76,38,knudson for assembly,38,knudson for assembly,1.0000000000000004
+77,38,knudson for assembly,80,taxpayers for rodger niello for assembly,0.5224641700685626
+78,39,duprees inc,39,duprees inc,0.9999999999999997
+79,39,duprees inc,1,berley industries inc,0.32797734992079725
+80,40,lockhart & pettus inc,40,lockhart & pettus inc,0.9999999999999999
+81,40,lockhart & pettus inc,33,barnhart & associates,0.35300956714059867
+82,41,tfrw iris fund,41,tfrw iris fund,1.0
+83,41,tfrw iris fund,86,bia hca texas good government fund,0.2946652345131713
+84,42,deberg & association,42,deberg & association,0.9999999999999999
+85,42,deberg & association,36,rhode island education association,0.5214103651013848
+86,43,aimpac,43,aimpac,1.0
+87,43,aimpac,4,emas tampa inc,0.2642318481665477
+88,44,kilohana lighting inc,44,kilohana lighting inc,1.0
+89,44,kilohana lighting inc,83,wright transp inc,0.36387056623008146
+90,45,raub law firm,45,raub law firm,1.0000000000000004
+91,45,raub law firm,72,bertain law firm,0.6399102198604942
+92,46,mirander inv,46,mirander inv,1.0000000000000002
+93,46,mirander inv,22,iv care of middle georgia,0.2350127103033905
+94,47,lattice communicatios,47,lattice communicatios,1.0
+95,47,lattice communicatios,59,foundation for ca community colleges,0.42931839918107767
+96,48,maloneysacy,48,maloneysacy,1.0000000000000002
+97,48,maloneysacy,85,perry manufacturing sales,0.1944746040233165
+98,49,nzp associates,49,nzp associates,1.0000000000000002
+99,49,nzp associates,56,sangamon associates,0.5442820261377135
+100,50,skyward investments ltd,50,skyward investments ltd,1.0
+101,50,skyward investments ltd,18,camino real business development ltd,0.3229506761084526
+102,51,smith galloway lyndall & futch,51,smith galloway lyndall & futch,1.0000000000000004
+103,51,smith galloway lyndall & futch,90,mcgrath smith & co inc,0.43283009459032257
+104,52,louise & james arnold,52,louise & james arnold,0.9999999999999998
+105,52,louise & james arnold,69,j & j mobile home park,0.2718880487943609
+106,53,angell real estate holdings llc,53,angell real estate holdings llc,1.0000000000000002
+107,53,angell real estate holdings llc,15,e c otillio llc,0.3364467420168004
+108,54,salt creek ltd,54,salt creek ltd,1.0
+109,54,salt creek ltd,64,hidden creek l c,0.49541219905625394
+110,55,mcgee oil co,55,mcgee oil co,0.9999999999999998
+111,55,mcgee oil co,90,mcgrath smith & co inc,0.3751515005355617
+112,56,sangamon associates,56,sangamon associates,1.0
+113,56,sangamon associates,49,nzp associates,0.5442820261377135
+114,57,cullen carsner seerden & cullen llp,57,cullen carsner seerden & cullen llp,0.9999999999999994
+115,57,cullen carsner seerden & cullen llp,64,hidden creek l c,0.3058757463173832
+116,58,union of american physicians & dentists medical dentists medical action committee,58,union of american physicians & dentists medical dentists medical action committee,0.9999999999999996
+117,58,union of american physicians & dentists medical dentists medical action committee,97,dairymen of america,0.40492149171649083
+118,59,foundation for ca community colleges,59,foundation for ca community colleges,1.0000000000000004
+119,59,foundation for ca community colleges,84,foundation consultants,0.5090479989078119
+120,60,bohannen huston inc,60,bohannen huston inc,1.0
+121,60,bohannen huston inc,44,kilohana lighting inc,0.31676615784498496
+122,61,otkm construction inc,61,otkm construction inc,0.9999999999999998
+123,61,otkm construction inc,84,foundation consultants,0.34342602995800214
+124,62,virginia rest eqp sup corp,62,virginia rest eqp sup corp,1.0000000000000004
+125,62,virginia rest eqp sup corp,98,"simon m aval, esq a professional law corp",0.3265799323102505
+126,63,"east texas asphalt co. ltd.,",63,"east texas asphalt co. ltd.,",0.9999999999999999
+127,63,"east texas asphalt co. ltd.,",54,salt creek ltd,0.3565199780844534
+128,64,hidden creek l c,64,hidden creek l c,1.0
+129,64,hidden creek l c,54,salt creek ltd,0.49541219905625394
+130,65,19 e van cortlandt associates llc,65,19 e van cortlandt associates llc,1.0000000000000007
+131,65,19 e van cortlandt associates llc,33,barnhart & associates,0.43265897553498756
+132,66,central park surgery center lp,66,central park surgery center lp,1.0
+133,66,central park surgery center lp,92,wallingford eye care center,0.4204953505144232
+134,67,"tunanidas pantelis, amelia g",67,"tunanidas pantelis, amelia g",1.0000000000000002
+135,67,"tunanidas pantelis, amelia g",94,pamela e carlson od faao llc,0.26813922301813564
+136,68,big rock trading post partners,68,big rock trading post partners,1.0000000000000004
+137,68,big rock trading post partners,34,taub partners llc,0.4482467446366333
+138,69,j & j mobile home park,69,j & j mobile home park,1.0
+139,69,j & j mobile home park,95,john r sutton & associates pa,0.2933686272469376
+140,70,s & a telephone company,70,s & a telephone company,1.0
+141,70,s & a telephone company,75,commitee to elect christopher fallon,0.3092576797636304
+142,71,glenn m fox insurance,71,glenn m fox insurance,0.9999999999999998
+143,71,glenn m fox insurance,96,linebarger goggan blair penna & simpson,0.2434473399001784
+144,72,bertain law firm,72,bertain law firm,1.0000000000000002
+145,72,bertain law firm,45,raub law firm,0.6399102198604942
+146,73,brent king custom homes,73,brent king custom homes,1.0000000000000002
+147,73,brent king custom homes,17,rental stores,0.3192443339171122
+148,74,mid plaza sixplex town & count,74,mid plaza sixplex town & count,1.0000000000000004
+149,74,mid plaza sixplex town & count,98,"simon m aval, esq a professional law corp",0.27037618959076815
+150,75,commitee to elect christopher fallon,75,commitee to elect christopher fallon,0.9999999999999992
+151,75,commitee to elect christopher fallon,58,union of american physicians & dentists medical dentists medical action committee,0.3472965692868193
+152,76,albion peace community,76,albion peace community,1.0
+153,76,albion peace community,59,foundation for ca community colleges,0.5069560150992323
+154,77,"brazeau brown, mary",77,"brazeau brown, mary",1.0000000000000002
+155,77,"brazeau brown, mary",31,friends of marc brown,0.4204657614082517
+156,78,"jason & westberg, hilliard",78,"jason & westberg, hilliard",1.0000000000000002
+157,78,"jason & westberg, hilliard",42,deberg & association,0.33177002106303843
+158,79,"van konynenburg, paul",79,"van konynenburg, paul",0.9999999999999999
+159,79,"van konynenburg, paul",32,"van arnem, bridget",0.25414593909941036
+160,80,taxpayers for rodger niello for assembly,80,taxpayers for rodger niello for assembly,1.0000000000000004
+161,80,taxpayers for rodger niello for assembly,38,knudson for assembly,0.5224641700685626
+162,81,savo llc,81,savo llc,1.0
+163,81,savo llc,15,e c otillio llc,0.39491393681444215
+164,82,"cosper 368, fred",82,"cosper 368, fred",1.0
+165,82,"cosper 368, fred",9,"frantz 070, peter a",0.21631032225511182
+166,83,wright transp inc,83,wright transp inc,1.0000000000000002
+167,83,wright transp inc,0,liquid transport inc,0.44843443363191415
+168,84,foundation consultants,84,foundation consultants,0.9999999999999999
+169,84,foundation consultants,59,foundation for ca community colleges,0.5090479989078119
+170,85,perry manufacturing sales,85,perry manufacturing sales,1.0
+171,85,perry manufacturing sales,23,cates wholesale retail sales,0.3447637298751133
+172,86,bia hca texas good government fund,86,bia hca texas good government fund,1.0000000000000004
+173,86,bia hca texas good government fund,41,tfrw iris fund,0.2946652345131713
+174,87,sunnyvale historical society,87,sunnyvale historical society,1.0000000000000004
+175,87,sunnyvale historical society,58,union of american physicians & dentists medical dentists medical action committee,0.3212549461518641
+176,88,bel air distributors inc,88,bel air distributors inc,1.0000000000000004
+177,88,bel air distributors inc,1,berley industries inc,0.37390635284486573
+178,89,libca inc,89,libca inc,0.9999999999999999
+179,89,libca inc,44,kilohana lighting inc,0.3043814547270333
+180,90,mcgrath smith & co inc,90,mcgrath smith & co inc,1.0000000000000002
+181,90,mcgrath smith & co inc,51,smith galloway lyndall & futch,0.43283009459032257
+182,91,friends of robert mijac,91,friends of robert mijac,0.9999999999999999
+183,91,friends of robert mijac,31,friends of marc brown,0.5668175835259165
+184,92,wallingford eye care center,92,wallingford eye care center,0.9999999999999997
+185,92,wallingford eye care center,66,central park surgery center lp,0.4204953505144232
+186,93,boardwalk development inc,93,boardwalk development inc,0.9999999999999999
+187,93,boardwalk development inc,18,camino real business development ltd,0.49442240040002844
+188,94,pamela e carlson od faao llc,94,pamela e carlson od faao llc,0.9999999999999997
+189,94,pamela e carlson od faao llc,15,e c otillio llc,0.3951788888143034
+190,95,john r sutton & associates pa,95,john r sutton & associates pa,1.0000000000000004
+191,95,john r sutton & associates pa,33,barnhart & associates,0.4915331324479043
+192,96,linebarger goggan blair penna & simpson,96,linebarger goggan blair penna & simpson,1.0000000000000004
+193,96,linebarger goggan blair penna & simpson,98,"simon m aval, esq a professional law corp",0.30429466889261547
+194,97,dairymen of america,97,dairymen of america,1.0000000000000002
+195,97,dairymen of america,58,union of american physicians & dentists medical dentists medical action committee,0.40492149171649083
+196,98,"simon m aval, esq a professional law corp",98,"simon m aval, esq a professional law corp",0.9999999999999996
+197,98,"simon m aval, esq a professional law corp",62,virginia rest eqp sup corp,0.3265799323102505
+198,99,"bancou segal, marielle",99,"bancou segal, marielle",1.0000000000000002
+199,99,"bancou segal, marielle",11,"benton lll, jess e",0.2576810307449121
