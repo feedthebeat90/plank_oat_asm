@@ -57,15 +57,23 @@ class MatchProgram():
         print("Stored as: unprocessed.csv")
         return self.unprocessed
 
-    def preprocess(self):
-        """
-        Takes in unprocessed str set and outputs processed str set.
-        """
-        ### YOUR CODE GOES HERE
+    def preprocess(self, str_lst):
+    """
+    Takes in unprocessed str set and outputs processed str set.
+    """
+        str_set = list(set(str_lst)
+        str_set = [x.lower() for x in str_set]
+
+        to_be_removed = [",",'"', "_", "-"]
+        for char in to_be_removed:
+            str_set = [x.replace(char,'') for x in str_set]
+
+        to_be_saved = pd.DataFrame(str_set)
+        to_be_saved.to_csv('processed.csv')
+
         print("\nLen processed corpus: ")
         print("Stored as: processed.csv")
-        # return self.processed
-        pass
+        return str_set
 
     def grab_alph_chunk(self, l, n):
         """
