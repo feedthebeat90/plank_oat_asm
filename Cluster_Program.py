@@ -6,7 +6,9 @@ import math
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.cluster import KMeans
+from sklearn.cluster import MiniBatchKMeans
 from scipy.sparse import hstack
+import time
 
 class ClusterProgram():
     
@@ -20,31 +22,79 @@ class ClusterProgram():
             df = pd.read_csv(file_path)
             df.columns = ['id', 'words']
             output += list(df['words'])
+        
+        #gets rid of exact matches and randomly shuffles list
+        output = list(set(output))
+        random.shuffle(output)
+        
+        #setting aside some terms for testing
+        self.test_set = output[:20]
+        
+        #self.dataset is the whole training set
+        self.dataset = output[20:]
+        
+        split_num = math.ceil(len(self.dataset)/2)
+        
+        self.batches = []
+        
+        for i in range(2):
+            if split_num*(i+1) < len(output):
+                self.batches.append(output[int(i*split_num):int(split_num*(i+1))])
+            else:
+                self.batches.append(output[int(i*split_num):])
+        
             
-        self.dataset = output
         self.num_clusters = num_clusters
+        self.indicator = ''
+        self.clusters = {}
+        self.models = {}
     
     #all cluster functions cluster self.data, a list of words
+    def ask_about_indicator(self):
+        indicator = self.indicator
+        while indicator != 'y' and indicator != 'n':
+            indicator = input("will you be trying to match many mis-spelled words? (y or n): ")
+
+        if indicator == 'y':
+            self.indicator = 'char'
+        elif indicator == 'n':
+            self.indicator = 'word'
     
-    def Tfidf_word_cluster(self):
-        print('Vectorizing by word tfidf...')
-        Tfidf_Vectorizer = TfidfVectorizer(ngram_range=(0,1), binary=True)
-        Tfidf_Vectorizer.fit(self.dataset)
-
-        print('Vectorizing by character count...')
-        Count_Vectorizer = CountVectorizer(ngram_range=(4,4), binary=False, analyzer='char')
-        Count_Vectorizer.fit(self.dataset)
-
-        Tfidf_words = 2*Tfidf_Vectorizer.transform(self.dataset)
-        count_chars = Count_Vectorizer.transform(self.dataset)
+    def Cluster(self):
+        self.ask_about_indicator()
         
-        print('Concatenating word and character vectors')
-        all_features = hstack((Tfidf_words, count_chars))
-
-        print('Starting K-means Model')
-        k_means = KMeans(n_clusters = self.num_clusters,init='k-means++', n_init=10, precompute_distances='auto').fit(all_features)
-
-        clustered_words = pd.DataFrame({'word':test_df['words'],'label':k_means.labels_})
-        sorted_clusters = clustered_words.sort_values(['label'])
+        n_clusters = math.floor(self.num_clusters/2)
         
-        return sorted_clusters
+        if self.indicator == 'word':
+            print('Vectorizing by word tfidf...')
+            Vectorizer = TfidfVectorizer(ngram_range=(1,1))
+            Vectorizer.fit(self.dataset)
+
+        elif self.indicator == 'char':
+            print('Vectorizing by character count...')
+            Vectorizer = CountVectorizer(ngram_range=(4,4), binary=False, analyzer='char')
+            Vectorizer.fit(self.dataset)
+        
+    
+        batch_index = 0
+ 
+        for batch in self.batches[:3]:
+            print(len(batch))
+            start_time = time.time()
+            batch_index += 1
+            print('Vectorizing Batch', batch_index, '...')
+            features = Vectorizer.transform(batch)
+
+            print('Starting K-means Model for Batch', batch_index, '...')
+            k_means = MiniBatchKMeans(n_clusters=n_clusters,batch_size=1000).fit(features)
+
+            clustered_words = pd.DataFrame({'word':batch,'label':k_means.labels_})
+            #sorted_clusters = clustered_words.sort_values(['label'])
+            print('Storing clusters for Batch', batch_index, '...')
+            print('')
+            print('Batch', batch_index, 'took ', time.time()-start_time,'seconds')
+            self.clusters[batch_index] = clustered_words
+            self.models[batch_index] = k_means
+        
+    
+    
