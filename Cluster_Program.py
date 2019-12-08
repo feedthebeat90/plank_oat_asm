@@ -12,44 +12,44 @@ import time
 
 class ClusterProgram():
     
-    def __init__(self, num_clusters, *argv):
+    def __init__(self, *argv):
         """
         takes in a list of csv paths and concatenates them
         """
         print("\n***** ClusterProgram *****\n")
+        
+        #concatenates all datasets into one long list
+        print('Reading in files...')
         output = []
         for file_path in argv:
             df = pd.read_csv(file_path)
             df.columns = ['id', 'words']
             output += list(df['words'])
         
-        #gets rid of exact matches and randomly shuffles list
+        #gets rid of exact matches, changes all to lower case, and randomly shuffles list
+        print('preprocessing terms...')
         output = list(set(output))
+        output = [x.lower() for x in output]
         random.shuffle(output)
         
-        #setting aside some terms for testing
-        self.test_set = output[:20]
-        
+
         #self.dataset is the whole training set
-        self.dataset = output[20:]
+        self.dataset = output
         
-        split_num = math.ceil(len(self.dataset)/2)
+        #self.Vectorizer is the type of Vectorizer we will use to transform the data
+        self.Vectorizer = None 
         
+        #Indicates whether to use a character count vectorizer or a word tfidf vectorizer
+        self.indicator = ''
+        
+        #Will be used during clustering
         self.batches = []
         
-        for i in range(2):
-            if split_num*(i+1) < len(output):
-                self.batches.append(output[int(i*split_num):int(split_num*(i+1))])
-            else:
-                self.batches.append(output[int(i*split_num):])
-        
-            
-        self.num_clusters = num_clusters
-        self.indicator = ''
+        #Will be the final way we store the clusters
         self.clusters = {}
-        self.models = {}
     
-    #all cluster functions cluster self.data, a list of words
+    #Function which asks the user whether there are many mispelled words in the dataset.  If there are
+    #we will use the character based Vectorizer, if not we use the word-based vectorizer.
     def ask_about_indicator(self):
         indicator = self.indicator
         while indicator != 'y' and indicator != 'n':
@@ -60,41 +60,133 @@ class ClusterProgram():
         elif indicator == 'n':
             self.indicator = 'word'
     
-    def Cluster(self):
-        self.ask_about_indicator()
+    #Function which breaks down dataset into batches each with less than 100,000 terms by continuously
+    #clustering the data into two groups, then splitting each of those groups ect.
+    def get_smaller_clusters(self, batch):
         
-        n_clusters = math.floor(self.num_clusters/2)
+        #base case
+        if len(batch) < 100000:
+            self.batches.append(batch)
+            if len(self.batches)%25 == 0:
+                print('data has been broken into', len(self.batches), 'batches ...')
+                
+        #recursive step
+        else:
+            features = self.Vectorizer.transform(batch)
+            k_means = MiniBatchKMeans(n_clusters=2,batch_size=1000).fit(features)
+    
+            df = pd.DataFrame({'label':k_means.labels_ , 'terms': batch})
+            cluster1 = list(df.loc[df['label'] == 0]['terms'])
+            cluster2 = list(df.loc[df['label'] == 1]['terms'])
+            
+            self.get_smaller_clusters(cluster1)
+            self.get_smaller_clusters(cluster2)
+            
+    #Function which initializes the vectorizer, fits it, and then calls get_smaller_clusters in order to
+    #break the data set into smaller batches
+    def update_batches(self):
+        self.ask_about_indicator()
         
         if self.indicator == 'word':
             print('Vectorizing by word tfidf...')
-            Vectorizer = TfidfVectorizer(ngram_range=(1,1))
-            Vectorizer.fit(self.dataset)
+            self.Vectorizer = TfidfVectorizer(ngram_range=(1,1))
+            self.Vectorizer.fit(self.dataset)
 
         elif self.indicator == 'char':
             print('Vectorizing by character count...')
-            Vectorizer = CountVectorizer(ngram_range=(4,4), binary=False, analyzer='char')
-            Vectorizer.fit(self.dataset)
-        
+            self.Vectorizer = CountVectorizer(ngram_range=(4,4), binary=False, analyzer='char')
+            self.Vectorizer.fit(self.dataset)
+            
+        self.get_smaller_clusters(self.dataset)
     
+    
+    #Once we have called update_batches, we call get_clusters which clusters each of the batches.
+    #If the batch is less than 15 terms, it will leave it alone.  If it is more, it will cluster it
+    #with a number centers proportional to the batch size, or a max of 1500 centers
+    def get_clusters(self):
+
         batch_index = 0
- 
-        for batch in self.batches[:3]:
-            print(len(batch))
-            start_time = time.time()
+        for batch in myCluster.batches:
             batch_index += 1
-            print('Vectorizing Batch', batch_index, '...')
-            features = Vectorizer.transform(batch)
+            print(batch_index)
+            print('##################')
+            if len(batch) <= 15:
+                self.clusters[batch_index] = pd.DataFrame({'term':batch, 'label': np.zeros(len(batch))})
+            else:
+                n_clusters = math.ceil(len(batch)/15)
+                if n_clusters > 1500:
+                    n_clusters = 1500
+                batch_size = math.floor(len(batch)/10)
+                features = self.Vectorizer.transform(batch)
+                print('clustering batch of size', len(batch), 'with', n_clusters, 'centers')
+                start_time = time.time()
+                k_means = MiniBatchKMeans(n_clusters=n_clusters,batch_size=batch_size).fit(features)
+                print('fitting took', start_time - time.time(), 'seconds')
+                print('')
 
-            print('Starting K-means Model for Batch', batch_index, '...')
-            k_means = MiniBatchKMeans(n_clusters=n_clusters,batch_size=1000).fit(features)
+                self.clusters[batch_index] = pd.DataFrame({'term': batch, 'label': k_means.labels_})
+    
+    #once we have clustered all the terms, find_other_terms_in_label takes in a term and 
+    #outputs a list of all the terms it was clustered with
+    def find_other_terms_in_label(self, term):
+        for batch_num in self.clusters.keys():
+            this_batch = self.clusters[batch_num]
+            term_row = list(this_batch.loc[this_batch['term'] == term]['label'])
+            if len(term_row) > 0:
+                label = term_row[0]
+                return list(this_batch.loc[this_batch['label'] == label]['term'])
+        return None
+                
 
-            clustered_words = pd.DataFrame({'word':batch,'label':k_means.labels_})
-            #sorted_clusters = clustered_words.sort_values(['label'])
-            print('Storing clusters for Batch', batch_index, '...')
-            print('')
-            print('Batch', batch_index, 'took ', time.time()-start_time,'seconds')
-            self.clusters[batch_index] = clustered_words
-            self.models[batch_index] = k_means
         
+        
+#Function which returns the precision and recall of the ClusteringProgram
+def evaluate(test_set_path, myCluster):
+    fn = 0
+    fp = 0
+    tn = 0
+    tp = 0
     
     
+    test_df = pd.read_csv(test_set_path)
+    test_df = test_df.drop(['Unnamed: 0'], axis=1)
+    test_terms = test_df.columns
+    test_matrix = np.array(test_df)
+    
+    for i in range(test_matrix.shape[0]):
+        term1 = test_terms[i]
+        i_terms = myCluster.find_other_terms_in_label(term1, myCluster.clusters)
+        for j in range(test_matrix.shape[1]):
+            if i > j:
+                true_match_indicator = test_matrix[i][j]
+                term2 = test_terms[j]
+                predicted_match_indicator = 1*(term2 in i_terms)
+                
+                if true_match_indicator == 0 and predicted_match_indicator == 0:
+                    tn += 1
+                elif true_match_indicator == 0 and predicted_match_indicator == 1:
+                    print('')
+                    print('false positive:')
+                    print('term 1:', term1, 'term 2:', term2)
+                    print('')
+                    fp += 1
+                elif true_match_indicator == 1 and predicted_match_indicator == 0:
+                    fn += 1
+                elif true_match_indicator == 1 and predicted_match_indicator == 1:
+                    print('')
+                    print('true positive:')
+                    print('term 1:', term1, 'term 2:', term2)
+                    print('')
+                    tp += 1
+                    
+    precision = tp/(tp + fp)
+    recall = tp/(tp + fn)
+                
+    return precision, recall
+
+myCluster = ClusterProgram('csvs/amicus_org_names.csv', 'csvs/bonica_org_names.csv')
+myCluster.update_batches()
+myCluster.get_clusters()
+precision,recall = evaluate(test_set_path, myCluster)
+print('precision:', precision)
+print('recall:', recall)
