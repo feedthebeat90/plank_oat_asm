@@ -166,12 +166,12 @@ def evaluate(test_set_path, myCluster):
                 if true_match_indicator == 0 and predicted_match_indicator == 0:
                     tn += 1
                 elif true_match_indicator == 0 and predicted_match_indicator == 1:
-                    print('')
-                    print('false positive:')
-                    print('term 1:', term1, 'term 2:', term2)
-                    print('')
                     fp += 1
                 elif true_match_indicator == 1 and predicted_match_indicator == 0:
+                    print('')
+                    print('false negative:')
+                    print('term 1:', term1, 'term 2:', term2)
+                    print('')
                     fn += 1
                 elif true_match_indicator == 1 and predicted_match_indicator == 1:
                     print('')
