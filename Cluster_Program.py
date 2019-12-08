@@ -96,7 +96,8 @@ class ClusterProgram():
             print('Vectorizing by character count...')
             self.Vectorizer = CountVectorizer(ngram_range=(4,4), binary=False, analyzer='char')
             self.Vectorizer.fit(self.dataset)
-            
+        
+        print('breaking down data into batches...')
         self.get_smaller_clusters(self.dataset)
     
     
@@ -188,5 +189,7 @@ myCluster = ClusterProgram('csvs/amicus_org_names.csv', 'csvs/bonica_org_names.c
 myCluster.update_batches()
 myCluster.get_clusters()
 precision,recall = evaluate(test_set_path, myCluster)
+print('')
+print('##################################')
 print('precision:', precision)
 print('recall:', recall)
