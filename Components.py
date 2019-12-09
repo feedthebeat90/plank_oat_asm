@@ -1,30 +1,38 @@
 # %%
+# This file includes the component functions to run the matching algorithm when the initial training set, unmatched string pool, and test set are available.
+import os
 import numpy as np
 import pandas as pd
 import textdistance
 from itertools import product
 
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.model_selection import GridSearchCV
+from sklearn.model_selection import GridSearchCV, train_test_split
 from sklearn.metrics import accuracy_score
 from sklearn.preprocessing import FunctionTransformer
 from sklearn.pipeline import Pipeline
 
 class stringdist(FunctionTransformer):
     # def __init__(self, methods=[textdistance.cosine, textdistance.jaccard]):
-    def __init__(self, methods=[textdistance.cosine, textdistance.jaccard, textdistance.sorensen, textdistance.tversky, textdistance.tanimoto]):
+    def __init__(self, methods=[textdistance.cosine, textdistance.jaccard, textdistance.sorensen, textdistance.tversky, textdistance.levenshtein]):
         self.methods = methods
 
     def stringdist_wrap(self, row):
         a, b = row[[0, 1]]
         out = pd.Series([m.distance(a, b) for m in self.methods])
+        if np.any(np.isinf(out.values)):
+            print(a, '---', b)
+            print(out)
         return out
 
     def fit(self, X, y):
         return self
 
     def transform(self, X):
-        return X.apply(self.stringdist_wrap, axis=1)
+        #print(X)
+        #print(X.apply(self.stringdist_wrap, axis=1))
+        res = X.apply(self.stringdist_wrap, axis=1)
+        return res
 
 # %%
 def build_initial(x, y):
@@ -57,40 +65,65 @@ def build_initial(x, y):
     train = pd.concat([matches, tmp_full])
     train[0] = train[0].str.lower()
     train[1] = train[1].str.lower()
+    train.to_csv('partitioned/train.csv')
     return train
+
+# %%
+# Combines the initial training set with the batches of human labeled
+# examples from prior loops (stored at the given path)
+def build_full(dataset):
+    dfs = [dataset]
+    for item in os.listdir('partitioned'):
+        if item.isdigit():
+            for filename in 'partitioned/' + item:
+                if filename.endswith('.csv'):
+                    dfs.append(pd.read_csv(path + filename))
+                    break
+    fulldf = pd.concat(dfs)
+    return fulldf
 
 def train(dataset):
     pipeline = Pipeline([('stringdist', stringdist()), ('forest', RandomForestClassifier())])
 
     #the actual model
-    parameters = {'forest__max_depth': [2,3,4]}
+    parameters = {
+        'forest__max_depth': [5, 10, 20],
+        'forest__n_estimators': [10, 50, 100, 200]
+        }
 
     GSCV = GridSearchCV(cv = 5,
                        estimator = pipeline,
-                       param_grid = parameters)
+                       param_grid = parameters,
+                       verbose = 1)
 
-    model = GSCV.fit(dataset[[0, 1]], dataset['match'])
+    model = GSCV.fit(dataset[['0','1']], dataset['match'])
     return model
 
-def get_predictions(model, num_matches, iter):
+def get_predictions(model, num_candidates, num_matches, iter):
     # load unmatched strings and sample up to 20000
     # (to make 10000 pairs)
-    strings = np.loadtxt('csvs/trainpool.csv')
-    n_samples = max(strings.shape[0] - strings.shape[0]%2, 20000)
-    samples = np.random.choice(strings, n_samples, replace=True)
+    strings = pd.read_csv('partitioned/trainpool.csv')
+    #print(strings.head())
+    n_samples = min(strings.shape[0] - strings.shape[0]%2, num_candidates)
+    pool, samples = train_test_split(strings, test_size=n_samples)
 
     # remove the samples from the unmatched string pool
     # and resave trainpool.csv
-    strings = np.setdiff1d(strings, np.unique(samples))
-    np.savetxt('csvs/trainpool.csv', strings)
+    pool.to_csv('partitioned/trainpool.csv', index=False)
     # RESAVE strings TO csvs/trainpool.csv
 
     # score the pairs and save to a csv for user to validate them
-    pairs = samples.reshape(-1,2)
-    scores = model.predict_proba(pairs)
+    pairs = samples['0'].values.reshape(-1,2)
+    pairs = pd.DataFrame(data=pairs, columns=['0', '1'])
+    #print(pairs.head())
+    preds = model.predict_proba(pairs)
+    scores = preds[:,0]
+    #print(scores[0:5])
     ind = np.argpartition(scores, -num_matches)[-num_matches:]
-    df = pd.DataFrame(data=np.hstack(pairs[ind], scores[ind].T), columns=['0', '1', 'score'])
+    pairs['score'] = scores
+    df = pairs.iloc[ind]
     df['match'] = ''
-    filename = 'csvs/labeled_' + str(iter) + '.csv'
-    df.to_csv(filename)
+    filename = 'partitioned/' + str(iter) + '/labeled.csv'
+    os.makedirs('partitioned/' + str(iter))
+    df.to_csv(filename, index=False)
     print('File ', filename, ' has been created. Validate results using the "match" column and continue with the next iteration.')

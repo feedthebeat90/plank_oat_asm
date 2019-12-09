@@ -1,15 +1,11 @@
 # %%
-import components
+from components import *
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import confusion_matrix
 from fuzzywuzzy import fuzz
 from sklearn.base import BaseEstimator
-
-# %%
-amicus = pd.read_csv('amicus_org_names.csv')['x']
-bonica = pd.read_csv('bonica_orgs_reduced.csv')['x']
 
 # %%
 traindf = pd.read_csv('handcoded.csv')
