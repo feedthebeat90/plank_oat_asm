@@ -88,33 +88,29 @@ def train(dataset):
     #the actual model
     parameters = {
         'forest__max_depth': [5, 10, 20],
-        'forest__n_estimators': [10, 50, 100, 200]
+        'forest__n_estimators': [10, 50, 100]
         }
 
     GSCV = GridSearchCV(cv = 5,
                        estimator = pipeline,
                        param_grid = parameters,
-                       verbose = 1)
+                       verbose = 2)
 
     model = GSCV.fit(dataset[['0','1']], dataset['match'])
     return model
 
-def get_predictions(model, num_candidates, num_matches, iter):
-    # load unmatched strings and sample up to 20000
-    # (to make 10000 pairs)
-    strings = pd.read_csv('partitioned/trainpool.csv')
-    #print(strings.head())
-    n_samples = min(strings.shape[0] - strings.shape[0]%2, num_candidates)
-    pool, samples = train_test_split(strings, test_size=n_samples)
+def get_predictions(model, num_candidates, iter):
+    bonica = pd.read_csv('csvs/bonica_orgs_reduced.csv')
+    amicus = pd.read_csv('csvs/amicus_org_names.csv')
+    bonica_sample = bonica[num_candidates*(iter-1): num_candidates*(iter)]
 
-    # remove the samples from the unmatched string pool
-    # and resave trainpool.csv
-    pool.to_csv('partitioned/trainpool.csv', index=False)
-    # RESAVE strings TO csvs/trainpool.csv
+    pairs = pd.DataFrame(list(product(amicus['amicus'].values, bonica_sample['bonica'].values)), columns=['0', '1'])
+
+    print('Compiled ', pairs.shape[0], ' pairs from unmatched data. Now finding most probable match candidates...')
 
     # score the pairs and save to a csv for user to validate them
-    pairs = samples['0'].values.reshape(-1,2)
-    pairs = pd.DataFrame(data=pairs, columns=['0', '1'])
+    #pairs = samples['0'].values.reshape(-1,2)
+    #pairs = pd.DataFrame(data=pairs, columns=['0', '1'])
     #print(pairs.head())
     preds = model.predict_proba(pairs)
     scores = preds[:,0]

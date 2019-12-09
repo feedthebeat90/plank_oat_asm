@@ -10,10 +10,10 @@ for item in os.listdir('partitioned'):
         if int(item) > iter:
             iter = int(item)
 iter += 1
-print(iter)
+print('Running iteration: ', iter)
 
 dataset = pd.read_csv('partitioned/train.csv')
 fulldf = build_full(dataset)
 model = train(fulldf)
 #print(model.cv_results_)
-get_predictions(model, 400000, 100, iter)
+get_predictions(model, 500, iter)
