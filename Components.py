@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 import textdistance
 from itertools import product
-import json
+import pickle
 
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import GridSearchCV, train_test_split
@@ -15,15 +15,12 @@ from sklearn.pipeline import Pipeline
 
 class stringdist(FunctionTransformer):
     # def __init__(self, methods=[textdistance.cosine, textdistance.jaccard]):
-    def __init__(self, methods=[textdistance.cosine, textdistance.jaccard, textdistance.lcsstr, textdistance.tversky, textdistance.levenshtein]):
+    def __init__(self, methods=[textdistance.cosine, textdistance.lcsstr, textdistance.levenshtein]):
         self.methods = methods
 
     def stringdist_wrap(self, row):
         a, b = row[[0, 1]]
         out = pd.Series([m.distance(a, b) for m in self.methods])
-        if np.any(np.isinf(out.values)):
-            print(a, '---', b)
-            print(out)
         return out
 
     def fit(self, X, y):
@@ -88,8 +85,8 @@ def train(dataset, it):
 
     #the actual model
     parameters = {
-        'forest__max_depth': [5, 10, 20],
-        'forest__n_estimators': [10, 50, 100]
+        'forest__max_depth': [5],#, 10, 20],
+        'forest__n_estimators': [50]#[10, 50, 100]
         }
 
     GSCV = GridSearchCV(cv = 5,
@@ -112,6 +109,10 @@ def train(dataset, it):
     #f2.write(str(model.cv_results_))
     #f2.close()
 
+    with open('partitioned/' + str(it) + '/model.pkl', 'wb') as file:
+        pickle.dump(model, file)
+    file.close()
+
     return model
 
 def get_predictions(model, num_candidates, num_matches, it):
@@ -121,13 +122,12 @@ def get_predictions(model, num_candidates, num_matches, it):
 
     pairs = pd.DataFrame(list(product(amicus['amicus'].values, bonica_sample['bonica'].values)), columns=['0', '1'])
 
+    print(pairs.head())
+
     print('Compiled ', pairs.shape[0], ' pairs from unmatched data. Now finding most probable match candidates...')
 
-    # score the pairs and save to a csv for user to validate them
-    #pairs = samples['0'].values.reshape(-1,2)
-    #pairs = pd.DataFrame(data=pairs, columns=['0', '1'])
-    #print(pairs.head())
     preds = model.predict_proba(pairs)
+    print('Predictions done')
     scores = preds[:,0]
     #print(scores[0:5])
     ind = np.argpartition(scores, -num_matches)[-num_matches:]
@@ -135,6 +135,6 @@ def get_predictions(model, num_candidates, num_matches, it):
     df = pairs.iloc[ind]
     df['match'] = ''
     filename = 'partitioned/' + str(it) + '/labeled.csv'
-    os.makedirs('partitioned/' + str(it))
+    #os.makedirs('partitioned/' + str(it))
     df.to_csv(filename, index=False)
     print('File ', filename, ' has been created. Validate results using the "match" column and continue with the next iteration.')

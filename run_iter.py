@@ -20,7 +20,7 @@ fulldf = build_full(dataset)
 model = train(fulldf, it)
 #print(model.cv_results_)
 print(datetime.now().strftime("%H:%M:%S"))
-get_predictions(model, 20, 100, it)
+get_predictions(model, 50, 100, it)
 
 # Two test sets
 

@@ -1,5 +1,4 @@
 0,1,Match
-vietnam veterans of america,vietnam veterans of america,1
 vietnam veterans of america,american family association inc,0
 vietnam veterans of america,the san francisco aids foundation,0
 vietnam veterans of america,americans united for separation of church & state,0
@@ -60,8 +59,6 @@ vietnam veterans of america,lutherans concerned,0
 vietnam veterans of america,cadwalader wickersham & taft llp,0
 vietnam veterans of america,naral pro-choice oreogn,0
 vietnam veterans of america,william morris agency inc,0
-american family association inc,vietnam veterans of america,0
-american family association inc,american family association inc,1
 american family association inc,the san francisco aids foundation,0
 american family association inc,americans united for separation of church & state,0
 american family association inc,"planned parenthood,",0
@@ -121,9 +118,6 @@ american family association inc,lutherans concerned,0
 american family association inc,cadwalader wickersham & taft llp,0
 american family association inc,naral pro-choice oreogn,0
 american family association inc,william morris agency inc,0
-the san francisco aids foundation,vietnam veterans of america,0
-the san francisco aids foundation,american family association inc,0
-the san francisco aids foundation,the san francisco aids foundation,1
 the san francisco aids foundation,americans united for separation of church & state,0
 the san francisco aids foundation,"planned parenthood,",0
 the san francisco aids foundation,american federation of state county and municipal employees,0
@@ -182,10 +176,6 @@ the san francisco aids foundation,lutherans concerned,0
 the san francisco aids foundation,cadwalader wickersham & taft llp,0
 the san francisco aids foundation,naral pro-choice oreogn,0
 the san francisco aids foundation,william morris agency inc,0
-americans united for separation of church & state,vietnam veterans of america,0
-americans united for separation of church & state,american family association inc,0
-americans united for separation of church & state,the san francisco aids foundation,0
-americans united for separation of church & state,americans united for separation of church & state,1
 americans united for separation of church & state,"planned parenthood,",0
 americans united for separation of church & state,american federation of state county and municipal employees,0
 americans united for separation of church & state,winstar communications llc,0
@@ -243,11 +233,6 @@ americans united for separation of church & state,lutherans concerned,0
 americans united for separation of church & state,cadwalader wickersham & taft llp,0
 americans united for separation of church & state,naral pro-choice oreogn,0
 americans united for separation of church & state,william morris agency inc,0
-"planned parenthood,",vietnam veterans of america,0
-"planned parenthood,",american family association inc,0
-"planned parenthood,",the san francisco aids foundation,0
-"planned parenthood,",americans united for separation of church & state,0
-"planned parenthood,","planned parenthood,",1
 "planned parenthood,",american federation of state county and municipal employees,0
 "planned parenthood,",winstar communications llc,0
 "planned parenthood,",JPMORGAN CHASE BANK NA,0
@@ -304,12 +289,6 @@ americans united for separation of church & state,william morris agency inc,0
 "planned parenthood,",cadwalader wickersham & taft llp,0
 "planned parenthood,",naral pro-choice oreogn,0
 "planned parenthood,",william morris agency inc,0
-american federation of state county and municipal employees,vietnam veterans of america,0
-american federation of state county and municipal employees,american family association inc,0
-american federation of state county and municipal employees,the san francisco aids foundation,0
-american federation of state county and municipal employees,americans united for separation of church & state,0
-american federation of state county and municipal employees,"planned parenthood,",0
-american federation of state county and municipal employees,american federation of state county and municipal employees,1
 american federation of state county and municipal employees,winstar communications llc,0
 american federation of state county and municipal employees,JPMORGAN CHASE BANK NA,0
 american federation of state county and municipal employees,planned parenthood federation of america,0
@@ -365,13 +344,6 @@ american federation of state county and municipal employees,lutherans concerned,
 american federation of state county and municipal employees,cadwalader wickersham & taft llp,0
 american federation of state county and municipal employees,naral pro-choice oreogn,0
 american federation of state county and municipal employees,william morris agency inc,0
-winstar communications llc,vietnam veterans of america,0
-winstar communications llc,american family association inc,0
-winstar communications llc,the san francisco aids foundation,0
-winstar communications llc,americans united for separation of church & state,0
-winstar communications llc,"planned parenthood,",0
-winstar communications llc,american federation of state county and municipal employees,0
-winstar communications llc,winstar communications llc,1
 winstar communications llc,JPMORGAN CHASE BANK NA,0
 winstar communications llc,planned parenthood federation of america,0
 winstar communications llc,common cause,0
@@ -426,14 +398,6 @@ winstar communications llc,lutherans concerned,0
 winstar communications llc,cadwalader wickersham & taft llp,0
 winstar communications llc,naral pro-choice oreogn,0
 winstar communications llc,william morris agency inc,0
-JPMORGAN CHASE BANK NA,vietnam veterans of america,0
-JPMORGAN CHASE BANK NA,american family association inc,0
-JPMORGAN CHASE BANK NA,the san francisco aids foundation,0
-JPMORGAN CHASE BANK NA,americans united for separation of church & state,0
-JPMORGAN CHASE BANK NA,"planned parenthood,",0
-JPMORGAN CHASE BANK NA,american federation of state county and municipal employees,0
-JPMORGAN CHASE BANK NA,winstar communications llc,0
-JPMORGAN CHASE BANK NA,JPMORGAN CHASE BANK NA,1
 JPMORGAN CHASE BANK NA,planned parenthood federation of america,0
 JPMORGAN CHASE BANK NA,common cause,0
 JPMORGAN CHASE BANK NA,lutherans concerned north america,0
@@ -487,15 +451,6 @@ JPMORGAN CHASE BANK NA,lutherans concerned,0
 JPMORGAN CHASE BANK NA,cadwalader wickersham & taft llp,0
 JPMORGAN CHASE BANK NA,naral pro-choice oreogn,0
 JPMORGAN CHASE BANK NA,william morris agency inc,0
-planned parenthood federation of america,vietnam veterans of america,0
-planned parenthood federation of america,american family association inc,0
-planned parenthood federation of america,the san francisco aids foundation,0
-planned parenthood federation of america,americans united for separation of church & state,0
-planned parenthood federation of america,"planned parenthood,",1
-planned parenthood federation of america,american federation of state county and municipal employees,0
-planned parenthood federation of america,winstar communications llc,0
-planned parenthood federation of america,JPMORGAN CHASE BANK NA,0
-planned parenthood federation of america,planned parenthood federation of america,1
 planned parenthood federation of america,common cause,0
 planned parenthood federation of america,lutherans concerned north america,0
 planned parenthood federation of america,aphilip randolph institute,0
@@ -548,16 +503,6 @@ planned parenthood federation of america,lutherans concerned,0
 planned parenthood federation of america,cadwalader wickersham & taft llp,0
 planned parenthood federation of america,naral pro-choice oreogn,0
 planned parenthood federation of america,william morris agency inc,0
-common cause,vietnam veterans of america,0
-common cause,american family association inc,0
-common cause,the san francisco aids foundation,0
-common cause,americans united for separation of church & state,0
-common cause,"planned parenthood,",0
-common cause,american federation of state county and municipal employees,0
-common cause,winstar communications llc,0
-common cause,JPMORGAN CHASE BANK NA,0
-common cause,planned parenthood federation of america,0
-common cause,common cause,1
 common cause,lutherans concerned north america,0
 common cause,aphilip randolph institute,0
 common cause,council of state government,0
@@ -609,17 +554,6 @@ common cause,lutherans concerned,0
 common cause,cadwalader wickersham & taft llp,0
 common cause,naral pro-choice oreogn,0
 common cause,william morris agency inc,0
-lutherans concerned north america,vietnam veterans of america,0
-lutherans concerned north america,american family association inc,0
-lutherans concerned north america,the san francisco aids foundation,0
-lutherans concerned north america,americans united for separation of church & state,0
-lutherans concerned north america,"planned parenthood,",0
-lutherans concerned north america,american federation of state county and municipal employees,0
-lutherans concerned north america,winstar communications llc,0
-lutherans concerned north america,JPMORGAN CHASE BANK NA,0
-lutherans concerned north america,planned parenthood federation of america,0
-lutherans concerned north america,common cause,0
-lutherans concerned north america,lutherans concerned north america,1
 lutherans concerned north america,aphilip randolph institute,0
 lutherans concerned north america,council of state government,0
 lutherans concerned north america,california bankers association,0
@@ -670,18 +604,6 @@ lutherans concerned north america,lutherans concerned,1
 lutherans concerned north america,cadwalader wickersham & taft llp,0
 lutherans concerned north america,naral pro-choice oreogn,0
 lutherans concerned north america,william morris agency inc,0
-aphilip randolph institute,vietnam veterans of america,0
-aphilip randolph institute,american family association inc,0
-aphilip randolph institute,the san francisco aids foundation,0
-aphilip randolph institute,americans united for separation of church & state,0
-aphilip randolph institute,"planned parenthood,",0
-aphilip randolph institute,american federation of state county and municipal employees,0
-aphilip randolph institute,winstar communications llc,0
-aphilip randolph institute,JPMORGAN CHASE BANK NA,0
-aphilip randolph institute,planned parenthood federation of america,0
-aphilip randolph institute,common cause,0
-aphilip randolph institute,lutherans concerned north america,0
-aphilip randolph institute,aphilip randolph institute,1
 aphilip randolph institute,council of state government,0
 aphilip randolph institute,california bankers association,0
 aphilip randolph institute,public affairs council,0
@@ -731,19 +653,6 @@ aphilip randolph institute,lutherans concerned,0
 aphilip randolph institute,cadwalader wickersham & taft llp,0
 aphilip randolph institute,naral pro-choice oreogn,0
 aphilip randolph institute,william morris agency inc,0
-council of state government,vietnam veterans of america,0
-council of state government,american family association inc,0
-council of state government,the san francisco aids foundation,0
-council of state government,americans united for separation of church & state,0
-council of state government,"planned parenthood,",0
-council of state government,american federation of state county and municipal employees,0
-council of state government,winstar communications llc,0
-council of state government,JPMORGAN CHASE BANK NA,0
-council of state government,planned parenthood federation of america,0
-council of state government,common cause,0
-council of state government,lutherans concerned north america,0
-council of state government,aphilip randolph institute,0
-council of state government,council of state government,1
 council of state government,california bankers association,0
 council of state government,public affairs council,0
 council of state government,NATIONAL EDUCATION ASSOCIATION,0
@@ -792,20 +701,6 @@ council of state government,lutherans concerned,0
 council of state government,cadwalader wickersham & taft llp,0
 council of state government,naral pro-choice oreogn,0
 council of state government,william morris agency inc,0
-california bankers association,vietnam veterans of america,0
-california bankers association,american family association inc,0
-california bankers association,the san francisco aids foundation,0
-california bankers association,americans united for separation of church & state,0
-california bankers association,"planned parenthood,",0
-california bankers association,american federation of state county and municipal employees,0
-california bankers association,winstar communications llc,0
-california bankers association,JPMORGAN CHASE BANK NA,0
-california bankers association,planned parenthood federation of america,0
-california bankers association,common cause,0
-california bankers association,lutherans concerned north america,0
-california bankers association,aphilip randolph institute,0
-california bankers association,council of state government,0
-california bankers association,california bankers association,1
 california bankers association,public affairs council,0
 california bankers association,NATIONAL EDUCATION ASSOCIATION,0
 california bankers association,san francisco aids foundation,0
@@ -853,21 +748,6 @@ california bankers association,lutherans concerned,0
 california bankers association,cadwalader wickersham & taft llp,0
 california bankers association,naral pro-choice oreogn,0
 california bankers association,william morris agency inc,0
-public affairs council,vietnam veterans of america,0
-public affairs council,american family association inc,0
-public affairs council,the san francisco aids foundation,0
-public affairs council,americans united for separation of church & state,0
-public affairs council,"planned parenthood,",0
-public affairs council,american federation of state county and municipal employees,0
-public affairs council,winstar communications llc,0
-public affairs council,JPMORGAN CHASE BANK NA,0
-public affairs council,planned parenthood federation of america,0
-public affairs council,common cause,0
-public affairs council,lutherans concerned north america,0
-public affairs council,aphilip randolph institute,0
-public affairs council,council of state government,0
-public affairs council,california bankers association,0
-public affairs council,public affairs council,1
 public affairs council,NATIONAL EDUCATION ASSOCIATION,0
 public affairs council,san francisco aids foundation,0
 public affairs council,"american ethicare, inc",0
@@ -914,22 +794,6 @@ public affairs council,lutherans concerned,0
 public affairs council,cadwalader wickersham & taft llp,0
 public affairs council,naral pro-choice oreogn,0
 public affairs council,william morris agency inc,0
-NATIONAL EDUCATION ASSOCIATION,vietnam veterans of america,0
-NATIONAL EDUCATION ASSOCIATION,american family association inc,0
-NATIONAL EDUCATION ASSOCIATION,the san francisco aids foundation,0
-NATIONAL EDUCATION ASSOCIATION,americans united for separation of church & state,0
-NATIONAL EDUCATION ASSOCIATION,"planned parenthood,",0
-NATIONAL EDUCATION ASSOCIATION,american federation of state county and municipal employees,0
-NATIONAL EDUCATION ASSOCIATION,winstar communications llc,0
-NATIONAL EDUCATION ASSOCIATION,JPMORGAN CHASE BANK NA,0
-NATIONAL EDUCATION ASSOCIATION,planned parenthood federation of america,0
-NATIONAL EDUCATION ASSOCIATION,common cause,0
-NATIONAL EDUCATION ASSOCIATION,lutherans concerned north america,0
-NATIONAL EDUCATION ASSOCIATION,aphilip randolph institute,0
-NATIONAL EDUCATION ASSOCIATION,council of state government,0
-NATIONAL EDUCATION ASSOCIATION,california bankers association,0
-NATIONAL EDUCATION ASSOCIATION,public affairs council,0
-NATIONAL EDUCATION ASSOCIATION,NATIONAL EDUCATION ASSOCIATION,1
 NATIONAL EDUCATION ASSOCIATION,san francisco aids foundation,0
 NATIONAL EDUCATION ASSOCIATION,"american ethicare, inc",0
 NATIONAL EDUCATION ASSOCIATION,pepsi bottling group inc,0
@@ -975,23 +839,6 @@ NATIONAL EDUCATION ASSOCIATION,lutherans concerned,0
 NATIONAL EDUCATION ASSOCIATION,cadwalader wickersham & taft llp,0
 NATIONAL EDUCATION ASSOCIATION,naral pro-choice oreogn,0
 NATIONAL EDUCATION ASSOCIATION,william morris agency inc,0
-san francisco aids foundation,vietnam veterans of america,0
-san francisco aids foundation,american family association inc,0
-san francisco aids foundation,the san francisco aids foundation,1
-san francisco aids foundation,americans united for separation of church & state,0
-san francisco aids foundation,"planned parenthood,",0
-san francisco aids foundation,american federation of state county and municipal employees,0
-san francisco aids foundation,winstar communications llc,0
-san francisco aids foundation,JPMORGAN CHASE BANK NA,0
-san francisco aids foundation,planned parenthood federation of america,0
-san francisco aids foundation,common cause,0
-san francisco aids foundation,lutherans concerned north america,0
-san francisco aids foundation,aphilip randolph institute,0
-san francisco aids foundation,council of state government,0
-san francisco aids foundation,california bankers association,0
-san francisco aids foundation,public affairs council,0
-san francisco aids foundation,NATIONAL EDUCATION ASSOCIATION,0
-san francisco aids foundation,san francisco aids foundation,1
 san francisco aids foundation,"american ethicare, inc",0
 san francisco aids foundation,pepsi bottling group inc,0
 san francisco aids foundation,califoria teachers association,0
@@ -1036,24 +883,6 @@ san francisco aids foundation,lutherans concerned,0
 san francisco aids foundation,cadwalader wickersham & taft llp,0
 san francisco aids foundation,naral pro-choice oreogn,0
 san francisco aids foundation,william morris agency inc,0
-"american ethicare, inc",vietnam veterans of america,0
-"american ethicare, inc",american family association inc,0
-"american ethicare, inc",the san francisco aids foundation,0
-"american ethicare, inc",americans united for separation of church & state,0
-"american ethicare, inc","planned parenthood,",0
-"american ethicare, inc",american federation of state county and municipal employees,0
-"american ethicare, inc",winstar communications llc,0
-"american ethicare, inc",JPMORGAN CHASE BANK NA,0
-"american ethicare, inc",planned parenthood federation of america,0
-"american ethicare, inc",common cause,0
-"american ethicare, inc",lutherans concerned north america,0
-"american ethicare, inc",aphilip randolph institute,0
-"american ethicare, inc",council of state government,0
-"american ethicare, inc",california bankers association,0
-"american ethicare, inc",public affairs council,0
-"american ethicare, inc",NATIONAL EDUCATION ASSOCIATION,0
-"american ethicare, inc",san francisco aids foundation,0
-"american ethicare, inc","american ethicare, inc",1
 "american ethicare, inc",pepsi bottling group inc,0
 "american ethicare, inc",califoria teachers association,0
 "american ethicare, inc",agua claiente band of cahuilla indians,0
@@ -1097,25 +926,6 @@ san francisco aids foundation,william morris agency inc,0
 "american ethicare, inc",cadwalader wickersham & taft llp,0
 "american ethicare, inc",naral pro-choice oreogn,0
 "american ethicare, inc",william morris agency inc,0
-pepsi bottling group inc,vietnam veterans of america,0
-pepsi bottling group inc,american family association inc,0
-pepsi bottling group inc,the san francisco aids foundation,0
-pepsi bottling group inc,americans united for separation of church & state,0
-pepsi bottling group inc,"planned parenthood,",0
-pepsi bottling group inc,american federation of state county and municipal employees,0
-pepsi bottling group inc,winstar communications llc,0
-pepsi bottling group inc,JPMORGAN CHASE BANK NA,0
-pepsi bottling group inc,planned parenthood federation of america,0
-pepsi bottling group inc,common cause,0
-pepsi bottling group inc,lutherans concerned north america,0
-pepsi bottling group inc,aphilip randolph institute,0
-pepsi bottling group inc,council of state government,0
-pepsi bottling group inc,california bankers association,0
-pepsi bottling group inc,public affairs council,0
-pepsi bottling group inc,NATIONAL EDUCATION ASSOCIATION,0
-pepsi bottling group inc,san francisco aids foundation,0
-pepsi bottling group inc,"american ethicare, inc",0
-pepsi bottling group inc,pepsi bottling group inc,1
 pepsi bottling group inc,califoria teachers association,0
 pepsi bottling group inc,agua claiente band of cahuilla indians,0
 pepsi bottling group inc,agua caliente band of cahuilla indians,0
@@ -1158,26 +968,6 @@ pepsi bottling group inc,lutherans concerned,0
 pepsi bottling group inc,cadwalader wickersham & taft llp,0
 pepsi bottling group inc,naral pro-choice oreogn,0
 pepsi bottling group inc,william morris agency inc,0
-califoria teachers association,vietnam veterans of america,0
-califoria teachers association,american family association inc,0
-califoria teachers association,the san francisco aids foundation,0
-califoria teachers association,americans united for separation of church & state,0
-califoria teachers association,"planned parenthood,",0
-califoria teachers association,american federation of state county and municipal employees,0
-califoria teachers association,winstar communications llc,0
-califoria teachers association,JPMORGAN CHASE BANK NA,0
-califoria teachers association,planned parenthood federation of america,0
-califoria teachers association,common cause,0
-califoria teachers association,lutherans concerned north america,0
-califoria teachers association,aphilip randolph institute,0
-califoria teachers association,council of state government,0
-califoria teachers association,california bankers association,0
-califoria teachers association,public affairs council,0
-califoria teachers association,NATIONAL EDUCATION ASSOCIATION,0
-califoria teachers association,san francisco aids foundation,0
-califoria teachers association,"american ethicare, inc",0
-califoria teachers association,pepsi bottling group inc,0
-califoria teachers association,califoria teachers association,1
 califoria teachers association,agua claiente band of cahuilla indians,0
 califoria teachers association,agua caliente band of cahuilla indians,0
 califoria teachers association,planned parenthood federation of america inc,0
@@ -1219,27 +1009,6 @@ califoria teachers association,lutherans concerned,0
 califoria teachers association,cadwalader wickersham & taft llp,0
 califoria teachers association,naral pro-choice oreogn,0
 califoria teachers association,william morris agency inc,0
-agua claiente band of cahuilla indians,vietnam veterans of america,0
-agua claiente band of cahuilla indians,american family association inc,0
-agua claiente band of cahuilla indians,the san francisco aids foundation,0
-agua claiente band of cahuilla indians,americans united for separation of church & state,0
-agua claiente band of cahuilla indians,"planned parenthood,",0
-agua claiente band of cahuilla indians,american federation of state county and municipal employees,0
-agua claiente band of cahuilla indians,winstar communications llc,0
-agua claiente band of cahuilla indians,JPMORGAN CHASE BANK NA,0
-agua claiente band of cahuilla indians,planned parenthood federation of america,0
-agua claiente band of cahuilla indians,common cause,0
-agua claiente band of cahuilla indians,lutherans concerned north america,0
-agua claiente band of cahuilla indians,aphilip randolph institute,0
-agua claiente band of cahuilla indians,council of state government,0
-agua claiente band of cahuilla indians,california bankers association,0
-agua claiente band of cahuilla indians,public affairs council,0
-agua claiente band of cahuilla indians,NATIONAL EDUCATION ASSOCIATION,0
-agua claiente band of cahuilla indians,san francisco aids foundation,0
-agua claiente band of cahuilla indians,"american ethicare, inc",0
-agua claiente band of cahuilla indians,pepsi bottling group inc,0
-agua claiente band of cahuilla indians,califoria teachers association,0
-agua claiente band of cahuilla indians,agua claiente band of cahuilla indians,1
 agua claiente band of cahuilla indians,agua caliente band of cahuilla indians,1
 agua claiente band of cahuilla indians,planned parenthood federation of america inc,0
 agua claiente band of cahuilla indians,sheet metal workers international assoc pal,0
@@ -1280,28 +1049,6 @@ agua claiente band of cahuilla indians,lutherans concerned,0
 agua claiente band of cahuilla indians,cadwalader wickersham & taft llp,0
 agua claiente band of cahuilla indians,naral pro-choice oreogn,0
 agua claiente band of cahuilla indians,william morris agency inc,0
-agua caliente band of cahuilla indians,vietnam veterans of america,0
-agua caliente band of cahuilla indians,american family association inc,0
-agua caliente band of cahuilla indians,the san francisco aids foundation,0
-agua caliente band of cahuilla indians,americans united for separation of church & state,0
-agua caliente band of cahuilla indians,"planned parenthood,",0
-agua caliente band of cahuilla indians,american federation of state county and municipal employees,0
-agua caliente band of cahuilla indians,winstar communications llc,0
-agua caliente band of cahuilla indians,JPMORGAN CHASE BANK NA,0
-agua caliente band of cahuilla indians,planned parenthood federation of america,0
-agua caliente band of cahuilla indians,common cause,0
-agua caliente band of cahuilla indians,lutherans concerned north america,0
-agua caliente band of cahuilla indians,aphilip randolph institute,0
-agua caliente band of cahuilla indians,council of state government,0
-agua caliente band of cahuilla indians,california bankers association,0
-agua caliente band of cahuilla indians,public affairs council,0
-agua caliente band of cahuilla indians,NATIONAL EDUCATION ASSOCIATION,0
-agua caliente band of cahuilla indians,san francisco aids foundation,0
-agua caliente band of cahuilla indians,"american ethicare, inc",0
-agua caliente band of cahuilla indians,pepsi bottling group inc,0
-agua caliente band of cahuilla indians,califoria teachers association,0
-agua caliente band of cahuilla indians,agua claiente band of cahuilla indians,1
-agua caliente band of cahuilla indians,agua caliente band of cahuilla indians,1
 agua caliente band of cahuilla indians,planned parenthood federation of america inc,0
 agua caliente band of cahuilla indians,sheet metal workers international assoc pal,0
 agua caliente band of cahuilla indians,coalition of 100 black women,0
@@ -1341,29 +1088,6 @@ agua caliente band of cahuilla indians,lutherans concerned,0
 agua caliente band of cahuilla indians,cadwalader wickersham & taft llp,0
 agua caliente band of cahuilla indians,naral pro-choice oreogn,0
 agua caliente band of cahuilla indians,william morris agency inc,0
-planned parenthood federation of america inc,vietnam veterans of america,0
-planned parenthood federation of america inc,american family association inc,0
-planned parenthood federation of america inc,the san francisco aids foundation,0
-planned parenthood federation of america inc,americans united for separation of church & state,0
-planned parenthood federation of america inc,"planned parenthood,",1
-planned parenthood federation of america inc,american federation of state county and municipal employees,0
-planned parenthood federation of america inc,winstar communications llc,0
-planned parenthood federation of america inc,JPMORGAN CHASE BANK NA,0
-planned parenthood federation of america inc,planned parenthood federation of america,1
-planned parenthood federation of america inc,common cause,0
-planned parenthood federation of america inc,lutherans concerned north america,0
-planned parenthood federation of america inc,aphilip randolph institute,0
-planned parenthood federation of america inc,council of state government,0
-planned parenthood federation of america inc,california bankers association,0
-planned parenthood federation of america inc,public affairs council,0
-planned parenthood federation of america inc,NATIONAL EDUCATION ASSOCIATION,0
-planned parenthood federation of america inc,san francisco aids foundation,0
-planned parenthood federation of america inc,"american ethicare, inc",0
-planned parenthood federation of america inc,pepsi bottling group inc,0
-planned parenthood federation of america inc,califoria teachers association,0
-planned parenthood federation of america inc,agua claiente band of cahuilla indians,0
-planned parenthood federation of america inc,agua caliente band of cahuilla indians,0
-planned parenthood federation of america inc,planned parenthood federation of america inc,1
 planned parenthood federation of america inc,sheet metal workers international assoc pal,0
 planned parenthood federation of america inc,coalition of 100 black women,0
 planned parenthood federation of america inc,pifizer inc,0
@@ -1402,30 +1126,6 @@ planned parenthood federation of america inc,lutherans concerned,0
 planned parenthood federation of america inc,cadwalader wickersham & taft llp,0
 planned parenthood federation of america inc,naral pro-choice oreogn,0
 planned parenthood federation of america inc,william morris agency inc,0
-sheet metal workers international assoc pal,vietnam veterans of america,0
-sheet metal workers international assoc pal,american family association inc,0
-sheet metal workers international assoc pal,the san francisco aids foundation,0
-sheet metal workers international assoc pal,americans united for separation of church & state,0
-sheet metal workers international assoc pal,"planned parenthood,",0
-sheet metal workers international assoc pal,american federation of state county and municipal employees,0
-sheet metal workers international assoc pal,winstar communications llc,0
-sheet metal workers international assoc pal,JPMORGAN CHASE BANK NA,0
-sheet metal workers international assoc pal,planned parenthood federation of america,0
-sheet metal workers international assoc pal,common cause,0
-sheet metal workers international assoc pal,lutherans concerned north america,0
-sheet metal workers international assoc pal,aphilip randolph institute,0
-sheet metal workers international assoc pal,council of state government,0
-sheet metal workers international assoc pal,california bankers association,0
-sheet metal workers international assoc pal,public affairs council,0
-sheet metal workers international assoc pal,NATIONAL EDUCATION ASSOCIATION,0
-sheet metal workers international assoc pal,san francisco aids foundation,0
-sheet metal workers international assoc pal,"american ethicare, inc",0
-sheet metal workers international assoc pal,pepsi bottling group inc,0
-sheet metal workers international assoc pal,califoria teachers association,0
-sheet metal workers international assoc pal,agua claiente band of cahuilla indians,0
-sheet metal workers international assoc pal,agua caliente band of cahuilla indians,0
-sheet metal workers international assoc pal,planned parenthood federation of america inc,0
-sheet metal workers international assoc pal,sheet metal workers international assoc pal,1
 sheet metal workers international assoc pal,coalition of 100 black women,0
 sheet metal workers international assoc pal,pifizer inc,0
 sheet metal workers international assoc pal,national education association,0
@@ -1463,31 +1163,6 @@ sheet metal workers international assoc pal,lutherans concerned,0
 sheet metal workers international assoc pal,cadwalader wickersham & taft llp,0
 sheet metal workers international assoc pal,naral pro-choice oreogn,0
 sheet metal workers international assoc pal,william morris agency inc,0
-coalition of 100 black women,vietnam veterans of america,0
-coalition of 100 black women,american family association inc,0
-coalition of 100 black women,the san francisco aids foundation,0
-coalition of 100 black women,americans united for separation of church & state,0
-coalition of 100 black women,"planned parenthood,",0
-coalition of 100 black women,american federation of state county and municipal employees,0
-coalition of 100 black women,winstar communications llc,0
-coalition of 100 black women,JPMORGAN CHASE BANK NA,0
-coalition of 100 black women,planned parenthood federation of america,0
-coalition of 100 black women,common cause,0
-coalition of 100 black women,lutherans concerned north america,0
-coalition of 100 black women,aphilip randolph institute,0
-coalition of 100 black women,council of state government,0
-coalition of 100 black women,california bankers association,0
-coalition of 100 black women,public affairs council,0
-coalition of 100 black women,NATIONAL EDUCATION ASSOCIATION,0
-coalition of 100 black women,san francisco aids foundation,0
-coalition of 100 black women,"american ethicare, inc",0
-coalition of 100 black women,pepsi bottling group inc,0
-coalition of 100 black women,califoria teachers association,0
-coalition of 100 black women,agua claiente band of cahuilla indians,0
-coalition of 100 black women,agua caliente band of cahuilla indians,0
-coalition of 100 black women,planned parenthood federation of america inc,0
-coalition of 100 black women,sheet metal workers international assoc pal,0
-coalition of 100 black women,coalition of 100 black women,1
 coalition of 100 black women,pifizer inc,0
 coalition of 100 black women,national education association,0
 coalition of 100 black women,national association for the advancement of colored people legal defense and educational fund inc,0
@@ -1524,32 +1199,6 @@ coalition of 100 black women,lutherans concerned,0
 coalition of 100 black women,cadwalader wickersham & taft llp,0
 coalition of 100 black women,naral pro-choice oreogn,0
 coalition of 100 black women,william morris agency inc,0
-pifizer inc,vietnam veterans of america,0
-pifizer inc,american family association inc,0
-pifizer inc,the san francisco aids foundation,0
-pifizer inc,americans united for separation of church & state,0
-pifizer inc,"planned parenthood,",0
-pifizer inc,american federation of state county and municipal employees,0
-pifizer inc,winstar communications llc,0
-pifizer inc,JPMORGAN CHASE BANK NA,0
-pifizer inc,planned parenthood federation of america,0
-pifizer inc,common cause,0
-pifizer inc,lutherans concerned north america,0
-pifizer inc,aphilip randolph institute,0
-pifizer inc,council of state government,0
-pifizer inc,california bankers association,0
-pifizer inc,public affairs council,0
-pifizer inc,NATIONAL EDUCATION ASSOCIATION,0
-pifizer inc,san francisco aids foundation,0
-pifizer inc,"american ethicare, inc",0
-pifizer inc,pepsi bottling group inc,0
-pifizer inc,califoria teachers association,0
-pifizer inc,agua claiente band of cahuilla indians,0
-pifizer inc,agua caliente band of cahuilla indians,0
-pifizer inc,planned parenthood federation of america inc,0
-pifizer inc,sheet metal workers international assoc pal,0
-pifizer inc,coalition of 100 black women,0
-pifizer inc,pifizer inc,1
 pifizer inc,national education association,0
 pifizer inc,national association for the advancement of colored people legal defense and educational fund inc,0
 pifizer inc,sheet metal workers international association,0
@@ -1585,33 +1234,6 @@ pifizer inc,lutherans concerned,0
 pifizer inc,cadwalader wickersham & taft llp,0
 pifizer inc,naral pro-choice oreogn,0
 pifizer inc,william morris agency inc,0
-national education association,vietnam veterans of america,0
-national education association,american family association inc,0
-national education association,the san francisco aids foundation,0
-national education association,americans united for separation of church & state,0
-national education association,"planned parenthood,",0
-national education association,american federation of state county and municipal employees,0
-national education association,winstar communications llc,0
-national education association,JPMORGAN CHASE BANK NA,0
-national education association,planned parenthood federation of america,0
-national education association,common cause,0
-national education association,lutherans concerned north america,0
-national education association,aphilip randolph institute,0
-national education association,council of state government,0
-national education association,california bankers association,0
-national education association,public affairs council,0
-national education association,NATIONAL EDUCATION ASSOCIATION,1
-national education association,san francisco aids foundation,0
-national education association,"american ethicare, inc",0
-national education association,pepsi bottling group inc,0
-national education association,califoria teachers association,0
-national education association,agua claiente band of cahuilla indians,0
-national education association,agua caliente band of cahuilla indians,0
-national education association,planned parenthood federation of america inc,0
-national education association,sheet metal workers international assoc pal,0
-national education association,coalition of 100 black women,0
-national education association,pifizer inc,0
-national education association,national education association,1
 national education association,national association for the advancement of colored people legal defense and educational fund inc,0
 national education association,sheet metal workers international association,0
 national education association,california teachers assoc,0
@@ -1646,34 +1268,6 @@ national education association,lutherans concerned,0
 national education association,cadwalader wickersham & taft llp,0
 national education association,naral pro-choice oreogn,0
 national education association,william morris agency inc,0
-national association for the advancement of colored people legal defense and educational fund inc,vietnam veterans of america,0
-national association for the advancement of colored people legal defense and educational fund inc,american family association inc,0
-national association for the advancement of colored people legal defense and educational fund inc,the san francisco aids foundation,0
-national association for the advancement of colored people legal defense and educational fund inc,americans united for separation of church & state,0
-national association for the advancement of colored people legal defense and educational fund inc,"planned parenthood,",0
-national association for the advancement of colored people legal defense and educational fund inc,american federation of state county and municipal employees,0
-national association for the advancement of colored people legal defense and educational fund inc,winstar communications llc,0
-national association for the advancement of colored people legal defense and educational fund inc,JPMORGAN CHASE BANK NA,0
-national association for the advancement of colored people legal defense and educational fund inc,planned parenthood federation of america,0
-national association for the advancement of colored people legal defense and educational fund inc,common cause,0
-national association for the advancement of colored people legal defense and educational fund inc,lutherans concerned north america,0
-national association for the advancement of colored people legal defense and educational fund inc,aphilip randolph institute,0
-national association for the advancement of colored people legal defense and educational fund inc,council of state government,0
-national association for the advancement of colored people legal defense and educational fund inc,california bankers association,0
-national association for the advancement of colored people legal defense and educational fund inc,public affairs council,0
-national association for the advancement of colored people legal defense and educational fund inc,NATIONAL EDUCATION ASSOCIATION,1
-national association for the advancement of colored people legal defense and educational fund inc,san francisco aids foundation,0
-national association for the advancement of colored people legal defense and educational fund inc,"american ethicare, inc",0
-national association for the advancement of colored people legal defense and educational fund inc,pepsi bottling group inc,0
-national association for the advancement of colored people legal defense and educational fund inc,califoria teachers association,0
-national association for the advancement of colored people legal defense and educational fund inc,agua claiente band of cahuilla indians,0
-national association for the advancement of colored people legal defense and educational fund inc,agua caliente band of cahuilla indians,0
-national association for the advancement of colored people legal defense and educational fund inc,planned parenthood federation of america inc,0
-national association for the advancement of colored people legal defense and educational fund inc,sheet metal workers international assoc pal,0
-national association for the advancement of colored people legal defense and educational fund inc,coalition of 100 black women,0
-national association for the advancement of colored people legal defense and educational fund inc,pifizer inc,0
-national association for the advancement of colored people legal defense and educational fund inc,national education association,0
-national association for the advancement of colored people legal defense and educational fund inc,national association for the advancement of colored people legal defense and educational fund inc,1
 national association for the advancement of colored people legal defense and educational fund inc,sheet metal workers international association,0
 national association for the advancement of colored people legal defense and educational fund inc,california teachers assoc,0
 national association for the advancement of colored people legal defense and educational fund inc,national association of independent insurance,0
@@ -1707,35 +1301,6 @@ national association for the advancement of colored people legal defense and edu
 national association for the advancement of colored people legal defense and educational fund inc,cadwalader wickersham & taft llp,0
 national association for the advancement of colored people legal defense and educational fund inc,naral pro-choice oreogn,0
 national association for the advancement of colored people legal defense and educational fund inc,william morris agency inc,0
-sheet metal workers international association,vietnam veterans of america,0
-sheet metal workers international association,american family association inc,0
-sheet metal workers international association,the san francisco aids foundation,0
-sheet metal workers international association,americans united for separation of church & state,0
-sheet metal workers international association,"planned parenthood,",0
-sheet metal workers international association,american federation of state county and municipal employees,0
-sheet metal workers international association,winstar communications llc,0
-sheet metal workers international association,JPMORGAN CHASE BANK NA,0
-sheet metal workers international association,planned parenthood federation of america,0
-sheet metal workers international association,common cause,0
-sheet metal workers international association,lutherans concerned north america,0
-sheet metal workers international association,aphilip randolph institute,0
-sheet metal workers international association,council of state government,0
-sheet metal workers international association,california bankers association,0
-sheet metal workers international association,public affairs council,0
-sheet metal workers international association,NATIONAL EDUCATION ASSOCIATION,0
-sheet metal workers international association,san francisco aids foundation,0
-sheet metal workers international association,"american ethicare, inc",0
-sheet metal workers international association,pepsi bottling group inc,0
-sheet metal workers international association,califoria teachers association,0
-sheet metal workers international association,agua claiente band of cahuilla indians,0
-sheet metal workers international association,agua caliente band of cahuilla indians,0
-sheet metal workers international association,planned parenthood federation of america inc,0
-sheet metal workers international association,sheet metal workers international assoc pal,1
-sheet metal workers international association,coalition of 100 black women,0
-sheet metal workers international association,pifizer inc,0
-sheet metal workers international association,national education association,0
-sheet metal workers international association,national association for the advancement of colored people legal defense and educational fund inc,0
-sheet metal workers international association,sheet metal workers international association,1
 sheet metal workers international association,california teachers assoc,0
 sheet metal workers international association,national association of independent insurance,0
 sheet metal workers international association,trout unlimited bellevue-issaquah chapte,0
@@ -1768,36 +1333,6 @@ sheet metal workers international association,lutherans concerned,0
 sheet metal workers international association,cadwalader wickersham & taft llp,0
 sheet metal workers international association,naral pro-choice oreogn,0
 sheet metal workers international association,william morris agency inc,0
-california teachers assoc,vietnam veterans of america,0
-california teachers assoc,american family association inc,0
-california teachers assoc,the san francisco aids foundation,0
-california teachers assoc,americans united for separation of church & state,0
-california teachers assoc,"planned parenthood,",0
-california teachers assoc,american federation of state county and municipal employees,0
-california teachers assoc,winstar communications llc,0
-california teachers assoc,JPMORGAN CHASE BANK NA,0
-california teachers assoc,planned parenthood federation of america,0
-california teachers assoc,common cause,0
-california teachers assoc,lutherans concerned north america,0
-california teachers assoc,aphilip randolph institute,0
-california teachers assoc,council of state government,0
-california teachers assoc,california bankers association,0
-california teachers assoc,public affairs council,0
-california teachers assoc,NATIONAL EDUCATION ASSOCIATION,0
-california teachers assoc,san francisco aids foundation,0
-california teachers assoc,"american ethicare, inc",0
-california teachers assoc,pepsi bottling group inc,0
-california teachers assoc,califoria teachers association,1
-california teachers assoc,agua claiente band of cahuilla indians,0
-california teachers assoc,agua caliente band of cahuilla indians,0
-california teachers assoc,planned parenthood federation of america inc,0
-california teachers assoc,sheet metal workers international assoc pal,0
-california teachers assoc,coalition of 100 black women,0
-california teachers assoc,pifizer inc,0
-california teachers assoc,national education association,0
-california teachers assoc,national association for the advancement of colored people legal defense and educational fund inc,0
-california teachers assoc,sheet metal workers international association,0
-california teachers assoc,california teachers assoc,1
 california teachers assoc,national association of independent insurance,0
 california teachers assoc,trout unlimited bellevue-issaquah chapte,0
 california teachers assoc,the augusta chronicle,0
@@ -1829,37 +1364,6 @@ california teachers assoc,lutherans concerned,0
 california teachers assoc,cadwalader wickersham & taft llp,0
 california teachers assoc,naral pro-choice oreogn,0
 california teachers assoc,william morris agency inc,0
-national association of independent insurance,vietnam veterans of america,0
-national association of independent insurance,american family association inc,0
-national association of independent insurance,the san francisco aids foundation,0
-national association of independent insurance,americans united for separation of church & state,0
-national association of independent insurance,"planned parenthood,",0
-national association of independent insurance,american federation of state county and municipal employees,0
-national association of independent insurance,winstar communications llc,0
-national association of independent insurance,JPMORGAN CHASE BANK NA,0
-national association of independent insurance,planned parenthood federation of america,0
-national association of independent insurance,common cause,0
-national association of independent insurance,lutherans concerned north america,0
-national association of independent insurance,aphilip randolph institute,0
-national association of independent insurance,council of state government,0
-national association of independent insurance,california bankers association,0
-national association of independent insurance,public affairs council,0
-national association of independent insurance,NATIONAL EDUCATION ASSOCIATION,0
-national association of independent insurance,san francisco aids foundation,0
-national association of independent insurance,"american ethicare, inc",0
-national association of independent insurance,pepsi bottling group inc,0
-national association of independent insurance,califoria teachers association,0
-national association of independent insurance,agua claiente band of cahuilla indians,0
-national association of independent insurance,agua caliente band of cahuilla indians,0
-national association of independent insurance,planned parenthood federation of america inc,0
-national association of independent insurance,sheet metal workers international assoc pal,0
-national association of independent insurance,coalition of 100 black women,0
-national association of independent insurance,pifizer inc,0
-national association of independent insurance,national education association,0
-national association of independent insurance,national association for the advancement of colored people legal defense and educational fund inc,0
-national association of independent insurance,sheet metal workers international association,0
-national association of independent insurance,california teachers assoc,0
-national association of independent insurance,national association of independent insurance,1
 national association of independent insurance,trout unlimited bellevue-issaquah chapte,0
 national association of independent insurance,the augusta chronicle,0
 national association of independent insurance,national association of independent insurers,1
@@ -1890,38 +1394,6 @@ national association of independent insurance,lutherans concerned,0
 national association of independent insurance,cadwalader wickersham & taft llp,0
 national association of independent insurance,naral pro-choice oreogn,0
 national association of independent insurance,william morris agency inc,0
-trout unlimited bellevue-issaquah chapte,vietnam veterans of america,0
-trout unlimited bellevue-issaquah chapte,american family association inc,0
-trout unlimited bellevue-issaquah chapte,the san francisco aids foundation,0
-trout unlimited bellevue-issaquah chapte,americans united for separation of church & state,0
-trout unlimited bellevue-issaquah chapte,"planned parenthood,",0
-trout unlimited bellevue-issaquah chapte,american federation of state county and municipal employees,0
-trout unlimited bellevue-issaquah chapte,winstar communications llc,0
-trout unlimited bellevue-issaquah chapte,JPMORGAN CHASE BANK NA,0
-trout unlimited bellevue-issaquah chapte,planned parenthood federation of america,0
-trout unlimited bellevue-issaquah chapte,common cause,0
-trout unlimited bellevue-issaquah chapte,lutherans concerned north america,0
-trout unlimited bellevue-issaquah chapte,aphilip randolph institute,0
-trout unlimited bellevue-issaquah chapte,council of state government,0
-trout unlimited bellevue-issaquah chapte,california bankers association,0
-trout unlimited bellevue-issaquah chapte,public affairs council,0
-trout unlimited bellevue-issaquah chapte,NATIONAL EDUCATION ASSOCIATION,0
-trout unlimited bellevue-issaquah chapte,san francisco aids foundation,0
-trout unlimited bellevue-issaquah chapte,"american ethicare, inc",0
-trout unlimited bellevue-issaquah chapte,pepsi bottling group inc,0
-trout unlimited bellevue-issaquah chapte,califoria teachers association,0
-trout unlimited bellevue-issaquah chapte,agua claiente band of cahuilla indians,0
-trout unlimited bellevue-issaquah chapte,agua caliente band of cahuilla indians,0
-trout unlimited bellevue-issaquah chapte,planned parenthood federation of america inc,0
-trout unlimited bellevue-issaquah chapte,sheet metal workers international assoc pal,0
-trout unlimited bellevue-issaquah chapte,coalition of 100 black women,0
-trout unlimited bellevue-issaquah chapte,pifizer inc,0
-trout unlimited bellevue-issaquah chapte,national education association,0
-trout unlimited bellevue-issaquah chapte,national association for the advancement of colored people legal defense and educational fund inc,0
-trout unlimited bellevue-issaquah chapte,sheet metal workers international association,0
-trout unlimited bellevue-issaquah chapte,california teachers assoc,0
-trout unlimited bellevue-issaquah chapte,national association of independent insurance,0
-trout unlimited bellevue-issaquah chapte,trout unlimited bellevue-issaquah chapte,1
 trout unlimited bellevue-issaquah chapte,the augusta chronicle,0
 trout unlimited bellevue-issaquah chapte,national association of independent insurers,0
 trout unlimited bellevue-issaquah chapte,california bankers assoc,0
@@ -1951,39 +1423,6 @@ trout unlimited bellevue-issaquah chapte,lutherans concerned,0
 trout unlimited bellevue-issaquah chapte,cadwalader wickersham & taft llp,0
 trout unlimited bellevue-issaquah chapte,naral pro-choice oreogn,0
 trout unlimited bellevue-issaquah chapte,william morris agency inc,0
-the augusta chronicle,vietnam veterans of america,0
-the augusta chronicle,american family association inc,0
-the augusta chronicle,the san francisco aids foundation,0
-the augusta chronicle,americans united for separation of church & state,0
-the augusta chronicle,"planned parenthood,",0
-the augusta chronicle,american federation of state county and municipal employees,0
-the augusta chronicle,winstar communications llc,0
-the augusta chronicle,JPMORGAN CHASE BANK NA,0
-the augusta chronicle,planned parenthood federation of america,0
-the augusta chronicle,common cause,0
-the augusta chronicle,lutherans concerned north america,0
-the augusta chronicle,aphilip randolph institute,0
-the augusta chronicle,council of state government,0
-the augusta chronicle,california bankers association,0
-the augusta chronicle,public affairs council,0
-the augusta chronicle,NATIONAL EDUCATION ASSOCIATION,0
-the augusta chronicle,san francisco aids foundation,0
-the augusta chronicle,"american ethicare, inc",0
-the augusta chronicle,pepsi bottling group inc,0
-the augusta chronicle,califoria teachers association,0
-the augusta chronicle,agua claiente band of cahuilla indians,0
-the augusta chronicle,agua caliente band of cahuilla indians,0
-the augusta chronicle,planned parenthood federation of america inc,0
-the augusta chronicle,sheet metal workers international assoc pal,0
-the augusta chronicle,coalition of 100 black women,0
-the augusta chronicle,pifizer inc,0
-the augusta chronicle,national education association,0
-the augusta chronicle,national association for the advancement of colored people legal defense and educational fund inc,0
-the augusta chronicle,sheet metal workers international association,0
-the augusta chronicle,california teachers assoc,0
-the augusta chronicle,national association of independent insurance,0
-the augusta chronicle,trout unlimited bellevue-issaquah chapte,0
-the augusta chronicle,the augusta chronicle,1
 the augusta chronicle,national association of independent insurers,0
 the augusta chronicle,california bankers assoc,0
 the augusta chronicle,american consulting engineers council,0
@@ -2012,40 +1451,6 @@ the augusta chronicle,lutherans concerned,0
 the augusta chronicle,cadwalader wickersham & taft llp,0
 the augusta chronicle,naral pro-choice oreogn,0
 the augusta chronicle,william morris agency inc,0
-national association of independent insurers,vietnam veterans of america,0
-national association of independent insurers,american family association inc,0
-national association of independent insurers,the san francisco aids foundation,0
-national association of independent insurers,americans united for separation of church & state,0
-national association of independent insurers,"planned parenthood,",0
-national association of independent insurers,american federation of state county and municipal employees,0
-national association of independent insurers,winstar communications llc,0
-national association of independent insurers,JPMORGAN CHASE BANK NA,0
-national association of independent insurers,planned parenthood federation of america,0
-national association of independent insurers,common cause,0
-national association of independent insurers,lutherans concerned north america,0
-national association of independent insurers,aphilip randolph institute,0
-national association of independent insurers,council of state government,0
-national association of independent insurers,california bankers association,0
-national association of independent insurers,public affairs council,0
-national association of independent insurers,NATIONAL EDUCATION ASSOCIATION,0
-national association of independent insurers,san francisco aids foundation,0
-national association of independent insurers,"american ethicare, inc",0
-national association of independent insurers,pepsi bottling group inc,0
-national association of independent insurers,califoria teachers association,0
-national association of independent insurers,agua claiente band of cahuilla indians,0
-national association of independent insurers,agua caliente band of cahuilla indians,0
-national association of independent insurers,planned parenthood federation of america inc,0
-national association of independent insurers,sheet metal workers international assoc pal,0
-national association of independent insurers,coalition of 100 black women,0
-national association of independent insurers,pifizer inc,0
-national association of independent insurers,national education association,0
-national association of independent insurers,national association for the advancement of colored people legal defense and educational fund inc,0
-national association of independent insurers,sheet metal workers international association,0
-national association of independent insurers,california teachers assoc,0
-national association of independent insurers,national association of independent insurance,1
-national association of independent insurers,trout unlimited bellevue-issaquah chapte,0
-national association of independent insurers,the augusta chronicle,0
-national association of independent insurers,national association of independent insurers,1
 national association of independent insurers,california bankers assoc,0
 national association of independent insurers,american consulting engineers council,0
 national association of independent insurers,cadwalader wickersham  taft,0
@@ -2073,41 +1478,6 @@ national association of independent insurers,lutherans concerned,0
 national association of independent insurers,cadwalader wickersham & taft llp,0
 national association of independent insurers,naral pro-choice oreogn,0
 national association of independent insurers,william morris agency inc,0
-california bankers assoc,vietnam veterans of america,0
-california bankers assoc,american family association inc,0
-california bankers assoc,the san francisco aids foundation,0
-california bankers assoc,americans united for separation of church & state,0
-california bankers assoc,"planned parenthood,",0
-california bankers assoc,american federation of state county and municipal employees,0
-california bankers assoc,winstar communications llc,0
-california bankers assoc,JPMORGAN CHASE BANK NA,0
-california bankers assoc,planned parenthood federation of america,0
-california bankers assoc,common cause,0
-california bankers assoc,lutherans concerned north america,0
-california bankers assoc,aphilip randolph institute,0
-california bankers assoc,council of state government,0
-california bankers assoc,california bankers association,1
-california bankers assoc,public affairs council,0
-california bankers assoc,NATIONAL EDUCATION ASSOCIATION,0
-california bankers assoc,san francisco aids foundation,0
-california bankers assoc,"american ethicare, inc",0
-california bankers assoc,pepsi bottling group inc,0
-california bankers assoc,califoria teachers association,0
-california bankers assoc,agua claiente band of cahuilla indians,0
-california bankers assoc,agua caliente band of cahuilla indians,0
-california bankers assoc,planned parenthood federation of america inc,0
-california bankers assoc,sheet metal workers international assoc pal,0
-california bankers assoc,coalition of 100 black women,0
-california bankers assoc,pifizer inc,0
-california bankers assoc,national education association,0
-california bankers assoc,national association for the advancement of colored people legal defense and educational fund inc,0
-california bankers assoc,sheet metal workers international association,0
-california bankers assoc,california teachers assoc,0
-california bankers assoc,national association of independent insurance,0
-california bankers assoc,trout unlimited bellevue-issaquah chapte,0
-california bankers assoc,the augusta chronicle,0
-california bankers assoc,national association of independent insurers,0
-california bankers assoc,california bankers assoc,1
 california bankers assoc,american consulting engineers council,0
 california bankers assoc,cadwalader wickersham  taft,0
 california bankers assoc,NATIONAL ASSOCIATION OF SOCIAL WORKERS,0
@@ -2134,42 +1504,6 @@ california bankers assoc,lutherans concerned,0
 california bankers assoc,cadwalader wickersham & taft llp,0
 california bankers assoc,naral pro-choice oreogn,0
 california bankers assoc,william morris agency inc,0
-american consulting engineers council,vietnam veterans of america,0
-american consulting engineers council,american family association inc,0
-american consulting engineers council,the san francisco aids foundation,0
-american consulting engineers council,americans united for separation of church & state,0
-american consulting engineers council,"planned parenthood,",0
-american consulting engineers council,american federation of state county and municipal employees,0
-american consulting engineers council,winstar communications llc,0
-american consulting engineers council,JPMORGAN CHASE BANK NA,0
-american consulting engineers council,planned parenthood federation of america,0
-american consulting engineers council,common cause,0
-american consulting engineers council,lutherans concerned north america,0
-american consulting engineers council,aphilip randolph institute,0
-american consulting engineers council,council of state government,0
-american consulting engineers council,california bankers association,0
-american consulting engineers council,public affairs council,0
-american consulting engineers council,NATIONAL EDUCATION ASSOCIATION,0
-american consulting engineers council,san francisco aids foundation,0
-american consulting engineers council,"american ethicare, inc",0
-american consulting engineers council,pepsi bottling group inc,0
-american consulting engineers council,califoria teachers association,0
-american consulting engineers council,agua claiente band of cahuilla indians,0
-american consulting engineers council,agua caliente band of cahuilla indians,0
-american consulting engineers council,planned parenthood federation of america inc,0
-american consulting engineers council,sheet metal workers international assoc pal,0
-american consulting engineers council,coalition of 100 black women,0
-american consulting engineers council,pifizer inc,0
-american consulting engineers council,national education association,0
-american consulting engineers council,national association for the advancement of colored people legal defense and educational fund inc,0
-american consulting engineers council,sheet metal workers international association,0
-american consulting engineers council,california teachers assoc,0
-american consulting engineers council,national association of independent insurance,0
-american consulting engineers council,trout unlimited bellevue-issaquah chapte,0
-american consulting engineers council,the augusta chronicle,0
-american consulting engineers council,national association of independent insurers,0
-american consulting engineers council,california bankers assoc,0
-american consulting engineers council,american consulting engineers council,1
 american consulting engineers council,cadwalader wickersham  taft,0
 american consulting engineers council,NATIONAL ASSOCIATION OF SOCIAL WORKERS,0
 american consulting engineers council,american civil liberties union,0
@@ -2195,43 +1529,6 @@ american consulting engineers council,lutherans concerned,0
 american consulting engineers council,cadwalader wickersham & taft llp,0
 american consulting engineers council,naral pro-choice oreogn,0
 american consulting engineers council,william morris agency inc,0
-cadwalader wickersham  taft,vietnam veterans of america,0
-cadwalader wickersham  taft,american family association inc,0
-cadwalader wickersham  taft,the san francisco aids foundation,0
-cadwalader wickersham  taft,americans united for separation of church & state,0
-cadwalader wickersham  taft,"planned parenthood,",0
-cadwalader wickersham  taft,american federation of state county and municipal employees,0
-cadwalader wickersham  taft,winstar communications llc,0
-cadwalader wickersham  taft,JPMORGAN CHASE BANK NA,0
-cadwalader wickersham  taft,planned parenthood federation of america,0
-cadwalader wickersham  taft,common cause,0
-cadwalader wickersham  taft,lutherans concerned north america,0
-cadwalader wickersham  taft,aphilip randolph institute,0
-cadwalader wickersham  taft,council of state government,0
-cadwalader wickersham  taft,california bankers association,0
-cadwalader wickersham  taft,public affairs council,0
-cadwalader wickersham  taft,NATIONAL EDUCATION ASSOCIATION,0
-cadwalader wickersham  taft,san francisco aids foundation,0
-cadwalader wickersham  taft,"american ethicare, inc",0
-cadwalader wickersham  taft,pepsi bottling group inc,0
-cadwalader wickersham  taft,califoria teachers association,0
-cadwalader wickersham  taft,agua claiente band of cahuilla indians,0
-cadwalader wickersham  taft,agua caliente band of cahuilla indians,0
-cadwalader wickersham  taft,planned parenthood federation of america inc,0
-cadwalader wickersham  taft,sheet metal workers international assoc pal,0
-cadwalader wickersham  taft,coalition of 100 black women,0
-cadwalader wickersham  taft,pifizer inc,0
-cadwalader wickersham  taft,national education association,0
-cadwalader wickersham  taft,national association for the advancement of colored people legal defense and educational fund inc,0
-cadwalader wickersham  taft,sheet metal workers international association,0
-cadwalader wickersham  taft,california teachers assoc,0
-cadwalader wickersham  taft,national association of independent insurance,0
-cadwalader wickersham  taft,trout unlimited bellevue-issaquah chapte,0
-cadwalader wickersham  taft,the augusta chronicle,0
-cadwalader wickersham  taft,national association of independent insurers,0
-cadwalader wickersham  taft,california bankers assoc,0
-cadwalader wickersham  taft,american consulting engineers council,0
-cadwalader wickersham  taft,cadwalader wickersham  taft,1
 cadwalader wickersham  taft,NATIONAL ASSOCIATION OF SOCIAL WORKERS,0
 cadwalader wickersham  taft,american civil liberties union,0
 cadwalader wickersham  taft,vietnam veterns of america,0
@@ -2256,44 +1553,6 @@ cadwalader wickersham  taft,lutherans concerned,0
 cadwalader wickersham  taft,cadwalader wickersham & taft llp,1
 cadwalader wickersham  taft,naral pro-choice oreogn,0
 cadwalader wickersham  taft,william morris agency inc,0
-NATIONAL ASSOCIATION OF SOCIAL WORKERS,vietnam veterans of america,0
-NATIONAL ASSOCIATION OF SOCIAL WORKERS,american family association inc,0
-NATIONAL ASSOCIATION OF SOCIAL WORKERS,the san francisco aids foundation,0
-NATIONAL ASSOCIATION OF SOCIAL WORKERS,americans united for separation of church & state,0
-NATIONAL ASSOCIATION OF SOCIAL WORKERS,"planned parenthood,",0
-NATIONAL ASSOCIATION OF SOCIAL WORKERS,american federation of state county and municipal employees,0
-NATIONAL ASSOCIATION OF SOCIAL WORKERS,winstar communications llc,0
-NATIONAL ASSOCIATION OF SOCIAL WORKERS,JPMORGAN CHASE BANK NA,0
-NATIONAL ASSOCIATION OF SOCIAL WORKERS,planned parenthood federation of america,0
-NATIONAL ASSOCIATION OF SOCIAL WORKERS,common cause,0
-NATIONAL ASSOCIATION OF SOCIAL WORKERS,lutherans concerned north america,0
-NATIONAL ASSOCIATION OF SOCIAL WORKERS,aphilip randolph institute,0
-NATIONAL ASSOCIATION OF SOCIAL WORKERS,council of state government,0
-NATIONAL ASSOCIATION OF SOCIAL WORKERS,california bankers association,0
-NATIONAL ASSOCIATION OF SOCIAL WORKERS,public affairs council,0
-NATIONAL ASSOCIATION OF SOCIAL WORKERS,NATIONAL EDUCATION ASSOCIATION,0
-NATIONAL ASSOCIATION OF SOCIAL WORKERS,san francisco aids foundation,0
-NATIONAL ASSOCIATION OF SOCIAL WORKERS,"american ethicare, inc",0
-NATIONAL ASSOCIATION OF SOCIAL WORKERS,pepsi bottling group inc,0
-NATIONAL ASSOCIATION OF SOCIAL WORKERS,califoria teachers association,0
-NATIONAL ASSOCIATION OF SOCIAL WORKERS,agua claiente band of cahuilla indians,0
-NATIONAL ASSOCIATION OF SOCIAL WORKERS,agua caliente band of cahuilla indians,0
-NATIONAL ASSOCIATION OF SOCIAL WORKERS,planned parenthood federation of america inc,0
-NATIONAL ASSOCIATION OF SOCIAL WORKERS,sheet metal workers international assoc pal,0
-NATIONAL ASSOCIATION OF SOCIAL WORKERS,coalition of 100 black women,0
-NATIONAL ASSOCIATION OF SOCIAL WORKERS,pifizer inc,0
-NATIONAL ASSOCIATION OF SOCIAL WORKERS,national education association,0
-NATIONAL ASSOCIATION OF SOCIAL WORKERS,national association for the advancement of colored people legal defense and educational fund inc,0
-NATIONAL ASSOCIATION OF SOCIAL WORKERS,sheet metal workers international association,0
-NATIONAL ASSOCIATION OF SOCIAL WORKERS,california teachers assoc,0
-NATIONAL ASSOCIATION OF SOCIAL WORKERS,national association of independent insurance,0
-NATIONAL ASSOCIATION OF SOCIAL WORKERS,trout unlimited bellevue-issaquah chapte,0
-NATIONAL ASSOCIATION OF SOCIAL WORKERS,the augusta chronicle,0
-NATIONAL ASSOCIATION OF SOCIAL WORKERS,national association of independent insurers,0
-NATIONAL ASSOCIATION OF SOCIAL WORKERS,california bankers assoc,0
-NATIONAL ASSOCIATION OF SOCIAL WORKERS,american consulting engineers council,0
-NATIONAL ASSOCIATION OF SOCIAL WORKERS,cadwalader wickersham  taft,0
-NATIONAL ASSOCIATION OF SOCIAL WORKERS,NATIONAL ASSOCIATION OF SOCIAL WORKERS,1
 NATIONAL ASSOCIATION OF SOCIAL WORKERS,american civil liberties union,0
 NATIONAL ASSOCIATION OF SOCIAL WORKERS,vietnam veterns of america,0
 NATIONAL ASSOCIATION OF SOCIAL WORKERS,georgia real estate investors association inc,0
@@ -2317,45 +1576,6 @@ NATIONAL ASSOCIATION OF SOCIAL WORKERS,lutherans concerned,0
 NATIONAL ASSOCIATION OF SOCIAL WORKERS,cadwalader wickersham & taft llp,0
 NATIONAL ASSOCIATION OF SOCIAL WORKERS,naral pro-choice oreogn,0
 NATIONAL ASSOCIATION OF SOCIAL WORKERS,william morris agency inc,0
-american civil liberties union,vietnam veterans of america,0
-american civil liberties union,american family association inc,0
-american civil liberties union,the san francisco aids foundation,0
-american civil liberties union,americans united for separation of church & state,0
-american civil liberties union,"planned parenthood,",0
-american civil liberties union,american federation of state county and municipal employees,0
-american civil liberties union,winstar communications llc,0
-american civil liberties union,JPMORGAN CHASE BANK NA,0
-american civil liberties union,planned parenthood federation of america,0
-american civil liberties union,common cause,0
-american civil liberties union,lutherans concerned north america,0
-american civil liberties union,aphilip randolph institute,0
-american civil liberties union,council of state government,0
-american civil liberties union,california bankers association,0
-american civil liberties union,public affairs council,0
-american civil liberties union,NATIONAL EDUCATION ASSOCIATION,0
-american civil liberties union,san francisco aids foundation,0
-american civil liberties union,"american ethicare, inc",0
-american civil liberties union,pepsi bottling group inc,0
-american civil liberties union,califoria teachers association,0
-american civil liberties union,agua claiente band of cahuilla indians,0
-american civil liberties union,agua caliente band of cahuilla indians,0
-american civil liberties union,planned parenthood federation of america inc,0
-american civil liberties union,sheet metal workers international assoc pal,0
-american civil liberties union,coalition of 100 black women,0
-american civil liberties union,pifizer inc,0
-american civil liberties union,national education association,0
-american civil liberties union,national association for the advancement of colored people legal defense and educational fund inc,0
-american civil liberties union,sheet metal workers international association,0
-american civil liberties union,california teachers assoc,0
-american civil liberties union,national association of independent insurance,0
-american civil liberties union,trout unlimited bellevue-issaquah chapte,0
-american civil liberties union,the augusta chronicle,0
-american civil liberties union,national association of independent insurers,0
-american civil liberties union,california bankers assoc,0
-american civil liberties union,american consulting engineers council,1
-american civil liberties union,cadwalader wickersham  taft,0
-american civil liberties union,NATIONAL ASSOCIATION OF SOCIAL WORKERS,0
-american civil liberties union,american civil liberties union,1
 american civil liberties union,vietnam veterns of america,0
 american civil liberties union,georgia real estate investors association inc,0
 american civil liberties union,campaign for tobacco free kids,0
@@ -2378,46 +1598,6 @@ american civil liberties union,lutherans concerned,0
 american civil liberties union,cadwalader wickersham & taft llp,0
 american civil liberties union,naral pro-choice oreogn,0
 american civil liberties union,william morris agency inc,0
-vietnam veterns of america,vietnam veterans of america,1
-vietnam veterns of america,american family association inc,0
-vietnam veterns of america,the san francisco aids foundation,0
-vietnam veterns of america,americans united for separation of church & state,0
-vietnam veterns of america,"planned parenthood,",0
-vietnam veterns of america,american federation of state county and municipal employees,0
-vietnam veterns of america,winstar communications llc,0
-vietnam veterns of america,JPMORGAN CHASE BANK NA,0
-vietnam veterns of america,planned parenthood federation of america,0
-vietnam veterns of america,common cause,0
-vietnam veterns of america,lutherans concerned north america,0
-vietnam veterns of america,aphilip randolph institute,0
-vietnam veterns of america,council of state government,0
-vietnam veterns of america,california bankers association,0
-vietnam veterns of america,public affairs council,0
-vietnam veterns of america,NATIONAL EDUCATION ASSOCIATION,0
-vietnam veterns of america,san francisco aids foundation,0
-vietnam veterns of america,"american ethicare, inc",0
-vietnam veterns of america,pepsi bottling group inc,0
-vietnam veterns of america,califoria teachers association,0
-vietnam veterns of america,agua claiente band of cahuilla indians,0
-vietnam veterns of america,agua caliente band of cahuilla indians,0
-vietnam veterns of america,planned parenthood federation of america inc,0
-vietnam veterns of america,sheet metal workers international assoc pal,0
-vietnam veterns of america,coalition of 100 black women,0
-vietnam veterns of america,pifizer inc,0
-vietnam veterns of america,national education association,0
-vietnam veterns of america,national association for the advancement of colored people legal defense and educational fund inc,0
-vietnam veterns of america,sheet metal workers international association,0
-vietnam veterns of america,california teachers assoc,0
-vietnam veterns of america,national association of independent insurance,0
-vietnam veterns of america,trout unlimited bellevue-issaquah chapte,0
-vietnam veterns of america,the augusta chronicle,0
-vietnam veterns of america,national association of independent insurers,0
-vietnam veterns of america,california bankers assoc,0
-vietnam veterns of america,american consulting engineers council,0
-vietnam veterns of america,cadwalader wickersham  taft,0
-vietnam veterns of america,NATIONAL ASSOCIATION OF SOCIAL WORKERS,0
-vietnam veterns of america,american civil liberties union,0
-vietnam veterns of america,vietnam veterns of america,1
 vietnam veterns of america,georgia real estate investors association inc,0
 vietnam veterns of america,campaign for tobacco free kids,0
 vietnam veterns of america,att services inc,0
@@ -2439,47 +1619,6 @@ vietnam veterns of america,lutherans concerned,0
 vietnam veterns of america,cadwalader wickersham & taft llp,0
 vietnam veterns of america,naral pro-choice oreogn,0
 vietnam veterns of america,william morris agency inc,0
-georgia real estate investors association inc,vietnam veterans of america,0
-georgia real estate investors association inc,american family association inc,0
-georgia real estate investors association inc,the san francisco aids foundation,0
-georgia real estate investors association inc,americans united for separation of church & state,0
-georgia real estate investors association inc,"planned parenthood,",0
-georgia real estate investors association inc,american federation of state county and municipal employees,0
-georgia real estate investors association inc,winstar communications llc,0
-georgia real estate investors association inc,JPMORGAN CHASE BANK NA,0
-georgia real estate investors association inc,planned parenthood federation of america,0
-georgia real estate investors association inc,common cause,0
-georgia real estate investors association inc,lutherans concerned north america,0
-georgia real estate investors association inc,aphilip randolph institute,0
-georgia real estate investors association inc,council of state government,0
-georgia real estate investors association inc,california bankers association,0
-georgia real estate investors association inc,public affairs council,0
-georgia real estate investors association inc,NATIONAL EDUCATION ASSOCIATION,0
-georgia real estate investors association inc,san francisco aids foundation,0
-georgia real estate investors association inc,"american ethicare, inc",0
-georgia real estate investors association inc,pepsi bottling group inc,0
-georgia real estate investors association inc,califoria teachers association,0
-georgia real estate investors association inc,agua claiente band of cahuilla indians,0
-georgia real estate investors association inc,agua caliente band of cahuilla indians,0
-georgia real estate investors association inc,planned parenthood federation of america inc,0
-georgia real estate investors association inc,sheet metal workers international assoc pal,0
-georgia real estate investors association inc,coalition of 100 black women,0
-georgia real estate investors association inc,pifizer inc,0
-georgia real estate investors association inc,national education association,0
-georgia real estate investors association inc,national association for the advancement of colored people legal defense and educational fund inc,0
-georgia real estate investors association inc,sheet metal workers international association,0
-georgia real estate investors association inc,california teachers assoc,0
-georgia real estate investors association inc,national association of independent insurance,0
-georgia real estate investors association inc,trout unlimited bellevue-issaquah chapte,0
-georgia real estate investors association inc,the augusta chronicle,0
-georgia real estate investors association inc,national association of independent insurers,0
-georgia real estate investors association inc,california bankers assoc,0
-georgia real estate investors association inc,american consulting engineers council,0
-georgia real estate investors association inc,cadwalader wickersham  taft,0
-georgia real estate investors association inc,NATIONAL ASSOCIATION OF SOCIAL WORKERS,0
-georgia real estate investors association inc,american civil liberties union,0
-georgia real estate investors association inc,vietnam veterns of america,0
-georgia real estate investors association inc,georgia real estate investors association inc,1
 georgia real estate investors association inc,campaign for tobacco free kids,0
 georgia real estate investors association inc,att services inc,0
 georgia real estate investors association inc,"the pepsi bottling group, inc",0
@@ -2500,48 +1639,6 @@ georgia real estate investors association inc,lutherans concerned,0
 georgia real estate investors association inc,cadwalader wickersham & taft llp,0
 georgia real estate investors association inc,naral pro-choice oreogn,0
 georgia real estate investors association inc,william morris agency inc,0
-campaign for tobacco free kids,vietnam veterans of america,0
-campaign for tobacco free kids,american family association inc,0
-campaign for tobacco free kids,the san francisco aids foundation,0
-campaign for tobacco free kids,americans united for separation of church & state,0
-campaign for tobacco free kids,"planned parenthood,",0
-campaign for tobacco free kids,american federation of state county and municipal employees,0
-campaign for tobacco free kids,winstar communications llc,0
-campaign for tobacco free kids,JPMORGAN CHASE BANK NA,0
-campaign for tobacco free kids,planned parenthood federation of america,0
-campaign for tobacco free kids,common cause,0
-campaign for tobacco free kids,lutherans concerned north america,0
-campaign for tobacco free kids,aphilip randolph institute,0
-campaign for tobacco free kids,council of state government,0
-campaign for tobacco free kids,california bankers association,0
-campaign for tobacco free kids,public affairs council,0
-campaign for tobacco free kids,NATIONAL EDUCATION ASSOCIATION,0
-campaign for tobacco free kids,san francisco aids foundation,0
-campaign for tobacco free kids,"american ethicare, inc",0
-campaign for tobacco free kids,pepsi bottling group inc,0
-campaign for tobacco free kids,califoria teachers association,0
-campaign for tobacco free kids,agua claiente band of cahuilla indians,0
-campaign for tobacco free kids,agua caliente band of cahuilla indians,0
-campaign for tobacco free kids,planned parenthood federation of america inc,0
-campaign for tobacco free kids,sheet metal workers international assoc pal,0
-campaign for tobacco free kids,coalition of 100 black women,0
-campaign for tobacco free kids,pifizer inc,0
-campaign for tobacco free kids,national education association,0
-campaign for tobacco free kids,national association for the advancement of colored people legal defense and educational fund inc,0
-campaign for tobacco free kids,sheet metal workers international association,0
-campaign for tobacco free kids,california teachers assoc,0
-campaign for tobacco free kids,national association of independent insurance,0
-campaign for tobacco free kids,trout unlimited bellevue-issaquah chapte,0
-campaign for tobacco free kids,the augusta chronicle,0
-campaign for tobacco free kids,national association of independent insurers,0
-campaign for tobacco free kids,california bankers assoc,0
-campaign for tobacco free kids,american consulting engineers council,0
-campaign for tobacco free kids,cadwalader wickersham  taft,0
-campaign for tobacco free kids,NATIONAL ASSOCIATION OF SOCIAL WORKERS,0
-campaign for tobacco free kids,american civil liberties union,0
-campaign for tobacco free kids,vietnam veterns of america,0
-campaign for tobacco free kids,georgia real estate investors association inc,0
-campaign for tobacco free kids,campaign for tobacco free kids,1
 campaign for tobacco free kids,att services inc,0
 campaign for tobacco free kids,"the pepsi bottling group, inc",0
 campaign for tobacco free kids,national association for the advancement of colored people,0
@@ -2561,49 +1658,6 @@ campaign for tobacco free kids,lutherans concerned,0
 campaign for tobacco free kids,cadwalader wickersham & taft llp,0
 campaign for tobacco free kids,naral pro-choice oreogn,0
 campaign for tobacco free kids,william morris agency inc,0
-att services inc,vietnam veterans of america,0
-att services inc,american family association inc,0
-att services inc,the san francisco aids foundation,0
-att services inc,americans united for separation of church & state,0
-att services inc,"planned parenthood,",0
-att services inc,american federation of state county and municipal employees,0
-att services inc,winstar communications llc,0
-att services inc,JPMORGAN CHASE BANK NA,0
-att services inc,planned parenthood federation of america,0
-att services inc,common cause,0
-att services inc,lutherans concerned north america,0
-att services inc,aphilip randolph institute,0
-att services inc,council of state government,0
-att services inc,california bankers association,0
-att services inc,public affairs council,0
-att services inc,NATIONAL EDUCATION ASSOCIATION,0
-att services inc,san francisco aids foundation,0
-att services inc,"american ethicare, inc",0
-att services inc,pepsi bottling group inc,0
-att services inc,califoria teachers association,0
-att services inc,agua claiente band of cahuilla indians,0
-att services inc,agua caliente band of cahuilla indians,0
-att services inc,planned parenthood federation of america inc,0
-att services inc,sheet metal workers international assoc pal,0
-att services inc,coalition of 100 black women,0
-att services inc,pifizer inc,0
-att services inc,national education association,0
-att services inc,national association for the advancement of colored people legal defense and educational fund inc,0
-att services inc,sheet metal workers international association,0
-att services inc,california teachers assoc,0
-att services inc,national association of independent insurance,0
-att services inc,trout unlimited bellevue-issaquah chapte,0
-att services inc,the augusta chronicle,0
-att services inc,national association of independent insurers,0
-att services inc,california bankers assoc,0
-att services inc,american consulting engineers council,0
-att services inc,cadwalader wickersham  taft,0
-att services inc,NATIONAL ASSOCIATION OF SOCIAL WORKERS,0
-att services inc,american civil liberties union,0
-att services inc,vietnam veterns of america,0
-att services inc,georgia real estate investors association inc,0
-att services inc,campaign for tobacco free kids,0
-att services inc,att services inc,1
 att services inc,"the pepsi bottling group, inc",0
 att services inc,national association for the advancement of colored people,0
 att services inc,american consulting engineers coun,0
@@ -2622,50 +1676,6 @@ att services inc,lutherans concerned,0
 att services inc,cadwalader wickersham & taft llp,0
 att services inc,naral pro-choice oreogn,0
 att services inc,william morris agency inc,0
-"the pepsi bottling group, inc",vietnam veterans of america,0
-"the pepsi bottling group, inc",american family association inc,0
-"the pepsi bottling group, inc",the san francisco aids foundation,0
-"the pepsi bottling group, inc",americans united for separation of church & state,0
-"the pepsi bottling group, inc","planned parenthood,",0
-"the pepsi bottling group, inc",american federation of state county and municipal employees,0
-"the pepsi bottling group, inc",winstar communications llc,0
-"the pepsi bottling group, inc",JPMORGAN CHASE BANK NA,0
-"the pepsi bottling group, inc",planned parenthood federation of america,0
-"the pepsi bottling group, inc",common cause,0
-"the pepsi bottling group, inc",lutherans concerned north america,0
-"the pepsi bottling group, inc",aphilip randolph institute,0
-"the pepsi bottling group, inc",council of state government,0
-"the pepsi bottling group, inc",california bankers association,0
-"the pepsi bottling group, inc",public affairs council,0
-"the pepsi bottling group, inc",NATIONAL EDUCATION ASSOCIATION,0
-"the pepsi bottling group, inc",san francisco aids foundation,0
-"the pepsi bottling group, inc","american ethicare, inc",0
-"the pepsi bottling group, inc",pepsi bottling group inc,1
-"the pepsi bottling group, inc",califoria teachers association,0
-"the pepsi bottling group, inc",agua claiente band of cahuilla indians,0
-"the pepsi bottling group, inc",agua caliente band of cahuilla indians,0
-"the pepsi bottling group, inc",planned parenthood federation of america inc,0
-"the pepsi bottling group, inc",sheet metal workers international assoc pal,0
-"the pepsi bottling group, inc",coalition of 100 black women,0
-"the pepsi bottling group, inc",pifizer inc,0
-"the pepsi bottling group, inc",national education association,0
-"the pepsi bottling group, inc",national association for the advancement of colored people legal defense and educational fund inc,0
-"the pepsi bottling group, inc",sheet metal workers international association,0
-"the pepsi bottling group, inc",california teachers assoc,0
-"the pepsi bottling group, inc",national association of independent insurance,0
-"the pepsi bottling group, inc",trout unlimited bellevue-issaquah chapte,0
-"the pepsi bottling group, inc",the augusta chronicle,0
-"the pepsi bottling group, inc",national association of independent insurers,0
-"the pepsi bottling group, inc",california bankers assoc,0
-"the pepsi bottling group, inc",american consulting engineers council,0
-"the pepsi bottling group, inc",cadwalader wickersham  taft,0
-"the pepsi bottling group, inc",NATIONAL ASSOCIATION OF SOCIAL WORKERS,0
-"the pepsi bottling group, inc",american civil liberties union,0
-"the pepsi bottling group, inc",vietnam veterns of america,0
-"the pepsi bottling group, inc",georgia real estate investors association inc,0
-"the pepsi bottling group, inc",campaign for tobacco free kids,0
-"the pepsi bottling group, inc",att services inc,0
-"the pepsi bottling group, inc","the pepsi bottling group, inc",1
 "the pepsi bottling group, inc",national association for the advancement of colored people,0
 "the pepsi bottling group, inc",american consulting engineers coun,0
 "the pepsi bottling group, inc",naral pro choice oregon,0
@@ -2683,51 +1693,6 @@ att services inc,william morris agency inc,0
 "the pepsi bottling group, inc",cadwalader wickersham & taft llp,0
 "the pepsi bottling group, inc",naral pro-choice oreogn,0
 "the pepsi bottling group, inc",william morris agency inc,0
-national association for the advancement of colored people,vietnam veterans of america,0
-national association for the advancement of colored people,american family association inc,0
-national association for the advancement of colored people,the san francisco aids foundation,0
-national association for the advancement of colored people,americans united for separation of church & state,0
-national association for the advancement of colored people,"planned parenthood,",0
-national association for the advancement of colored people,american federation of state county and municipal employees,0
-national association for the advancement of colored people,winstar communications llc,0
-national association for the advancement of colored people,JPMORGAN CHASE BANK NA,0
-national association for the advancement of colored people,planned parenthood federation of america,0
-national association for the advancement of colored people,common cause,0
-national association for the advancement of colored people,lutherans concerned north america,0
-national association for the advancement of colored people,aphilip randolph institute,0
-national association for the advancement of colored people,council of state government,0
-national association for the advancement of colored people,california bankers association,0
-national association for the advancement of colored people,public affairs council,0
-national association for the advancement of colored people,NATIONAL EDUCATION ASSOCIATION,0
-national association for the advancement of colored people,san francisco aids foundation,0
-national association for the advancement of colored people,"american ethicare, inc",0
-national association for the advancement of colored people,pepsi bottling group inc,0
-national association for the advancement of colored people,califoria teachers association,0
-national association for the advancement of colored people,agua claiente band of cahuilla indians,0
-national association for the advancement of colored people,agua caliente band of cahuilla indians,0
-national association for the advancement of colored people,planned parenthood federation of america inc,0
-national association for the advancement of colored people,sheet metal workers international assoc pal,0
-national association for the advancement of colored people,coalition of 100 black women,0
-national association for the advancement of colored people,pifizer inc,0
-national association for the advancement of colored people,national education association,0
-national association for the advancement of colored people,national association for the advancement of colored people legal defense and educational fund inc,1
-national association for the advancement of colored people,sheet metal workers international association,0
-national association for the advancement of colored people,california teachers assoc,0
-national association for the advancement of colored people,national association of independent insurance,0
-national association for the advancement of colored people,trout unlimited bellevue-issaquah chapte,0
-national association for the advancement of colored people,the augusta chronicle,0
-national association for the advancement of colored people,national association of independent insurers,0
-national association for the advancement of colored people,california bankers assoc,0
-national association for the advancement of colored people,american consulting engineers council,0
-national association for the advancement of colored people,cadwalader wickersham  taft,0
-national association for the advancement of colored people,NATIONAL ASSOCIATION OF SOCIAL WORKERS,0
-national association for the advancement of colored people,american civil liberties union,0
-national association for the advancement of colored people,vietnam veterns of america,0
-national association for the advancement of colored people,georgia real estate investors association inc,0
-national association for the advancement of colored people,campaign for tobacco free kids,0
-national association for the advancement of colored people,att services inc,0
-national association for the advancement of colored people,"the pepsi bottling group, inc",0
-national association for the advancement of colored people,national association for the advancement of colored people,1
 national association for the advancement of colored people,american consulting engineers coun,0
 national association for the advancement of colored people,naral pro choice oregon,0
 national association for the advancement of colored people,augusta chronicle,0
@@ -2744,52 +1709,6 @@ national association for the advancement of colored people,lutherans concerned,0
 national association for the advancement of colored people,cadwalader wickersham & taft llp,0
 national association for the advancement of colored people,naral pro-choice oreogn,0
 national association for the advancement of colored people,william morris agency inc,0
-american consulting engineers coun,vietnam veterans of america,0
-american consulting engineers coun,american family association inc,0
-american consulting engineers coun,the san francisco aids foundation,0
-american consulting engineers coun,americans united for separation of church & state,0
-american consulting engineers coun,"planned parenthood,",0
-american consulting engineers coun,american federation of state county and municipal employees,0
-american consulting engineers coun,winstar communications llc,0
-american consulting engineers coun,JPMORGAN CHASE BANK NA,0
-american consulting engineers coun,planned parenthood federation of america,0
-american consulting engineers coun,common cause,0
-american consulting engineers coun,lutherans concerned north america,0
-american consulting engineers coun,aphilip randolph institute,0
-american consulting engineers coun,council of state government,0
-american consulting engineers coun,california bankers association,0
-american consulting engineers coun,public affairs council,0
-american consulting engineers coun,NATIONAL EDUCATION ASSOCIATION,0
-american consulting engineers coun,san francisco aids foundation,0
-american consulting engineers coun,"american ethicare, inc",0
-american consulting engineers coun,pepsi bottling group inc,0
-american consulting engineers coun,califoria teachers association,0
-american consulting engineers coun,agua claiente band of cahuilla indians,0
-american consulting engineers coun,agua caliente band of cahuilla indians,0
-american consulting engineers coun,planned parenthood federation of america inc,0
-american consulting engineers coun,sheet metal workers international assoc pal,0
-american consulting engineers coun,coalition of 100 black women,0
-american consulting engineers coun,pifizer inc,0
-american consulting engineers coun,national education association,0
-american consulting engineers coun,national association for the advancement of colored people legal defense and educational fund inc,0
-american consulting engineers coun,sheet metal workers international association,0
-american consulting engineers coun,california teachers assoc,0
-american consulting engineers coun,national association of independent insurance,0
-american consulting engineers coun,trout unlimited bellevue-issaquah chapte,0
-american consulting engineers coun,the augusta chronicle,0
-american consulting engineers coun,national association of independent insurers,0
-american consulting engineers coun,california bankers assoc,0
-american consulting engineers coun,american consulting engineers council,1
-american consulting engineers coun,cadwalader wickersham  taft,0
-american consulting engineers coun,NATIONAL ASSOCIATION OF SOCIAL WORKERS,0
-american consulting engineers coun,american civil liberties union,0
-american consulting engineers coun,vietnam veterns of america,0
-american consulting engineers coun,georgia real estate investors association inc,0
-american consulting engineers coun,campaign for tobacco free kids,0
-american consulting engineers coun,att services inc,0
-american consulting engineers coun,"the pepsi bottling group, inc",0
-american consulting engineers coun,national association for the advancement of colored people,0
-american consulting engineers coun,american consulting engineers coun,1
 american consulting engineers coun,naral pro choice oregon,0
 american consulting engineers coun,augusta chronicle,0
 american consulting engineers coun,winstar communications inc,0
@@ -2805,53 +1724,6 @@ american consulting engineers coun,lutherans concerned,0
 american consulting engineers coun,cadwalader wickersham & taft llp,0
 american consulting engineers coun,naral pro-choice oreogn,0
 american consulting engineers coun,william morris agency inc,0
-naral pro choice oregon,vietnam veterans of america,0
-naral pro choice oregon,american family association inc,0
-naral pro choice oregon,the san francisco aids foundation,0
-naral pro choice oregon,americans united for separation of church & state,0
-naral pro choice oregon,"planned parenthood,",0
-naral pro choice oregon,american federation of state county and municipal employees,0
-naral pro choice oregon,winstar communications llc,0
-naral pro choice oregon,JPMORGAN CHASE BANK NA,0
-naral pro choice oregon,planned parenthood federation of america,0
-naral pro choice oregon,common cause,0
-naral pro choice oregon,lutherans concerned north america,0
-naral pro choice oregon,aphilip randolph institute,0
-naral pro choice oregon,council of state government,0
-naral pro choice oregon,california bankers association,0
-naral pro choice oregon,public affairs council,0
-naral pro choice oregon,NATIONAL EDUCATION ASSOCIATION,0
-naral pro choice oregon,san francisco aids foundation,0
-naral pro choice oregon,"american ethicare, inc",0
-naral pro choice oregon,pepsi bottling group inc,0
-naral pro choice oregon,califoria teachers association,0
-naral pro choice oregon,agua claiente band of cahuilla indians,0
-naral pro choice oregon,agua caliente band of cahuilla indians,0
-naral pro choice oregon,planned parenthood federation of america inc,0
-naral pro choice oregon,sheet metal workers international assoc pal,0
-naral pro choice oregon,coalition of 100 black women,0
-naral pro choice oregon,pifizer inc,0
-naral pro choice oregon,national education association,0
-naral pro choice oregon,national association for the advancement of colored people legal defense and educational fund inc,0
-naral pro choice oregon,sheet metal workers international association,0
-naral pro choice oregon,california teachers assoc,0
-naral pro choice oregon,national association of independent insurance,0
-naral pro choice oregon,trout unlimited bellevue-issaquah chapte,0
-naral pro choice oregon,the augusta chronicle,0
-naral pro choice oregon,national association of independent insurers,0
-naral pro choice oregon,california bankers assoc,0
-naral pro choice oregon,american consulting engineers council,0
-naral pro choice oregon,cadwalader wickersham  taft,0
-naral pro choice oregon,NATIONAL ASSOCIATION OF SOCIAL WORKERS,0
-naral pro choice oregon,american civil liberties union,0
-naral pro choice oregon,vietnam veterns of america,0
-naral pro choice oregon,georgia real estate investors association inc,0
-naral pro choice oregon,campaign for tobacco free kids,0
-naral pro choice oregon,att services inc,0
-naral pro choice oregon,"the pepsi bottling group, inc",0
-naral pro choice oregon,national association for the advancement of colored people,0
-naral pro choice oregon,american consulting engineers coun,0
-naral pro choice oregon,naral pro choice oregon,1
 naral pro choice oregon,augusta chronicle,0
 naral pro choice oregon,winstar communications inc,0
 naral pro choice oregon,national association of chairug stores,0
@@ -2866,54 +1738,6 @@ naral pro choice oregon,lutherans concerned,0
 naral pro choice oregon,cadwalader wickersham & taft llp,0
 naral pro choice oregon,naral pro-choice oreogn,1
 naral pro choice oregon,william morris agency inc,0
-augusta chronicle,vietnam veterans of america,0
-augusta chronicle,american family association inc,0
-augusta chronicle,the san francisco aids foundation,0
-augusta chronicle,americans united for separation of church & state,0
-augusta chronicle,"planned parenthood,",0
-augusta chronicle,american federation of state county and municipal employees,0
-augusta chronicle,winstar communications llc,0
-augusta chronicle,JPMORGAN CHASE BANK NA,0
-augusta chronicle,planned parenthood federation of america,0
-augusta chronicle,common cause,0
-augusta chronicle,lutherans concerned north america,0
-augusta chronicle,aphilip randolph institute,0
-augusta chronicle,council of state government,0
-augusta chronicle,california bankers association,0
-augusta chronicle,public affairs council,0
-augusta chronicle,NATIONAL EDUCATION ASSOCIATION,0
-augusta chronicle,san francisco aids foundation,0
-augusta chronicle,"american ethicare, inc",0
-augusta chronicle,pepsi bottling group inc,0
-augusta chronicle,califoria teachers association,0
-augusta chronicle,agua claiente band of cahuilla indians,0
-augusta chronicle,agua caliente band of cahuilla indians,0
-augusta chronicle,planned parenthood federation of america inc,0
-augusta chronicle,sheet metal workers international assoc pal,0
-augusta chronicle,coalition of 100 black women,0
-augusta chronicle,pifizer inc,0
-augusta chronicle,national education association,0
-augusta chronicle,national association for the advancement of colored people legal defense and educational fund inc,0
-augusta chronicle,sheet metal workers international association,0
-augusta chronicle,california teachers assoc,0
-augusta chronicle,national association of independent insurance,0
-augusta chronicle,trout unlimited bellevue-issaquah chapte,0
-augusta chronicle,the augusta chronicle,1
-augusta chronicle,national association of independent insurers,0
-augusta chronicle,california bankers assoc,0
-augusta chronicle,american consulting engineers council,0
-augusta chronicle,cadwalader wickersham  taft,0
-augusta chronicle,NATIONAL ASSOCIATION OF SOCIAL WORKERS,0
-augusta chronicle,american civil liberties union,0
-augusta chronicle,vietnam veterns of america,0
-augusta chronicle,georgia real estate investors association inc,0
-augusta chronicle,campaign for tobacco free kids,0
-augusta chronicle,att services inc,0
-augusta chronicle,"the pepsi bottling group, inc",0
-augusta chronicle,national association for the advancement of colored people,0
-augusta chronicle,american consulting engineers coun,0
-augusta chronicle,naral pro choice oregon,0
-augusta chronicle,augusta chronicle,1
 augusta chronicle,winstar communications inc,0
 augusta chronicle,national association of chairug stores,0
 augusta chronicle,at&t services inc,0
@@ -2927,55 +1751,6 @@ augusta chronicle,lutherans concerned,0
 augusta chronicle,cadwalader wickersham & taft llp,0
 augusta chronicle,naral pro-choice oreogn,0
 augusta chronicle,william morris agency inc,0
-winstar communications inc,vietnam veterans of america,0
-winstar communications inc,american family association inc,0
-winstar communications inc,the san francisco aids foundation,0
-winstar communications inc,americans united for separation of church & state,0
-winstar communications inc,"planned parenthood,",0
-winstar communications inc,american federation of state county and municipal employees,0
-winstar communications inc,winstar communications llc,1
-winstar communications inc,JPMORGAN CHASE BANK NA,0
-winstar communications inc,planned parenthood federation of america,0
-winstar communications inc,common cause,0
-winstar communications inc,lutherans concerned north america,0
-winstar communications inc,aphilip randolph institute,0
-winstar communications inc,council of state government,0
-winstar communications inc,california bankers association,0
-winstar communications inc,public affairs council,0
-winstar communications inc,NATIONAL EDUCATION ASSOCIATION,0
-winstar communications inc,san francisco aids foundation,0
-winstar communications inc,"american ethicare, inc",0
-winstar communications inc,pepsi bottling group inc,0
-winstar communications inc,califoria teachers association,0
-winstar communications inc,agua claiente band of cahuilla indians,0
-winstar communications inc,agua caliente band of cahuilla indians,0
-winstar communications inc,planned parenthood federation of america inc,0
-winstar communications inc,sheet metal workers international assoc pal,0
-winstar communications inc,coalition of 100 black women,0
-winstar communications inc,pifizer inc,0
-winstar communications inc,national education association,0
-winstar communications inc,national association for the advancement of colored people legal defense and educational fund inc,0
-winstar communications inc,sheet metal workers international association,0
-winstar communications inc,california teachers assoc,0
-winstar communications inc,national association of independent insurance,0
-winstar communications inc,trout unlimited bellevue-issaquah chapte,0
-winstar communications inc,the augusta chronicle,0
-winstar communications inc,national association of independent insurers,0
-winstar communications inc,california bankers assoc,0
-winstar communications inc,american consulting engineers council,0
-winstar communications inc,cadwalader wickersham  taft,0
-winstar communications inc,NATIONAL ASSOCIATION OF SOCIAL WORKERS,0
-winstar communications inc,american civil liberties union,0
-winstar communications inc,vietnam veterns of america,0
-winstar communications inc,georgia real estate investors association inc,0
-winstar communications inc,campaign for tobacco free kids,0
-winstar communications inc,att services inc,0
-winstar communications inc,"the pepsi bottling group, inc",0
-winstar communications inc,national association for the advancement of colored people,0
-winstar communications inc,american consulting engineers coun,0
-winstar communications inc,naral pro choice oregon,0
-winstar communications inc,augusta chronicle,0
-winstar communications inc,winstar communications inc,1
 winstar communications inc,national association of chairug stores,0
 winstar communications inc,at&t services inc,0
 winstar communications inc,national coalition of 100 black women,0
@@ -2988,56 +1763,6 @@ winstar communications inc,lutherans concerned,0
 winstar communications inc,cadwalader wickersham & taft llp,0
 winstar communications inc,naral pro-choice oreogn,0
 winstar communications inc,william morris agency inc,0
-national association of chairug stores,vietnam veterans of america,0
-national association of chairug stores,american family association inc,0
-national association of chairug stores,the san francisco aids foundation,0
-national association of chairug stores,americans united for separation of church & state,0
-national association of chairug stores,"planned parenthood,",0
-national association of chairug stores,american federation of state county and municipal employees,0
-national association of chairug stores,winstar communications llc,0
-national association of chairug stores,JPMORGAN CHASE BANK NA,0
-national association of chairug stores,planned parenthood federation of america,0
-national association of chairug stores,common cause,0
-national association of chairug stores,lutherans concerned north america,0
-national association of chairug stores,aphilip randolph institute,0
-national association of chairug stores,council of state government,0
-national association of chairug stores,california bankers association,0
-national association of chairug stores,public affairs council,0
-national association of chairug stores,NATIONAL EDUCATION ASSOCIATION,0
-national association of chairug stores,san francisco aids foundation,0
-national association of chairug stores,"american ethicare, inc",0
-national association of chairug stores,pepsi bottling group inc,0
-national association of chairug stores,califoria teachers association,0
-national association of chairug stores,agua claiente band of cahuilla indians,0
-national association of chairug stores,agua caliente band of cahuilla indians,0
-national association of chairug stores,planned parenthood federation of america inc,0
-national association of chairug stores,sheet metal workers international assoc pal,0
-national association of chairug stores,coalition of 100 black women,0
-national association of chairug stores,pifizer inc,0
-national association of chairug stores,national education association,0
-national association of chairug stores,national association for the advancement of colored people legal defense and educational fund inc,0
-national association of chairug stores,sheet metal workers international association,0
-national association of chairug stores,california teachers assoc,0
-national association of chairug stores,national association of independent insurance,0
-national association of chairug stores,trout unlimited bellevue-issaquah chapte,0
-national association of chairug stores,the augusta chronicle,0
-national association of chairug stores,national association of independent insurers,0
-national association of chairug stores,california bankers assoc,0
-national association of chairug stores,american consulting engineers council,0
-national association of chairug stores,cadwalader wickersham  taft,0
-national association of chairug stores,NATIONAL ASSOCIATION OF SOCIAL WORKERS,0
-national association of chairug stores,american civil liberties union,0
-national association of chairug stores,vietnam veterns of america,0
-national association of chairug stores,georgia real estate investors association inc,0
-national association of chairug stores,campaign for tobacco free kids,0
-national association of chairug stores,att services inc,0
-national association of chairug stores,"the pepsi bottling group, inc",0
-national association of chairug stores,national association for the advancement of colored people,0
-national association of chairug stores,american consulting engineers coun,0
-national association of chairug stores,naral pro choice oregon,0
-national association of chairug stores,augusta chronicle,0
-national association of chairug stores,winstar communications inc,0
-national association of chairug stores,national association of chairug stores,1
 national association of chairug stores,at&t services inc,0
 national association of chairug stores,national coalition of 100 black women,0
 national association of chairug stores,campaign for tobacco-free kids,0
@@ -3049,57 +1774,6 @@ national association of chairug stores,lutherans concerned,0
 national association of chairug stores,cadwalader wickersham & taft llp,0
 national association of chairug stores,naral pro-choice oreogn,0
 national association of chairug stores,william morris agency inc,0
-at&t services inc,vietnam veterans of america,0
-at&t services inc,american family association inc,0
-at&t services inc,the san francisco aids foundation,0
-at&t services inc,americans united for separation of church & state,0
-at&t services inc,"planned parenthood,",0
-at&t services inc,american federation of state county and municipal employees,0
-at&t services inc,winstar communications llc,0
-at&t services inc,JPMORGAN CHASE BANK NA,0
-at&t services inc,planned parenthood federation of america,0
-at&t services inc,common cause,0
-at&t services inc,lutherans concerned north america,0
-at&t services inc,aphilip randolph institute,0
-at&t services inc,council of state government,0
-at&t services inc,california bankers association,0
-at&t services inc,public affairs council,0
-at&t services inc,NATIONAL EDUCATION ASSOCIATION,0
-at&t services inc,san francisco aids foundation,0
-at&t services inc,"american ethicare, inc",0
-at&t services inc,pepsi bottling group inc,0
-at&t services inc,califoria teachers association,0
-at&t services inc,agua claiente band of cahuilla indians,0
-at&t services inc,agua caliente band of cahuilla indians,0
-at&t services inc,planned parenthood federation of america inc,0
-at&t services inc,sheet metal workers international assoc pal,0
-at&t services inc,coalition of 100 black women,0
-at&t services inc,pifizer inc,0
-at&t services inc,national education association,0
-at&t services inc,national association for the advancement of colored people legal defense and educational fund inc,0
-at&t services inc,sheet metal workers international association,0
-at&t services inc,california teachers assoc,0
-at&t services inc,national association of independent insurance,0
-at&t services inc,trout unlimited bellevue-issaquah chapte,0
-at&t services inc,the augusta chronicle,0
-at&t services inc,national association of independent insurers,0
-at&t services inc,california bankers assoc,0
-at&t services inc,american consulting engineers council,0
-at&t services inc,cadwalader wickersham  taft,0
-at&t services inc,NATIONAL ASSOCIATION OF SOCIAL WORKERS,0
-at&t services inc,american civil liberties union,0
-at&t services inc,vietnam veterns of america,0
-at&t services inc,georgia real estate investors association inc,0
-at&t services inc,campaign for tobacco free kids,0
-at&t services inc,att services inc,1
-at&t services inc,"the pepsi bottling group, inc",0
-at&t services inc,national association for the advancement of colored people,0
-at&t services inc,american consulting engineers coun,0
-at&t services inc,naral pro choice oregon,0
-at&t services inc,augusta chronicle,0
-at&t services inc,winstar communications inc,0
-at&t services inc,national association of chairug stores,0
-at&t services inc,at&t services inc,1
 at&t services inc,national coalition of 100 black women,0
 at&t services inc,campaign for tobacco-free kids,0
 at&t services inc,dell computers corp,0
@@ -3110,58 +1784,6 @@ at&t services inc,lutherans concerned,0
 at&t services inc,cadwalader wickersham & taft llp,0
 at&t services inc,naral pro-choice oreogn,0
 at&t services inc,william morris agency inc,0
-national coalition of 100 black women,vietnam veterans of america,0
-national coalition of 100 black women,american family association inc,0
-national coalition of 100 black women,the san francisco aids foundation,0
-national coalition of 100 black women,americans united for separation of church & state,0
-national coalition of 100 black women,"planned parenthood,",0
-national coalition of 100 black women,american federation of state county and municipal employees,0
-national coalition of 100 black women,winstar communications llc,0
-national coalition of 100 black women,JPMORGAN CHASE BANK NA,0
-national coalition of 100 black women,planned parenthood federation of america,0
-national coalition of 100 black women,common cause,0
-national coalition of 100 black women,lutherans concerned north america,0
-national coalition of 100 black women,aphilip randolph institute,0
-national coalition of 100 black women,council of state government,0
-national coalition of 100 black women,california bankers association,0
-national coalition of 100 black women,public affairs council,0
-national coalition of 100 black women,NATIONAL EDUCATION ASSOCIATION,0
-national coalition of 100 black women,san francisco aids foundation,0
-national coalition of 100 black women,"american ethicare, inc",0
-national coalition of 100 black women,pepsi bottling group inc,0
-national coalition of 100 black women,califoria teachers association,0
-national coalition of 100 black women,agua claiente band of cahuilla indians,0
-national coalition of 100 black women,agua caliente band of cahuilla indians,0
-national coalition of 100 black women,planned parenthood federation of america inc,0
-national coalition of 100 black women,sheet metal workers international assoc pal,0
-national coalition of 100 black women,coalition of 100 black women,1
-national coalition of 100 black women,pifizer inc,0
-national coalition of 100 black women,national education association,0
-national coalition of 100 black women,national association for the advancement of colored people legal defense and educational fund inc,0
-national coalition of 100 black women,sheet metal workers international association,0
-national coalition of 100 black women,california teachers assoc,0
-national coalition of 100 black women,national association of independent insurance,0
-national coalition of 100 black women,trout unlimited bellevue-issaquah chapte,0
-national coalition of 100 black women,the augusta chronicle,0
-national coalition of 100 black women,national association of independent insurers,0
-national coalition of 100 black women,california bankers assoc,0
-national coalition of 100 black women,american consulting engineers council,0
-national coalition of 100 black women,cadwalader wickersham  taft,0
-national coalition of 100 black women,NATIONAL ASSOCIATION OF SOCIAL WORKERS,0
-national coalition of 100 black women,american civil liberties union,0
-national coalition of 100 black women,vietnam veterns of america,0
-national coalition of 100 black women,georgia real estate investors association inc,0
-national coalition of 100 black women,campaign for tobacco free kids,0
-national coalition of 100 black women,att services inc,0
-national coalition of 100 black women,"the pepsi bottling group, inc",0
-national coalition of 100 black women,national association for the advancement of colored people,0
-national coalition of 100 black women,american consulting engineers coun,0
-national coalition of 100 black women,naral pro choice oregon,0
-national coalition of 100 black women,augusta chronicle,0
-national coalition of 100 black women,winstar communications inc,0
-national coalition of 100 black women,national association of chairug stores,0
-national coalition of 100 black women,at&t services inc,0
-national coalition of 100 black women,national coalition of 100 black women,1
 national coalition of 100 black women,campaign for tobacco-free kids,0
 national coalition of 100 black women,dell computers corp,0
 national coalition of 100 black women,dell computer corp,0
@@ -3171,59 +1793,6 @@ national coalition of 100 black women,lutherans concerned,0
 national coalition of 100 black women,cadwalader wickersham & taft llp,0
 national coalition of 100 black women,naral pro-choice oreogn,0
 national coalition of 100 black women,william morris agency inc,0
-campaign for tobacco-free kids,vietnam veterans of america,0
-campaign for tobacco-free kids,american family association inc,0
-campaign for tobacco-free kids,the san francisco aids foundation,0
-campaign for tobacco-free kids,americans united for separation of church & state,0
-campaign for tobacco-free kids,"planned parenthood,",0
-campaign for tobacco-free kids,american federation of state county and municipal employees,0
-campaign for tobacco-free kids,winstar communications llc,0
-campaign for tobacco-free kids,JPMORGAN CHASE BANK NA,0
-campaign for tobacco-free kids,planned parenthood federation of america,0
-campaign for tobacco-free kids,common cause,0
-campaign for tobacco-free kids,lutherans concerned north america,0
-campaign for tobacco-free kids,aphilip randolph institute,0
-campaign for tobacco-free kids,council of state government,0
-campaign for tobacco-free kids,california bankers association,0
-campaign for tobacco-free kids,public affairs council,0
-campaign for tobacco-free kids,NATIONAL EDUCATION ASSOCIATION,0
-campaign for tobacco-free kids,san francisco aids foundation,0
-campaign for tobacco-free kids,"american ethicare, inc",0
-campaign for tobacco-free kids,pepsi bottling group inc,0
-campaign for tobacco-free kids,califoria teachers association,0
-campaign for tobacco-free kids,agua claiente band of cahuilla indians,0
-campaign for tobacco-free kids,agua caliente band of cahuilla indians,0
-campaign for tobacco-free kids,planned parenthood federation of america inc,0
-campaign for tobacco-free kids,sheet metal workers international assoc pal,0
-campaign for tobacco-free kids,coalition of 100 black women,0
-campaign for tobacco-free kids,pifizer inc,0
-campaign for tobacco-free kids,national education association,0
-campaign for tobacco-free kids,national association for the advancement of colored people legal defense and educational fund inc,0
-campaign for tobacco-free kids,sheet metal workers international association,0
-campaign for tobacco-free kids,california teachers assoc,0
-campaign for tobacco-free kids,national association of independent insurance,0
-campaign for tobacco-free kids,trout unlimited bellevue-issaquah chapte,0
-campaign for tobacco-free kids,the augusta chronicle,0
-campaign for tobacco-free kids,national association of independent insurers,0
-campaign for tobacco-free kids,california bankers assoc,0
-campaign for tobacco-free kids,american consulting engineers council,0
-campaign for tobacco-free kids,cadwalader wickersham  taft,0
-campaign for tobacco-free kids,NATIONAL ASSOCIATION OF SOCIAL WORKERS,0
-campaign for tobacco-free kids,american civil liberties union,0
-campaign for tobacco-free kids,vietnam veterns of america,0
-campaign for tobacco-free kids,georgia real estate investors association inc,0
-campaign for tobacco-free kids,campaign for tobacco free kids,1
-campaign for tobacco-free kids,att services inc,0
-campaign for tobacco-free kids,"the pepsi bottling group, inc",0
-campaign for tobacco-free kids,national association for the advancement of colored people,0
-campaign for tobacco-free kids,american consulting engineers coun,0
-campaign for tobacco-free kids,naral pro choice oregon,0
-campaign for tobacco-free kids,augusta chronicle,0
-campaign for tobacco-free kids,winstar communications inc,0
-campaign for tobacco-free kids,national association of chairug stores,0
-campaign for tobacco-free kids,at&t services inc,0
-campaign for tobacco-free kids,national coalition of 100 black women,0
-campaign for tobacco-free kids,campaign for tobacco-free kids,1
 campaign for tobacco-free kids,dell computers corp,0
 campaign for tobacco-free kids,dell computer corp,0
 campaign for tobacco-free kids,pfizer inc,0
@@ -3232,60 +1801,6 @@ campaign for tobacco-free kids,lutherans concerned,0
 campaign for tobacco-free kids,cadwalader wickersham & taft llp,0
 campaign for tobacco-free kids,naral pro-choice oreogn,0
 campaign for tobacco-free kids,william morris agency inc,0
-dell computers corp,vietnam veterans of america,0
-dell computers corp,american family association inc,0
-dell computers corp,the san francisco aids foundation,0
-dell computers corp,americans united for separation of church & state,0
-dell computers corp,"planned parenthood,",0
-dell computers corp,american federation of state county and municipal employees,0
-dell computers corp,winstar communications llc,0
-dell computers corp,JPMORGAN CHASE BANK NA,0
-dell computers corp,planned parenthood federation of america,0
-dell computers corp,common cause,0
-dell computers corp,lutherans concerned north america,0
-dell computers corp,aphilip randolph institute,0
-dell computers corp,council of state government,0
-dell computers corp,california bankers association,0
-dell computers corp,public affairs council,0
-dell computers corp,NATIONAL EDUCATION ASSOCIATION,0
-dell computers corp,san francisco aids foundation,0
-dell computers corp,"american ethicare, inc",0
-dell computers corp,pepsi bottling group inc,0
-dell computers corp,califoria teachers association,0
-dell computers corp,agua claiente band of cahuilla indians,0
-dell computers corp,agua caliente band of cahuilla indians,0
-dell computers corp,planned parenthood federation of america inc,0
-dell computers corp,sheet metal workers international assoc pal,0
-dell computers corp,coalition of 100 black women,0
-dell computers corp,pifizer inc,0
-dell computers corp,national education association,0
-dell computers corp,national association for the advancement of colored people legal defense and educational fund inc,0
-dell computers corp,sheet metal workers international association,0
-dell computers corp,california teachers assoc,0
-dell computers corp,national association of independent insurance,0
-dell computers corp,trout unlimited bellevue-issaquah chapte,0
-dell computers corp,the augusta chronicle,0
-dell computers corp,national association of independent insurers,0
-dell computers corp,california bankers assoc,0
-dell computers corp,american consulting engineers council,0
-dell computers corp,cadwalader wickersham  taft,0
-dell computers corp,NATIONAL ASSOCIATION OF SOCIAL WORKERS,0
-dell computers corp,american civil liberties union,0
-dell computers corp,vietnam veterns of america,0
-dell computers corp,georgia real estate investors association inc,0
-dell computers corp,campaign for tobacco free kids,0
-dell computers corp,att services inc,0
-dell computers corp,"the pepsi bottling group, inc",0
-dell computers corp,national association for the advancement of colored people,0
-dell computers corp,american consulting engineers coun,0
-dell computers corp,naral pro choice oregon,0
-dell computers corp,augusta chronicle,0
-dell computers corp,winstar communications inc,0
-dell computers corp,national association of chairug stores,0
-dell computers corp,at&t services inc,0
-dell computers corp,national coalition of 100 black women,0
-dell computers corp,campaign for tobacco-free kids,0
-dell computers corp,dell computers corp,1
 dell computers corp,dell computer corp,1
 dell computers corp,pfizer inc,0
 dell computers corp,natl automatic merchandising assoc,0
@@ -3293,430 +1808,24 @@ dell computers corp,lutherans concerned,0
 dell computers corp,cadwalader wickersham & taft llp,0
 dell computers corp,naral pro-choice oreogn,0
 dell computers corp,william morris agency inc,0
-dell computer corp,vietnam veterans of america,0
-dell computer corp,american family association inc,0
-dell computer corp,the san francisco aids foundation,0
-dell computer corp,americans united for separation of church & state,0
-dell computer corp,"planned parenthood,",0
-dell computer corp,american federation of state county and municipal employees,0
-dell computer corp,winstar communications llc,0
-dell computer corp,JPMORGAN CHASE BANK NA,0
-dell computer corp,planned parenthood federation of america,0
-dell computer corp,common cause,0
-dell computer corp,lutherans concerned north america,0
-dell computer corp,aphilip randolph institute,0
-dell computer corp,council of state government,0
-dell computer corp,california bankers association,0
-dell computer corp,public affairs council,0
-dell computer corp,NATIONAL EDUCATION ASSOCIATION,0
-dell computer corp,san francisco aids foundation,0
-dell computer corp,"american ethicare, inc",0
-dell computer corp,pepsi bottling group inc,0
-dell computer corp,califoria teachers association,0
-dell computer corp,agua claiente band of cahuilla indians,0
-dell computer corp,agua caliente band of cahuilla indians,0
-dell computer corp,planned parenthood federation of america inc,0
-dell computer corp,sheet metal workers international assoc pal,0
-dell computer corp,coalition of 100 black women,0
-dell computer corp,pifizer inc,0
-dell computer corp,national education association,0
-dell computer corp,national association for the advancement of colored people legal defense and educational fund inc,0
-dell computer corp,sheet metal workers international association,0
-dell computer corp,california teachers assoc,0
-dell computer corp,national association of independent insurance,0
-dell computer corp,trout unlimited bellevue-issaquah chapte,0
-dell computer corp,the augusta chronicle,0
-dell computer corp,national association of independent insurers,0
-dell computer corp,california bankers assoc,0
-dell computer corp,american consulting engineers council,0
-dell computer corp,cadwalader wickersham  taft,0
-dell computer corp,NATIONAL ASSOCIATION OF SOCIAL WORKERS,0
-dell computer corp,american civil liberties union,0
-dell computer corp,vietnam veterns of america,0
-dell computer corp,georgia real estate investors association inc,0
-dell computer corp,campaign for tobacco free kids,0
-dell computer corp,att services inc,0
-dell computer corp,"the pepsi bottling group, inc",0
-dell computer corp,national association for the advancement of colored people,0
-dell computer corp,american consulting engineers coun,0
-dell computer corp,naral pro choice oregon,0
-dell computer corp,augusta chronicle,0
-dell computer corp,winstar communications inc,0
-dell computer corp,national association of chairug stores,0
-dell computer corp,at&t services inc,0
-dell computer corp,national coalition of 100 black women,0
-dell computer corp,campaign for tobacco-free kids,0
-dell computer corp,dell computers corp,1
-dell computer corp,dell computer corp,1
 dell computer corp,pfizer inc,0
 dell computer corp,natl automatic merchandising assoc,0
 dell computer corp,lutherans concerned,0
 dell computer corp,cadwalader wickersham & taft llp,0
 dell computer corp,naral pro-choice oreogn,0
 dell computer corp,william morris agency inc,0
-pfizer inc,vietnam veterans of america,0
-pfizer inc,american family association inc,0
-pfizer inc,the san francisco aids foundation,0
-pfizer inc,americans united for separation of church & state,0
-pfizer inc,"planned parenthood,",0
-pfizer inc,american federation of state county and municipal employees,0
-pfizer inc,winstar communications llc,0
-pfizer inc,JPMORGAN CHASE BANK NA,0
-pfizer inc,planned parenthood federation of america,0
-pfizer inc,common cause,0
-pfizer inc,lutherans concerned north america,0
-pfizer inc,aphilip randolph institute,0
-pfizer inc,council of state government,0
-pfizer inc,california bankers association,0
-pfizer inc,public affairs council,0
-pfizer inc,NATIONAL EDUCATION ASSOCIATION,0
-pfizer inc,san francisco aids foundation,0
-pfizer inc,"american ethicare, inc",0
-pfizer inc,pepsi bottling group inc,0
-pfizer inc,califoria teachers association,0
-pfizer inc,agua claiente band of cahuilla indians,0
-pfizer inc,agua caliente band of cahuilla indians,0
-pfizer inc,planned parenthood federation of america inc,0
-pfizer inc,sheet metal workers international assoc pal,0
-pfizer inc,coalition of 100 black women,0
-pfizer inc,pifizer inc,1
-pfizer inc,national education association,0
-pfizer inc,national association for the advancement of colored people legal defense and educational fund inc,0
-pfizer inc,sheet metal workers international association,0
-pfizer inc,california teachers assoc,0
-pfizer inc,national association of independent insurance,0
-pfizer inc,trout unlimited bellevue-issaquah chapte,0
-pfizer inc,the augusta chronicle,0
-pfizer inc,national association of independent insurers,0
-pfizer inc,california bankers assoc,0
-pfizer inc,american consulting engineers council,0
-pfizer inc,cadwalader wickersham  taft,0
-pfizer inc,NATIONAL ASSOCIATION OF SOCIAL WORKERS,0
-pfizer inc,american civil liberties union,0
-pfizer inc,vietnam veterns of america,0
-pfizer inc,georgia real estate investors association inc,0
-pfizer inc,campaign for tobacco free kids,0
-pfizer inc,att services inc,0
-pfizer inc,"the pepsi bottling group, inc",0
-pfizer inc,national association for the advancement of colored people,0
-pfizer inc,american consulting engineers coun,0
-pfizer inc,naral pro choice oregon,0
-pfizer inc,augusta chronicle,0
-pfizer inc,winstar communications inc,0
-pfizer inc,national association of chairug stores,0
-pfizer inc,at&t services inc,0
-pfizer inc,national coalition of 100 black women,0
-pfizer inc,campaign for tobacco-free kids,0
-pfizer inc,dell computers corp,0
-pfizer inc,dell computer corp,0
-pfizer inc,pfizer inc,1
 pfizer inc,natl automatic merchandising assoc,0
 pfizer inc,lutherans concerned,0
 pfizer inc,cadwalader wickersham & taft llp,0
 pfizer inc,naral pro-choice oreogn,0
 pfizer inc,william morris agency inc,0
-natl automatic merchandising assoc,vietnam veterans of america,0
-natl automatic merchandising assoc,american family association inc,0
-natl automatic merchandising assoc,the san francisco aids foundation,0
-natl automatic merchandising assoc,americans united for separation of church & state,0
-natl automatic merchandising assoc,"planned parenthood,",0
-natl automatic merchandising assoc,american federation of state county and municipal employees,0
-natl automatic merchandising assoc,winstar communications llc,0
-natl automatic merchandising assoc,JPMORGAN CHASE BANK NA,0
-natl automatic merchandising assoc,planned parenthood federation of america,0
-natl automatic merchandising assoc,common cause,0
-natl automatic merchandising assoc,lutherans concerned north america,0
-natl automatic merchandising assoc,aphilip randolph institute,0
-natl automatic merchandising assoc,council of state government,0
-natl automatic merchandising assoc,california bankers association,0
-natl automatic merchandising assoc,public affairs council,0
-natl automatic merchandising assoc,NATIONAL EDUCATION ASSOCIATION,0
-natl automatic merchandising assoc,san francisco aids foundation,0
-natl automatic merchandising assoc,"american ethicare, inc",0
-natl automatic merchandising assoc,pepsi bottling group inc,0
-natl automatic merchandising assoc,califoria teachers association,0
-natl automatic merchandising assoc,agua claiente band of cahuilla indians,0
-natl automatic merchandising assoc,agua caliente band of cahuilla indians,0
-natl automatic merchandising assoc,planned parenthood federation of america inc,0
-natl automatic merchandising assoc,sheet metal workers international assoc pal,0
-natl automatic merchandising assoc,coalition of 100 black women,0
-natl automatic merchandising assoc,pifizer inc,0
-natl automatic merchandising assoc,national education association,0
-natl automatic merchandising assoc,national association for the advancement of colored people legal defense and educational fund inc,0
-natl automatic merchandising assoc,sheet metal workers international association,0
-natl automatic merchandising assoc,california teachers assoc,0
-natl automatic merchandising assoc,national association of independent insurance,0
-natl automatic merchandising assoc,trout unlimited bellevue-issaquah chapte,0
-natl automatic merchandising assoc,the augusta chronicle,0
-natl automatic merchandising assoc,national association of independent insurers,0
-natl automatic merchandising assoc,california bankers assoc,0
-natl automatic merchandising assoc,american consulting engineers council,0
-natl automatic merchandising assoc,cadwalader wickersham  taft,0
-natl automatic merchandising assoc,NATIONAL ASSOCIATION OF SOCIAL WORKERS,0
-natl automatic merchandising assoc,american civil liberties union,0
-natl automatic merchandising assoc,vietnam veterns of america,0
-natl automatic merchandising assoc,georgia real estate investors association inc,0
-natl automatic merchandising assoc,campaign for tobacco free kids,0
-natl automatic merchandising assoc,att services inc,0
-natl automatic merchandising assoc,"the pepsi bottling group, inc",0
-natl automatic merchandising assoc,national association for the advancement of colored people,0
-natl automatic merchandising assoc,american consulting engineers coun,0
-natl automatic merchandising assoc,naral pro choice oregon,0
-natl automatic merchandising assoc,augusta chronicle,0
-natl automatic merchandising assoc,winstar communications inc,0
-natl automatic merchandising assoc,national association of chairug stores,0
-natl automatic merchandising assoc,at&t services inc,0
-natl automatic merchandising assoc,national coalition of 100 black women,0
-natl automatic merchandising assoc,campaign for tobacco-free kids,0
-natl automatic merchandising assoc,dell computers corp,0
-natl automatic merchandising assoc,dell computer corp,0
-natl automatic merchandising assoc,pfizer inc,0
-natl automatic merchandising assoc,natl automatic merchandising assoc,1
 natl automatic merchandising assoc,lutherans concerned,0
 natl automatic merchandising assoc,cadwalader wickersham & taft llp,0
 natl automatic merchandising assoc,naral pro-choice oreogn,0
 natl automatic merchandising assoc,william morris agency inc,0
-lutherans concerned,vietnam veterans of america,0
-lutherans concerned,american family association inc,0
-lutherans concerned,the san francisco aids foundation,0
-lutherans concerned,americans united for separation of church & state,0
-lutherans concerned,"planned parenthood,",0
-lutherans concerned,american federation of state county and municipal employees,0
-lutherans concerned,winstar communications llc,0
-lutherans concerned,JPMORGAN CHASE BANK NA,0
-lutherans concerned,planned parenthood federation of america,0
-lutherans concerned,common cause,0
-lutherans concerned,lutherans concerned north america,1
-lutherans concerned,aphilip randolph institute,0
-lutherans concerned,council of state government,0
-lutherans concerned,california bankers association,0
-lutherans concerned,public affairs council,0
-lutherans concerned,NATIONAL EDUCATION ASSOCIATION,0
-lutherans concerned,san francisco aids foundation,0
-lutherans concerned,"american ethicare, inc",0
-lutherans concerned,pepsi bottling group inc,0
-lutherans concerned,califoria teachers association,0
-lutherans concerned,agua claiente band of cahuilla indians,0
-lutherans concerned,agua caliente band of cahuilla indians,0
-lutherans concerned,planned parenthood federation of america inc,0
-lutherans concerned,sheet metal workers international assoc pal,0
-lutherans concerned,coalition of 100 black women,0
-lutherans concerned,pifizer inc,0
-lutherans concerned,national education association,0
-lutherans concerned,national association for the advancement of colored people legal defense and educational fund inc,0
-lutherans concerned,sheet metal workers international association,0
-lutherans concerned,california teachers assoc,0
-lutherans concerned,national association of independent insurance,0
-lutherans concerned,trout unlimited bellevue-issaquah chapte,0
-lutherans concerned,the augusta chronicle,0
-lutherans concerned,national association of independent insurers,0
-lutherans concerned,california bankers assoc,0
-lutherans concerned,american consulting engineers council,0
-lutherans concerned,cadwalader wickersham  taft,0
-lutherans concerned,NATIONAL ASSOCIATION OF SOCIAL WORKERS,0
-lutherans concerned,american civil liberties union,0
-lutherans concerned,vietnam veterns of america,0
-lutherans concerned,georgia real estate investors association inc,0
-lutherans concerned,campaign for tobacco free kids,0
-lutherans concerned,att services inc,0
-lutherans concerned,"the pepsi bottling group, inc",0
-lutherans concerned,national association for the advancement of colored people,0
-lutherans concerned,american consulting engineers coun,0
-lutherans concerned,naral pro choice oregon,0
-lutherans concerned,augusta chronicle,0
-lutherans concerned,winstar communications inc,0
-lutherans concerned,national association of chairug stores,0
-lutherans concerned,at&t services inc,0
-lutherans concerned,national coalition of 100 black women,0
-lutherans concerned,campaign for tobacco-free kids,0
-lutherans concerned,dell computers corp,0
-lutherans concerned,dell computer corp,0
-lutherans concerned,pfizer inc,0
-lutherans concerned,natl automatic merchandising assoc,0
-lutherans concerned,lutherans concerned,1
 lutherans concerned,cadwalader wickersham & taft llp,0
 lutherans concerned,naral pro-choice oreogn,0
 lutherans concerned,william morris agency inc,0
-cadwalader wickersham & taft llp,vietnam veterans of america,0
-cadwalader wickersham & taft llp,american family association inc,0
-cadwalader wickersham & taft llp,the san francisco aids foundation,0
-cadwalader wickersham & taft llp,americans united for separation of church & state,0
-cadwalader wickersham & taft llp,"planned parenthood,",0
-cadwalader wickersham & taft llp,american federation of state county and municipal employees,0
-cadwalader wickersham & taft llp,winstar communications llc,0
-cadwalader wickersham & taft llp,JPMORGAN CHASE BANK NA,0
-cadwalader wickersham & taft llp,planned parenthood federation of america,0
-cadwalader wickersham & taft llp,common cause,0
-cadwalader wickersham & taft llp,lutherans concerned north america,0
-cadwalader wickersham & taft llp,aphilip randolph institute,0
-cadwalader wickersham & taft llp,council of state government,0
-cadwalader wickersham & taft llp,california bankers association,0
-cadwalader wickersham & taft llp,public affairs council,0
-cadwalader wickersham & taft llp,NATIONAL EDUCATION ASSOCIATION,0
-cadwalader wickersham & taft llp,san francisco aids foundation,0
-cadwalader wickersham & taft llp,"american ethicare, inc",0
-cadwalader wickersham & taft llp,pepsi bottling group inc,0
-cadwalader wickersham & taft llp,califoria teachers association,0
-cadwalader wickersham & taft llp,agua claiente band of cahuilla indians,0
-cadwalader wickersham & taft llp,agua caliente band of cahuilla indians,0
-cadwalader wickersham & taft llp,planned parenthood federation of america inc,0
-cadwalader wickersham & taft llp,sheet metal workers international assoc pal,0
-cadwalader wickersham & taft llp,coalition of 100 black women,0
-cadwalader wickersham & taft llp,pifizer inc,0
-cadwalader wickersham & taft llp,national education association,0
-cadwalader wickersham & taft llp,national association for the advancement of colored people legal defense and educational fund inc,0
-cadwalader wickersham & taft llp,sheet metal workers international association,0
-cadwalader wickersham & taft llp,california teachers assoc,0
-cadwalader wickersham & taft llp,national association of independent insurance,0
-cadwalader wickersham & taft llp,trout unlimited bellevue-issaquah chapte,0
-cadwalader wickersham & taft llp,the augusta chronicle,0
-cadwalader wickersham & taft llp,national association of independent insurers,0
-cadwalader wickersham & taft llp,california bankers assoc,0
-cadwalader wickersham & taft llp,american consulting engineers council,0
-cadwalader wickersham & taft llp,cadwalader wickersham  taft,1
-cadwalader wickersham & taft llp,NATIONAL ASSOCIATION OF SOCIAL WORKERS,0
-cadwalader wickersham & taft llp,american civil liberties union,0
-cadwalader wickersham & taft llp,vietnam veterns of america,0
-cadwalader wickersham & taft llp,georgia real estate investors association inc,0
-cadwalader wickersham & taft llp,campaign for tobacco free kids,0
-cadwalader wickersham & taft llp,att services inc,0
-cadwalader wickersham & taft llp,"the pepsi bottling group, inc",0
-cadwalader wickersham & taft llp,national association for the advancement of colored people,0
-cadwalader wickersham & taft llp,american consulting engineers coun,0
-cadwalader wickersham & taft llp,naral pro choice oregon,0
-cadwalader wickersham & taft llp,augusta chronicle,0
-cadwalader wickersham & taft llp,winstar communications inc,0
-cadwalader wickersham & taft llp,national association of chairug stores,0
-cadwalader wickersham & taft llp,at&t services inc,0
-cadwalader wickersham & taft llp,national coalition of 100 black women,0
-cadwalader wickersham & taft llp,campaign for tobacco-free kids,0
-cadwalader wickersham & taft llp,dell computers corp,0
-cadwalader wickersham & taft llp,dell computer corp,0
-cadwalader wickersham & taft llp,pfizer inc,0
-cadwalader wickersham & taft llp,natl automatic merchandising assoc,0
-cadwalader wickersham & taft llp,lutherans concerned,0
-cadwalader wickersham & taft llp,cadwalader wickersham & taft llp,1
 cadwalader wickersham & taft llp,naral pro-choice oreogn,0
 cadwalader wickersham & taft llp,william morris agency inc,0
-naral pro-choice oreogn,vietnam veterans of america,0
-naral pro-choice oreogn,american family association inc,0
-naral pro-choice oreogn,the san francisco aids foundation,0
-naral pro-choice oreogn,americans united for separation of church & state,0
-naral pro-choice oreogn,"planned parenthood,",0
-naral pro-choice oreogn,american federation of state county and municipal employees,0
-naral pro-choice oreogn,winstar communications llc,0
-naral pro-choice oreogn,JPMORGAN CHASE BANK NA,0
-naral pro-choice oreogn,planned parenthood federation of america,0
-naral pro-choice oreogn,common cause,0
-naral pro-choice oreogn,lutherans concerned north america,0
-naral pro-choice oreogn,aphilip randolph institute,0
-naral pro-choice oreogn,council of state government,0
-naral pro-choice oreogn,california bankers association,0
-naral pro-choice oreogn,public affairs council,0
-naral pro-choice oreogn,NATIONAL EDUCATION ASSOCIATION,0
-naral pro-choice oreogn,san francisco aids foundation,0
-naral pro-choice oreogn,"american ethicare, inc",0
-naral pro-choice oreogn,pepsi bottling group inc,0
-naral pro-choice oreogn,califoria teachers association,0
-naral pro-choice oreogn,agua claiente band of cahuilla indians,0
-naral pro-choice oreogn,agua caliente band of cahuilla indians,0
-naral pro-choice oreogn,planned parenthood federation of america inc,0
-naral pro-choice oreogn,sheet metal workers international assoc pal,0
-naral pro-choice oreogn,coalition of 100 black women,0
-naral pro-choice oreogn,pifizer inc,0
-naral pro-choice oreogn,national education association,0
-naral pro-choice oreogn,national association for the advancement of colored people legal defense and educational fund inc,0
-naral pro-choice oreogn,sheet metal workers international association,0
-naral pro-choice oreogn,california teachers assoc,0
-naral pro-choice oreogn,national association of independent insurance,0
-naral pro-choice oreogn,trout unlimited bellevue-issaquah chapte,0
-naral pro-choice oreogn,the augusta chronicle,0
-naral pro-choice oreogn,national association of independent insurers,0
-naral pro-choice oreogn,california bankers assoc,0
-naral pro-choice oreogn,american consulting engineers council,0
-naral pro-choice oreogn,cadwalader wickersham  taft,0
-naral pro-choice oreogn,NATIONAL ASSOCIATION OF SOCIAL WORKERS,0
-naral pro-choice oreogn,american civil liberties union,0
-naral pro-choice oreogn,vietnam veterns of america,0
-naral pro-choice oreogn,georgia real estate investors association inc,0
-naral pro-choice oreogn,campaign for tobacco free kids,0
-naral pro-choice oreogn,att services inc,0
-naral pro-choice oreogn,"the pepsi bottling group, inc",0
-naral pro-choice oreogn,national association for the advancement of colored people,0
-naral pro-choice oreogn,american consulting engineers coun,0
-naral pro-choice oreogn,naral pro choice oregon,1
-naral pro-choice oreogn,augusta chronicle,0
-naral pro-choice oreogn,winstar communications inc,0
-naral pro-choice oreogn,national association of chairug stores,0
-naral pro-choice oreogn,at&t services inc,0
-naral pro-choice oreogn,national coalition of 100 black women,0
-naral pro-choice oreogn,campaign for tobacco-free kids,0
-naral pro-choice oreogn,dell computers corp,0
-naral pro-choice oreogn,dell computer corp,0
-naral pro-choice oreogn,pfizer inc,0
-naral pro-choice oreogn,natl automatic merchandising assoc,0
-naral pro-choice oreogn,lutherans concerned,0
-naral pro-choice oreogn,cadwalader wickersham & taft llp,0
-naral pro-choice oreogn,naral pro-choice oreogn,1
 naral pro-choice oreogn,william morris agency inc,0
-william morris agency inc,vietnam veterans of america,0
-william morris agency inc,american family association inc,0
-william morris agency inc,the san francisco aids foundation,0
-william morris agency inc,americans united for separation of church & state,0
-william morris agency inc,"planned parenthood,",0
-william morris agency inc,american federation of state county and municipal employees,0
-william morris agency inc,winstar communications llc,0
-william morris agency inc,JPMORGAN CHASE BANK NA,0
-william morris agency inc,planned parenthood federation of america,0
-william morris agency inc,common cause,0
-william morris agency inc,lutherans concerned north america,0
-william morris agency inc,aphilip randolph institute,0
-william morris agency inc,council of state government,0
-william morris agency inc,california bankers association,0
-william morris agency inc,public affairs council,0
-william morris agency inc,NATIONAL EDUCATION ASSOCIATION,0
-william morris agency inc,san francisco aids foundation,0
-william morris agency inc,"american ethicare, inc",0
-william morris agency inc,pepsi bottling group inc,0
-william morris agency inc,califoria teachers association,0
-william morris agency inc,agua claiente band of cahuilla indians,0
-william morris agency inc,agua caliente band of cahuilla indians,0
-william morris agency inc,planned parenthood federation of america inc,0
-william morris agency inc,sheet metal workers international assoc pal,0
-william morris agency inc,coalition of 100 black women,0
-william morris agency inc,pifizer inc,0
-william morris agency inc,national education association,0
-william morris agency inc,national association for the advancement of colored people legal defense and educational fund inc,0
-william morris agency inc,sheet metal workers international association,0
-william morris agency inc,california teachers assoc,0
-william morris agency inc,national association of independent insurance,0
-william morris agency inc,trout unlimited bellevue-issaquah chapte,0
-william morris agency inc,the augusta chronicle,0
-william morris agency inc,national association of independent insurers,0
-william morris agency inc,california bankers assoc,0
-william morris agency inc,american consulting engineers council,0
-william morris agency inc,cadwalader wickersham  taft,0
-william morris agency inc,NATIONAL ASSOCIATION OF SOCIAL WORKERS,0
-william morris agency inc,american civil liberties union,0
-william morris agency inc,vietnam veterns of america,0
-william morris agency inc,georgia real estate investors association inc,0
-william morris agency inc,campaign for tobacco free kids,0
-william morris agency inc,att services inc,0
-william morris agency inc,"the pepsi bottling group, inc",0
-william morris agency inc,national association for the advancement of colored people,0
-william morris agency inc,american consulting engineers coun,0
-william morris agency inc,naral pro choice oregon,0
-william morris agency inc,augusta chronicle,0
-william morris agency inc,winstar communications inc,0
-william morris agency inc,national association of chairug stores,0
-william morris agency inc,at&t services inc,0
-william morris agency inc,national coalition of 100 black women,0
-william morris agency inc,campaign for tobacco-free kids,0
-william morris agency inc,dell computers corp,0
-william morris agency inc,dell computer corp,0
-william morris agency inc,pfizer inc,0
-william morris agency inc,natl automatic merchandising assoc,0
-william morris agency inc,lutherans concerned,0
-william morris agency inc,cadwalader wickersham & taft llp,0
-william morris agency inc,naral pro-choice oreogn,0
-william morris agency inc,william morris agency inc,1
