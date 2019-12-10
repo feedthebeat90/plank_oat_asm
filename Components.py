@@ -5,6 +5,7 @@ import numpy as np
 import pandas as pd
 import textdistance
 from itertools import product
+import json
 
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import GridSearchCV, train_test_split
@@ -14,7 +15,7 @@ from sklearn.pipeline import Pipeline
 
 class stringdist(FunctionTransformer):
     # def __init__(self, methods=[textdistance.cosine, textdistance.jaccard]):
-    def __init__(self, methods=[textdistance.cosine, textdistance.jaccard, textdistance.sorensen, textdistance.tversky, textdistance.levenshtein]):
+    def __init__(self, methods=[textdistance.cosine, textdistance.jaccard, textdistance.lcsstr, textdistance.tversky, textdistance.levenshtein]):
         self.methods = methods
 
     def stringdist_wrap(self, row):
@@ -82,7 +83,7 @@ def build_full(dataset):
     fulldf = pd.concat(dfs)
     return fulldf
 
-def train(dataset):
+def train(dataset, it):
     pipeline = Pipeline([('stringdist', stringdist()), ('forest', RandomForestClassifier())])
 
     #the actual model
@@ -97,12 +98,26 @@ def train(dataset):
                        verbose = 2)
 
     model = GSCV.fit(dataset[['0','1']], dataset['match'])
+
+    os.makedirs('partitioned/' + str(it))
+
+    print("Best parameters:")
+    print(model.best_params_)
+    print("Feature importances:")
+    print(model.best_estimator_.named_steps["forest"].feature_importances_)
+
+    #print(str(model.cv_results_))
+    #jsond = json.dumps(model.cv_results_)
+    #f2 = open('partitioned/' + str(it) + '/gridsearch.txt', 'w')
+    #f2.write(str(model.cv_results_))
+    #f2.close()
+
     return model
 
-def get_predictions(model, num_candidates, iter):
+def get_predictions(model, num_candidates, num_matches, it):
     bonica = pd.read_csv('csvs/bonica_orgs_reduced.csv')
     amicus = pd.read_csv('csvs/amicus_org_names.csv')
-    bonica_sample = bonica[num_candidates*(iter-1): num_candidates*(iter)]
+    bonica_sample = bonica[num_candidates*(it-1): num_candidates*(it)]
 
     pairs = pd.DataFrame(list(product(amicus['amicus'].values, bonica_sample['bonica'].values)), columns=['0', '1'])
 
@@ -119,7 +134,7 @@ def get_predictions(model, num_candidates, iter):
     pairs['score'] = scores
     df = pairs.iloc[ind]
     df['match'] = ''
-    filename = 'partitioned/' + str(iter) + '/labeled.csv'
-    os.makedirs('partitioned/' + str(iter))
+    filename = 'partitioned/' + str(it) + '/labeled.csv'
+    os.makedirs('partitioned/' + str(it))
     df.to_csv(filename, index=False)
     print('File ', filename, ' has been created. Validate results using the "match" column and continue with the next iteration.')
