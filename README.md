@@ -41,7 +41,10 @@ bonica_org_names.csv - about 1.4 million bonica organization names
 ## Authors
 
 **Aja Klevs**
+
 **Laureano Nisenbaum**
+
 **Adrian Pearl**
+
 **Orion Taylor**
 
