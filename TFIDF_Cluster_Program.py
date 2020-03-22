@@ -185,11 +185,25 @@ def evaluate(test_set_path, myCluster):
                 
     return precision, recall
 
+#runs clustering program, finds the precision and recall on both test sets
 myCluster = ClusterProgram('csvs/amicus_org_names.csv', 'csvs/bonica_org_names.csv')
 myCluster.update_batches()
 myCluster.get_clusters()
-precision,recall = evaluate(test_set_path, myCluster)
+print('Results For Representative Test Set')
+precision,recall = evaluate('csvs/outputs/testmatrix_labeled.csv', myCluster)
 print('')
 print('##################################')
 print('precision:', precision)
 print('recall:', recall)
+print('')
+print('Results For Match Dense Test Set')
+print('')
+print('Results For Match Dense Test Set')
+precision,recall = evaluate('csvs/handcoded_test.csv.csv', myCluster)
+print('')
+print('##################################')
+print('precision:', precision)
+print('recall:', recall)
+print('')
+print('Results For Match Dense Test Set')
+print('')
