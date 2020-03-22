@@ -1,3 +1,5 @@
+import pandas as pd
+
 def read_data(*argv):
     """
     takes in a list of csv paths and concatenates them
