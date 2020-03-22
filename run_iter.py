@@ -1,5 +1,5 @@
 # %%
-from components import *
+from Components import *
 import sys
 import os
 import pandas as pd
