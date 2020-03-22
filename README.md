@@ -11,18 +11,14 @@ These instructions will get you a copy of the project up and running on your loc
 All code in the repository is in Python, and we utilized the following packages: Numpy, Pandas, Sklearn,  Itertools, Pickle, Random, OS, Math and Time
 
 
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
 ## The Programs
 
+```
 naive_clustering.py - implementation of the naive clustering method
-TFIDF_Cluster_Program - implementation of the Tf-Idf clustering method
+```
+```
+TFIDF_Cluster_Program.py - implementation of the Tf-Idf clustering method
+```
 
 ## The CSVs
 
