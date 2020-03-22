@@ -1,6 +1,12 @@
 def read_data(*argv):
     """
     takes in a list of csv paths and concatenates them
+
+    input:
+    argv - arbitrarily many csv paths
+
+    output:
+    output -  a list of strings, each of which is a term in the dataset
     """
     print("\n***** ClusterProgram *****\n")
 
@@ -23,6 +29,15 @@ def read_data(*argv):
     return output
 
 def build_vocab(dataset):
+    """
+    input: 
+    dataset - a list of string from the dataset
+
+    output:
+    word_count - a dictionary where keys are individual words in the dataset, and values are the
+    number of times that word occurs in the dataset
+    sorted_words - a list of words ordered from least common in the dataset to most common
+    """
     word_count = {}
     for term in dataset:
         for word in term.split(' '):
@@ -35,6 +50,21 @@ def build_vocab(dataset):
     return word_count, sorted_words
 
 def find_and_remove(word, dataset):
+    """
+    functon which finds the terms containing the passed in word so that they can
+    all be in a cluster together, and returns all other terms in the dataset so that
+    the passed in word's cluster is effectively removed from the dataset
+
+    input: 
+    word - a string representation of a specific word
+    dataset - a list of terms
+
+    output:
+    cluster- a list of terms from the dataset which contain the passed in word
+
+    copy- sorted_words - a list of terms from the dataset which don't contain the passed
+    in word
+    """
     cluster = []
     copy = []
     for term in dataset:
@@ -47,6 +77,16 @@ def find_and_remove(word, dataset):
 
 
 def cluster(dataset, sorted_words):
+    """
+    functon which creates clusters the terms based on their rarest word
+
+    input: 
+    dataset - the list of all terms
+    sorted_words - the list of individual words in the dataset sorted from least common to most
+
+    output:
+    clusters - a dictionary with integer keys and values which are a list of all words in that cluster
+    """
     clusters = {}
     to_be_shortened = []
     for term in dataset:
@@ -67,12 +107,35 @@ def cluster(dataset, sorted_words):
     return clusters
 
 def get_cluster(term, clusters):
+    """
+    functino which returns the cluster containing the specified term
+
+    input: 
+    term - a string representation of a specific word
+    clusters - a dictionary with integer keys and values which are a list of all words in that cluster
+
+    output:
+    a list of all words in the same cluster as the specified term, None if the term does not exist in the
+    vocabulary
+    """
     for key in clusters.keys():
         if term in clusters[key]:
             return clusters[key]
     return None
 
 def evaluate(test_set_path, clusters):
+    """
+    function which finds the precision and recall of the clusters
+
+    input: 
+    test_set_path - a path to a matrix-style test set
+    clusters - a dictionary with integer keys and values which are a list of all words in that cluster
+
+    output:
+    precision - the tp/(tp+fn) rate
+    recall - the tp/(tp + fp) rate
+    """
+    
     fn = 0
     fp = 0
     tn = 0
@@ -133,7 +196,17 @@ def evaluate(test_set_path, clusters):
                 
     return precision, recall
 
-def print_random_matches(clusters, num_matches):
+def print_random_matches(num_matches, clusters):
+    """
+    function which prints several predicted matches
+
+    input: 
+    num_matches - number desired predicted matches
+    clusters - a dictionary with integer keys and values which are a list of all words in that cluster
+
+    output:
+    a list of tuples of length num_matches, each representing random predicted matches from the dataset
+    """
     matches = []
     keys = np.random.choice(list(clusters.keys()), size=num_matches, replace=True)
     for key in keys:
@@ -149,7 +222,9 @@ def print_random_matches(clusters, num_matches):
                            
     return matches
                            
-print_random_matches(clusters, 50)
+
+#code which runs the clustering, finds precision and recall on the two test sets, and prints
+#50 random matches
 
 dataset = read_data('csvs/amicus_org_names.csv', 'csvs/bonica_org_names.csv')
 dataset_vocab, sorted_words = build_vocab(dataset)

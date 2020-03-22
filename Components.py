@@ -138,3 +138,18 @@ def get_predictions(model, num_candidates, num_matches, it):
     #os.makedirs('partitioned/' + str(it))
     df.to_csv(filename, index=False)
     print('File ', filename, ' has been created. Validate results using the "match" column and continue with the next iteration.')
+
+def ask_about_matches(match_pairs):
+    match_dct = {}
+    for pair in match_pairs:
+        match = ''
+        while match != 'y' and match != 'n':
+            print(pair)
+            match = input("Do these match (y or n): ")
+
+        if match == 'y':
+            match_dct[pair] = 1
+        elif match == 'n':
+            match_dct[pair] = 0
+
+    return match_dct
